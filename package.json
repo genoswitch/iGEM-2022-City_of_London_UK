@@ -1,0 +1,36 @@
+{
+  "name": "alfa",
+  "version": "0.0.1",
+  "private": true,
+  "description": "alfa",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "gatsby": "^4.24.0",
+    "html-loader": "^4.2.0",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.1.0",
+    "react-markdown": "^8.0.3",
+    "rehype-raw": "^6.1.1",
+    "remark-gfm": "^3.0.1",
+    "remark-html": "^15.0.1",
+    "remark-loader": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.3"
+  }
+}
