@@ -5,8 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
 const footerStyle = {
-    position: "fixed",
-    bottom: "0",
     width: "100%",
     fontFamily: "iGEM-Montserrat"
 }
