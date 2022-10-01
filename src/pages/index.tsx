@@ -9,14 +9,13 @@ import NavBar from "../components/NavBar";
 import Credits from "../components/Credits";
 
 import Footer from "../components/Footer";
-
-import "../fonts/MontserratGlobal.css"
+import Montserrat from "../fonts/Montserrat";
 
 const Index = () => {
     return (<div style={{ "height": "100vh" }}>
         <div style={{ "paddingBottom": 100 }}>
             <NavBar /><br />
-            <Columns />
+            <Montserrat><Columns /></Montserrat>
             <br /><br /><br /><br /><br />
             <Credits /></div>
         <Footer />
