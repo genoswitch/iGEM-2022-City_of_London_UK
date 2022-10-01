@@ -21,15 +21,16 @@ class MarkdownPage extends React.Component {
     }
 
     render() {
-        return (<div>
-            <div style={{ "paddingBottom": 100 }}>
+        return (
+            <div>
                 <NavBar />
+                <div style={{ height: 20 }} />
                 <Container>
                     <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'wrap', properties: { class: "markdown-header-link" } }]]} children={this.props.data} />
                 </Container>
-            </div>
-            <Footer />
-        </div >)
+                <Footer />
+            </div >
+        )
     }
 }
 
