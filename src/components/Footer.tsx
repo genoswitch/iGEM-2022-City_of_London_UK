@@ -15,7 +15,7 @@ const Footer = () => {
         <Navbar bg="light" style={footerStyle}>
             <Container>
                 <Navbar.Text>
-                    <Button variant="light" href="https://2022.igem.wiki/city-of-london-uk/">Source Code</Button>
+                    <Button variant="light" href="https://gitlab.igem.org/2022/city-of-london-uk">Source Code</Button>
                     <Button variant="light" href="#">Sponsors</Button>
                     <Button variant="light" href="#">Placeholder</Button>
                 </Navbar.Text>
