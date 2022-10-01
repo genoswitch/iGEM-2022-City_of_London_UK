@@ -12,7 +12,8 @@
     "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "localprod": "gatsby build && gatsby serve"
   },
   "dependencies": {
     "bootstrap": "^5.2.1",
