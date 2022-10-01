@@ -1,5 +1,8 @@
 const RemarkHTML = import("remark-html")
 
+exports.pathPrefix = `/city-of-london-uk`
+
+
 exports.onCreateWebpackConfig = ({
     stage,
     rules,
