@@ -9,6 +9,8 @@ import Container from "react-bootstrap/Container"
 import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 class MarkdownPage extends React.Component {
     static defaultProps = {
         data: "# Placeholder Page"
