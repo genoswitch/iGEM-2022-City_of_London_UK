@@ -1,4 +1,10 @@
-## Mycobacterium tuberculosis (M.tuberculosis) vs Lactobacillus Casei (L.Casei)
+# Experiments
+<br>
+
+## Contents
+
+# Mycobacterium tuberculosis (M.tuberculosis) vs Lactobacillus Casei (L.Casei)
+---
 
 _M.tuberculosis_ is a BSL-3 (Figure 1) airborne pathogen as there is a high risk of being infected, potentially resulting in serious repercussions. In fact, the chances of being infected by M.tuberculosis are 'three to nine times higher' compared to handling other clinical specimens<sup>[1]</sup>.
 
@@ -8,13 +14,13 @@ Figure 1; Definitions of various Biosafety Levels<sup>[2]</sup>
 
 Therefore, we used _Lactobacillus casei_ (BSL-1) instead of _M. tuberculosis_ in the laboratory, as it is safe to use and has similar features to the M. tuberculosis bacterium such as the gram-positive cell wall.<sup>[3]</sup>  _L. casei_ is a suitable substitute for _M. tuberculosis_ as it is gram-positive, much safer to use and will require the same conditions for thermal lysis.
 
-### Using L. casei
+## Using L. casei
 
 Our intended use for L. casei is to conduct tests to show and record the successful lysis of its cell wall using heat, and to use microscopy to confirm the successful lysis of the cell.
 
-### How?
+## How?
 
-#### Equipment
+### Equipment
 
 -   Bunsen burner
 
@@ -26,7 +32,7 @@ Our intended use for L. casei is to conduct tests to show and record the success
 
 -   Incubator
 
-#### Protocol
+### Protocol
 
 1.  Flame the neck of the jar containing MRS broth and transfer to sterile test tubes
 
@@ -38,7 +44,7 @@ Our intended use for L. casei is to conduct tests to show and record the success
 
 5.  Incubate at 25°C for 3 days.
 
-### References
+## References
 
 <sup>[1]</sup> Philippe Herman, M. F.-D. B. B. V. V. K. P. C. D. D. T. M. S. M. W. R. S. &. W. M., 2006. Biosafety Recommendations for the Contained Use of Mycobacterium tuberculosis Complex Isolates in Industrialized Countries.. [Online]
 

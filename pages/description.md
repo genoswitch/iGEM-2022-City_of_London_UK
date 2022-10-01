@@ -1,4 +1,10 @@
-## Lysis
+# Description
+<br>
+
+## Contents
+
+# Lysis
+---
 
 _Mycobacterium tuberculosis (M. tuberculosis)_ is a gram positive bacteria, so has a thick peptidoglycan cell wall.
 Therefore, it is harder to break down its wall and retrieve its DNA when compared to gram negative bacteria. In
@@ -13,32 +19,33 @@ this is
 reached whilst still ensuring the user’s safety. Thermal lysis was also deemed safer and more reliable due to the
 absence of chemicals and toxins, making it the better option when the user’s wellbeing is taken into account.
 
-### Thermal lysis:
+## Thermal lysis:
 * Thermal lysis would occur at approximately 60-65°C, in order for thermal lysis and amplification of the DNA to occur in one step. This was proven to also work for the H37Rv strain of _M.tuberculosis_, where it disinfected the mycobacteria culture, lysed the cells and performed helicase dependent amplification (HDA) on the extracted DNA, where HDA occured after approximately 10 minutes and the whole process took around 60 minutes. 
 * Although Recombinase Polymerase Amplification (RPA) is being used in our project in place of HDA, the main objective of this thermal lysis is to be able to successfully lyse the bacteria rather than to amplify DNA. 
 
 Lysis leaves the cell in a messy state, with Mycolic acids as well as other waxy acids covalently and non-covalently connected to the cell wall. Therefore, a detergent solution is necessary to wash away unwanted particles. The proposed solution is Tween 80, which has been shown to have no effect on the function of lytic and amplification enzymes.
 
-### References
+## References
 
 João Catalão, M. and Pimentel, M., 2022. Mycobacteriophage Lysis Enzymes: Targeting the Mycobacterial Cell Envelope. [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116114/ [Accessed 28 July 2022].
 
 Shetty, Prasad; Ghosh, Dipayan; Paul, Debjani (2017). Thermal lysis and isothermal amplification of Mycobacterium tuberculosis H37Rv in one tube. Journal of Microbiological Methods, 143(), 1–5. [online] Available at: https://scholar.google.co.uk/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0167701217302531&hl=en&sa=X&ei=9KYpY6OTOfuSy9YP1Lyz8AQ&scisig=AAGBfm01OLxgt6kasqmNH5zuZjgihikBOg&oi=scholarr [Accessed 29 July 2022].
 
-## Gene Amplification
+# Gene Amplification
+---
 
 Recombinase Polymerase Amplification (RPA) is needed in order to achieve sufficient amounts of hsp65 gene, so it can be detected by Cas12a to signal M. tuberculosis is present. This reliable method of amplification effectively complements the project due to the high sensitivity of RPA which can amplify as low as 1-10 DNA target copies <sup>[1]</sup>. This is ideal due to the low quantity of bacteria present in breath for someone positive for M.tuberculosis. The optimum temperature of RPA is 37-42°C, so no heavy machinery such as a thermocycler is needed and as it is an isothermal amplification, it does not require specialised instrumentation <sup>[2]</sup>. The temperature is achieved by allowing the lysis liquid to cool as it passes through to the RPA compartment.
 
-### Refrences
+## Refrences
 
 <sup>[1]</sup> Magriñá Lobato, I., 2022. Recombinase polymerase amplification: Basics, applications and recent advances. [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7112910/ [Accessed 16 January 2022].
 
 <sup>[2]</sup> Guo, X., Wei, Y. and Yu, B., 2022. Recombinant Mycobacterium smegmatis expressing Hsp65-hIL-2 fusion protein and its influence on lymphocyte function in mice. [online] Pubmed. Available at: https://pubmed.ncbi.nlm.nih.gov/22546648/ [Accessed 16 January 2022].
 
-## CRISPR detection
-----------------
+# CRISPR detection
+---
 
-### How it will work
+## How it will work
 
 ![](https://static.igem.wiki/teams/4508/wiki/description/description-diagram-1.jpeg)![](https://static.igem.wiki/teams/4508/wiki/description/description-diagram-2.jpg)
 
@@ -75,7 +82,7 @@ When there is TB in the sample
 
 The reporter molecule is collaterally cleaved so the two ends will be split. Therefore the nanoparticles won't bind to the control line as they need the full reporter molecule as an intermediate; instead they will flow to the test line and bind, forming a strong line.
 
-### Why did we choose LFA?
+## Why did we choose LFA?
 
 LFAs are simple and rapid, detecting the presence of certain hormones without necessitating expensive and specialised medical technology. They are easy to manufacture and distribute, making it an optimal and accessible option that isn't costly to use on a regular basis. Additionally, they are compact and easy to fit into a mask without making wearing it uncomfortable. They have a long shelf life, paired with their straightforward usage and can therefore be optimal for use in developing countries. Furthermore, the short development period of LFAs makes them easily adaptable and easy to adjust if necessary. As such, an LFA is the optimal technology for us to implement.
 
@@ -100,13 +107,13 @@ Priyadarshini P, Tiwari K, Das A, Kumar D, Mishra MN, Desikan P, Nath G. Evaluat
 
 Breitbach A, (2020) Lateral Flow Readout for CRISPR/Cas-based detection strategies Available at : [https://www.milenia-biotec.com/en/tips-lateral-flow-readouts-crispr-cas-strategies/](https://www.google.com/url?q=https://www.milenia-biotec.com/en/tips-lateral-flow-readouts-crispr-cas-strategies/&sa=D&source=editors&ust=1664619393545584&usg=AOvVaw3i8vnDBEmEm81av8_8Qv07) (accessed 18th August 2022)
 
-## Modularity & Use in wider healthcare
-### Potential of our Project
+# Modularity & Use in wider healthcare
+## Potential of our Project
 As part of our proposal to create a mask that can simultaneously prevent infection of Tuberculosis and test for the disease, we plan on transferring this system to other infectious, airborne respiratory diseases. The only components of our test that we plan on changing are the primers and the gRNA in the CRISPR detection section. This is easily done on a software called Benchling. 
 
 We believe that the versatility of the system will allow us to apply the design on a much larger scale, and potentially more internationally, rather than just targeting regions with high TB infection rates. Furthermore, our project has a potential for multiplexing, where a single diagnostic mask could potentially be used to detect multiple infections. 
 
-### Example : Streptococcus pneumoniae
+## Example : Streptococcus pneumoniae
 S.Pneumoniae is a bacterium that has historically been the most common pathogen to cause Community-acquired pneumonia (CAP) world wide. Pneumonia accounts for 14% of all deaths of children under 5 years old, killing 740,180 children in 2019.
 
 It is a gram-positive bacteria, so we expect that the lysis stage would remain the same.
@@ -117,7 +124,7 @@ The primers and the gRNA has been modified for S.pneumoniae.
 
 Figure 1. Plasmid map visualisation for S.pneumoniae
 
-### Sources
+## Sources
 
 World Health Organization. Pneumonia (2021). Available from : <https://www.who.int/news-room/fact-sheets/detail/pneumonia> (accessed 31/07/2022)
 
