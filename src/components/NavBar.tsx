@@ -1,8 +1,9 @@
 import * as React from "react";
 
 import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 import "../fonts/Baskerville.css"
@@ -20,10 +21,17 @@ const NavBar = () => {
                         className="d-inline-block align-top" />{' '}
                     aLFA
                 </Navbar.Brand>
-                <Navbar.Collapse className="justify-content-end">
-                    <Navbar.Text>
-                        <Button variant="light" href="https://2022.igem.wiki/city-of-london-uk/">Source Code</Button>
-                    </Navbar.Text>
+                <Navbar.Collapse>
+                    <Nav>
+                        <NavDropdown title="Project">
+                            <NavDropdown.Item href="/experiments">Experiments</NavDropdown.Item>
+                        </NavDropdown>
+
+                        <NavDropdown title="Awards">
+                            <NavDropdown.Item href="/entrepreneurship">Entrepreneurship</NavDropdown.Item>
+                        </NavDropdown>
+                    </Nav>
+
                 </Navbar.Collapse>
             </Container>
         </Navbar>
