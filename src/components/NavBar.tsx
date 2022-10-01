@@ -5,11 +5,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 
 
+import "../fonts/Baskerville.css"
+
+
 const NavBar = () => {
     return (
         <Navbar bg="light">
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/" style={{ "font-family": "iGEM-Baskerville" }}>
                     <img
                         src="https://static.igem.org/websites/common/2022/logos/igem-logo-light.svg"
                         width={30}
