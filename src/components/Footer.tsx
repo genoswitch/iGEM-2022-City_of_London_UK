@@ -19,6 +19,9 @@ const Footer = () => {
                     <Button variant="light" href="#">Sponsors</Button>
                     <Button variant="light" href="#">Placeholder</Button>
                 </Navbar.Text>
+                <Navbar.Text>
+                    © 2022 - Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license.</a>
+                </Navbar.Text>
             </Container>
         </Navbar>
     )
