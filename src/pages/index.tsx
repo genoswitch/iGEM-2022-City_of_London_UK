@@ -10,6 +10,8 @@ import Credits from "../components/Credits";
 
 import Footer from "../components/Footer";
 
+import "../fonts/MontserratGlobal.css"
+
 const Index = () => {
     return (<div style={{ "height": "100vh" }}>
         <div style={{ "paddingBottom": 100 }}>
