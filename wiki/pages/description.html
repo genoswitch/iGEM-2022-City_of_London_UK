@@ -1,33 +1,61 @@
 {% extends "layout.html" %}
-  
-{% block title %}Project Description{% endblock %}
-{% block lead %}Describe how and why you chose your iGEM project.{% endblock %}
+
+{% block title %}Project aLFA REMASK{% endblock %}
+{% block lead %}Detecting TB through a simple air mask test{% endblock %}
 
 {% block page_content %}
 
-<div class="row mt-4">
-  <div class="col">
-    <div class="bd-callout bd-callout-info">
-      <h4>Bronze Medal Criterion #3</h4>
-      <p>Describe how and why you chose your iGEM project.<p>
-      <hr>
-      <p>Please see the <a href="https://competition.igem.org/judging/medals">2022 Medals Page</a> for more information.</p>
-    </div>
-  </div>
-</div>
 
 <div class="row mt-4">
-  <div class="col-lg-8">
-    <h2>What should this page contain?</h2>
+  <div class="col-lg-12">
+    <h2>Lysis</h2>
     <hr>
+    <p><em>Mycobacterium tuberculosis (M. tuberculosis)</em> is a gram positive bacteria, so has a thick peptidoglycan
+      cell wall.
+      Therefore, it is harder to break down its wall and retrieve its DNA when compared to gram negative bacteria. In
+      order to
+      detect the hsp65 gene in the <em>Mycobacterium tuberculosis</em>, lysis of the bacteria is required; we have
+      specifically
+      utilised thermal lysis. Whilst enzymatic lysis of M. tuberculosis was investigated, it required a waiting period
+      of more
+      than 24 hours, thus we concluded that it would be unfeasible to enforce a 24+ hour waiting time for a mask-related
+      product. Although thermal lysis requires temperatures of 60-65 degrees celsius, our hardware system ensures that
+      this is
+      reached whilst still ensuring the user’s safety. Thermal lysis was also deemed safer and more reliable due to the
+      absence of chemicals and toxins, making it the better option when the user’s wellbeing is taken into account.</p>
+
+    <h3>Thermal lysis:</h3>
     <ul>
-      <li>A clear and concise description of your project.</li>
-      <li>A detailed explanation of why your team chose to work on this particular project.</li>
-      <li>References and sources to document your research.</li>
-      <li>Use illustrations and other visual resources to explain your project.</li>
+      <li>Thermal lysis would occur at approximately 60-65°C, in order for thermal lysis and amplification of the DNA to
+        occur in
+        one step. This was proven to also work for the H37Rv strain of <em>M.tuberculosis</em>, where it disinfected the
+        mycobacteria
+        culture, lysed the cells and performed helicase dependent amplification (HDA) on the extracted DNA, where HDA
+        occured
+        after approximately 10 minutes and the whole process took around 60 minutes.</li>
+      <li>Although Recombinase Polymerase Amplification (RPA) is being used in our project in place of HDA, the main
+        objective of
+        this thermal lysis is to be able to successfully lyse the bacteria rather than to amplify DNA.</li>
     </ul>
+
+    <h3>References</h3>
+
+    <p>João Catalão, M. and Pimentel, M., 2022. Mycobacteriophage Lysis Enzymes: Targeting the Mycobacterial Cell
+      Envelope.
+      [online] Pubmed. Available at: <a
+        href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116114/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116114/</a>
+      [Accessed 28 July 2022].</p>
+
+    <p>Shetty, Prasad; Ghosh, Dipayan; Paul, Debjani (2017). Thermal lysis and isothermal amplification of Mycobacterium
+      tuberculosis H37Rv in one tube. Journal of Microbiological Methods, 143(), 1–5. [online] Available at:
+      <a
+        href="https://scholar.google.co.uk/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0167701217302531&hl=en&sa=X&ei=9KYpY6OTOfuSy9YP1Lyz8AQ&scisig=AAGBfm01OLxgt6kasqmNH5zuZjgihikBOg&oi=scholarr">https://scholar.google.co.uk/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0167701217302531&hl=en&sa=X&ei=9KYpY6OTOfuSy9YP1Lyz8AQ&scisig=AAGBfm01OLxgt6kasqmNH5zuZjgihikBOg&oi=scholarr</a>
+      [Accessed 29 July 2022].
+    </p>
+
   </div>
-  <div class="col-lg-4">
+
+  <div class="col-lg-12">
     <h2>Inspirations</h2>
     <hr>
     <ul>
@@ -45,12 +73,17 @@
   <div class="col-lg-8">
     <h2>Some advice</h2>
     <hr>
-    <p>We encourage you to put up a lot of information and content on your wiki, but we also encourage you to include summaries as much as possible. If you think of the sections in your project description as the sections in a publication, you should try to be concise, accurate, and unambiguous in your achievements. Your Project Description should include more information than your project abstract.</p>
+    <p>We encourage you to put up a lot of information and content on your wiki, but we also encourage you to include
+      summaries as much as possible. If you think of the sections in your project description as the sections in a
+      publication, you should try to be concise, accurate, and unambiguous in your achievements. Your Project
+      Description should include more information than your project abstract.</p>
   </div>
   <div class="col-lg-4">
     <h2>References</h2>
     <hr>
-    <p>iGEM teams are encouraged to record references you use during the course of your research. They should be posted somewhere on your wiki so that judges and other visitors can see how you thought about your project and what works inspired you.</p>
+    <p>iGEM teams are encouraged to record references you use during the course of your research. They should be posted
+      somewhere on your wiki so that judges and other visitors can see how you thought about your project and what works
+      inspired you.</p>
   </div>
 </div>
 
