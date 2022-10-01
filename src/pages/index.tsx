@@ -11,11 +11,12 @@ import Credits from "../components/Credits";
 import Footer from "../components/Footer";
 
 const Index = () => {
-    return (<div style={{ "height": "100vh", "background-color": "#a49373" }}>
-        <NavBar /><br />
-        <Columns />
-        <br /><br /><br /><br /><br />
-        <Credits />
+    return (<div style={{ "height": "100vh" }}>
+        <div style={{ "paddingBottom": 100 }}>
+            <NavBar /><br />
+            <Columns />
+            <br /><br /><br /><br /><br />
+            <Credits /></div>
         <Footer />
     </div >)
 }
