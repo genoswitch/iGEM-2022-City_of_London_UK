@@ -13,7 +13,7 @@ import Montserrat from "../fonts/Montserrat";
 
 const Index = () => {
     return (
-        <div style={{ "height": "100vh" }}>
+        <div style={{ "height": "100vh", backgroundColor: "#98a1c1" }}>
             <div>
                 <NavBar />
                 <Montserrat>

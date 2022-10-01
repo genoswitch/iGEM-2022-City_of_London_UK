@@ -11,8 +11,8 @@ import "../fonts/Baskerville.css"
 
 const NavBar = () => {
     return (
-        <Navbar bg="dark" variant="dark" >
-            <Container >
+        <Navbar style={{ backgroundColor: "#98a1c1" }} variant="dark" >
+            <Container>
                 <Navbar.Brand href="/" style={{ "font-family": "iGEM-Baskerville" }}>
                     <img
                         src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
