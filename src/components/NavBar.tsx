@@ -1,4 +1,5 @@
 import * as React from "react";
+import { withPrefix } from "gatsby"
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -13,7 +14,7 @@ const NavBar = () => {
     return (
         <Navbar style={{ backgroundColor: "#98a1c1" }} variant="dark" >
             <Container>
-                <Navbar.Brand href="/" style={{ "font-family": "iGEM-Baskerville" }}>
+                <Navbar.Brand href={withPrefix("")} style={{ "font-family": "iGEM-Baskerville" }}>
                     <img
                         src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
                         width={30}
@@ -24,17 +25,16 @@ const NavBar = () => {
                 <Navbar.Collapse>
                     <Nav>
                         <NavDropdown title="Project">
-                            <NavDropdown.Item href="/experiments">Experiments</NavDropdown.Item>
+                            <NavDropdown.Item href={withPrefix("experiments")}>Experiments</NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown title="Awards">
-                            <NavDropdown.Item href="/entrepreneurship">Entrepreneurship</NavDropdown.Item>
+                            <NavDropdown.Item href={withPrefix("entrepreneurship")}>Entrepreneurship</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar >
     )
 }
 
