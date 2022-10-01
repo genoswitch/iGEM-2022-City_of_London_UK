@@ -12,14 +12,20 @@ import Footer from "../components/Footer";
 import Montserrat from "../fonts/Montserrat";
 
 const Index = () => {
-    return (<div style={{ "height": "100vh" }}>
-        <div style={{ "paddingBottom": 100 }}>
-            <NavBar /><br />
-            <Montserrat><Columns /></Montserrat>
-            <br /><br /><br /><br /><br />
-            <Credits /></div>
-        <Footer />
-    </div >)
+    return (
+        <div style={{ "height": "100vh" }}>
+            <div>
+                <NavBar />
+                <Montserrat>
+                    <Columns />
+                </Montserrat>
+                <div style={{ height: 50 }} />
+                <Credits />
+                <div style={{ height: 50 }} />
+            </div>
+            <Footer />
+        </div >
+    )
 }
 export default Index
 
