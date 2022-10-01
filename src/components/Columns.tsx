@@ -1,10 +1,5 @@
 import * as React from "react";
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
@@ -17,7 +12,7 @@ class ColumnEntry extends React.Component {
 
     render() {
         return (
-            <Card style={{ "background-color": this.props.bg_col, "color": this.props.col }}>
+            <Card className="list-group-flush" style={{ "background-color": this.props.bg_col, "color": this.props.col }}>
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>
                 </Card.Body>
