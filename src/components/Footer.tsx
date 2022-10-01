@@ -1,4 +1,5 @@
 import * as React from "react";
+import { graphql, useStaticQuery } from "gatsby"
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -11,7 +12,16 @@ const footerStyle = {
 
 import "../fonts/Montserrat.css"
 
+export const query = graphql`
+{
+    gitCommit(latest: {eq: true}) {
+        hash
+    }
+}`
+
 const Footer = () => {
+    const queryData = useStaticQuery(query)
+    const commit_sha = queryData.gitCommit.hash.substring(0, 8);
     return (
         <Navbar bg="light" style={footerStyle}>
             <Container>
@@ -19,6 +29,7 @@ const Footer = () => {
                     <Button variant="light" href="https://gitlab.igem.org/2022/city-of-london-uk">Source Code</Button>
                     <Button variant="light" href="#">Sponsors</Button>
                     <Button variant="light" href="#">Placeholder</Button>
+                    <Navbar.Text>(SHA: {commit_sha})</Navbar.Text>
                     <p>© 2022 - Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license.</a></p>
                 </Navbar.Text>
             </Container>
