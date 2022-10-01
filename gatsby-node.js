@@ -14,15 +14,7 @@ exports.onCreateWebpackConfig = ({
                     test: /\.md$/,
                     use: [
                         {
-                            loader: "html-loader"
-                        },
-                        {
-                            loader: "remark-loader",
-                            options: {
-                                remarkOptions: {
-                                    plugins: [RemarkHTML],
-                                },
-                            },
+                            loader: "raw-loader"
                         },
                     ],
                 }
