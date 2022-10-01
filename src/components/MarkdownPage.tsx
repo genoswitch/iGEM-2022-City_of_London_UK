@@ -7,9 +7,13 @@ import NavBar from "../components/NavBar";
 import Container from "react-bootstrap/Container"
 
 import rehypeRaw from 'rehype-raw'
+import rehypeSlug from 'rehype-slug'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import remarkGfm from 'remark-gfm'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './MarkdownPage.css'
+
 
 class MarkdownPage extends React.Component {
     static defaultProps = {
@@ -21,8 +25,7 @@ class MarkdownPage extends React.Component {
             <div style={{ "paddingBottom": 100 }}>
                 <NavBar />
                 <Container>
-
-                    <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} children={this.props.data} />
+                    <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'wrap', properties: { class: "markdown-header-link" } }]]} children={this.props.data} />
                 </Container>
             </div>
             <Footer />
