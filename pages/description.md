@@ -29,7 +29,7 @@ Lysis leaves the cell in a messy state, with Mycolic acids as well as other waxy
 
 João Catalão, M. and Pimentel, M., 2022. Mycobacteriophage Lysis Enzymes: Targeting the Mycobacterial Cell Envelope. [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116114/ [Accessed 28 July 2022].
 
-Shetty, Prasad; Ghosh, Dipayan; Paul, Debjani (2017). Thermal lysis and isothermal amplification of Mycobacterium tuberculosis H37Rv in one tube. Journal of Microbiological Methods, 143(), 1–5. [online] Available at: https://scholar.google.co.uk/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0167701217302531&hl=en&sa=X&ei=9KYpY6OTOfuSy9YP1Lyz8AQ&scisig=AAGBfm01OLxgt6kasqmNH5zuZjgihikBOg&oi=scholarr [Accessed 29 July 2022].
+Shetty, Prasad; Ghosh, Dipayan; Paul, Debjani (2017). Thermal lysis and isothermal amplification of Mycobacterium tuberculosis H37Rv in one tube. Journal of Microbiological Methods, 143(), 1–5. [online] Available at: https://www.sciencedirect.com/science/article/abs/pii/S0167701217302531 [Accessed 29 July 2022].
 
 # Gene Amplification
 ---
@@ -46,8 +46,8 @@ Recombinase Polymerase Amplification (RPA) is needed in order to achieve suffici
 ---
 
 ## How it will work
-
-![](https://static.igem.wiki/teams/4508/wiki/description/description-diagram-1.jpeg)![](https://static.igem.wiki/teams/4508/wiki/description/description-diagram-2.jpg)
+<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/description/description-diagram-1.jpeg"/>
+<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/description/description-diagram-2.jpeg"/>
 
 Abstract
 
@@ -72,7 +72,7 @@ There are two enzymes that can be used for SHERLOCK (Specific High-sensitivity E
 LFA output
 ----------
 
-![](https://static.igem.wiki/teams/4508/wiki/description/pasted-image-0.png)
+<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/description/pasted-image-0.png"/>
 
 When no tuberculosis in sample (reporter molecule not cleaved)
 
@@ -119,8 +119,7 @@ S.Pneumoniae is a bacterium that has historically been the most common pathogen 
 It is a gram-positive bacteria, so we expect that the lysis stage would remain the same.
 The primers and the gRNA has been modified for S.pneumoniae. 
 
-
-![](https://static.igem.wiki/teams/4508/wiki/description/pneumoniae-modularity.png)
+<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/description/pneumoniae-modularity.png"/>
 
 Figure 1. Plasmid map visualisation for S.pneumoniae
 
