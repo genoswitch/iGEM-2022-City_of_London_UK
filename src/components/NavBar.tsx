@@ -31,6 +31,12 @@ const NavBar = () => {
                         <NavDropdown title="Awards">
                             <NavDropdown.Item href={withPrefix("entrepreneurship")}>Entrepreneurship</NavDropdown.Item>
                         </NavDropdown>
+
+                        <Nav.Item>
+                            <Nav.Link href={withPrefix("description")}>
+                                Description <sup>(where does this go?)</sup>
+                            </Nav.Link>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
