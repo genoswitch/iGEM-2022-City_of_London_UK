@@ -11,11 +11,11 @@ import "../fonts/Baskerville.css"
 
 const NavBar = () => {
     return (
-        <Navbar bg="light">
-            <Container>
+        <Navbar bg="dark" variant="dark" >
+            <Container >
                 <Navbar.Brand href="/" style={{ "font-family": "iGEM-Baskerville" }}>
                     <img
-                        src="https://static.igem.org/websites/common/2022/logos/igem-logo-light.svg"
+                        src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
                         width={30}
                         height={30}
                         className="d-inline-block align-top" />{' '}
