@@ -7,8 +7,11 @@ import Navbar from 'react-bootstrap/Navbar';
 const footerStyle = {
     position: "fixed",
     bottom: "0",
-    width: "100%"
+    width: "100%",
+    fontFamily: "iGEM-Montserrat"
 }
+
+import "../fonts/Montserrat.css"
 
 const Footer = () => {
     return (
@@ -18,9 +21,7 @@ const Footer = () => {
                     <Button variant="light" href="https://gitlab.igem.org/2022/city-of-london-uk">Source Code</Button>
                     <Button variant="light" href="#">Sponsors</Button>
                     <Button variant="light" href="#">Placeholder</Button>
-                </Navbar.Text>
-                <Navbar.Text>
-                    © 2022 - Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license.</a>
+                    <p>© 2022 - Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license.</a></p>
                 </Navbar.Text>
             </Container>
         </Navbar>
