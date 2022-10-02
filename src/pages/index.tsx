@@ -1,6 +1,8 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby"
 
+import { Parallax } from 'react-parallax';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -11,18 +13,32 @@ import Credits from "../components/Credits";
 import Footer from "../components/Footer";
 import Montserrat from "../fonts/Montserrat";
 
+
+import "../fonts/Baskerville.css"
+
 const Index = () => {
     return (
         <div style={{ "height": "100vh", backgroundColor: "#98a1c1" }}>
             <div>
                 <NavBar />
+                <Parallax strength={200} bgImage="https://static.igem.wiki/teams/4508/wiki/site-res/beans.png">
+                    <div style={{ color: "white", padding: 20, justifyContent: "center", alignItems: "center", display: "flex", height: 500 }}>
+                        <span style={{ fontSize: 81, fontFamily: "iGEM-Baskerville" }}>aLFA</span>
+                        <div style={{ paddingLeft: 20 }}>
+                            <img
+                                src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
+                                width={80}
+                                className="d-inline-block align-top" />
+                        </div>
+                    </div>
+                </Parallax>
                 <Montserrat>
                     <Columns />
                 </Montserrat>
                 <div style={{ height: 50 }} />
                 <Credits />
                 <div style={{ height: 50 }} />
-            </div>
+            </div >
             <Footer />
         </div >
     )
