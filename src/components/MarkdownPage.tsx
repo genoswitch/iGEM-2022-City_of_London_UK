@@ -37,7 +37,7 @@ class MarkdownPage extends React.Component {
                 </Parallax>
                 <div style={{ height: 20 }} />
                 <Container>
-                    <ReactMarkdown remarkPlugins={[remarkGfm, [remarkToc, { heading: 'contents' }]]} rehypePlugins={[rehypeRaw, rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'wrap', properties: { class: "markdown-header-link" } }]]} children={this.props.data} />
+                    <ReactMarkdown remarkPlugins={[remarkGfm, [remarkToc, { heading: 'contents', maxDepth: 1 }]]} rehypePlugins={[rehypeRaw, rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'wrap', properties: { class: "markdown-header-link" } }]]} children={this.props.data} />
                 </Container>
                 <Footer />
             </div >
