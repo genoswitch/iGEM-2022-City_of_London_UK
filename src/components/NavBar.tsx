@@ -15,11 +15,10 @@ const NavBar = () => {
         <Navbar style={{ backgroundColor: "#98a1c1" }} variant="dark" >
             <Container>
                 <Navbar.Brand href={withPrefix("")} style={{ "font-family": "iGEM-Baskerville" }}>
-                    <img
+                    aLFA{' '}<img
                         src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
                         width={30}
-                        className="d-inline-block align-top" />{' '}
-                    aLFA
+                        className="d-inline-block align-top" />
                 </Navbar.Brand>
                 <Navbar.Collapse>
                     <Nav>
