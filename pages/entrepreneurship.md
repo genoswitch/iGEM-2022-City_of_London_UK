@@ -1,6 +1,3 @@
-# Entrepreneurship
-<br>
-
 ## Contents
 
 

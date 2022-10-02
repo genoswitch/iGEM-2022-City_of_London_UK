@@ -1,6 +1,3 @@
-# Description
-<br>
-
 ## Contents
 
 # Lysis
