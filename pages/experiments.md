@@ -1,5 +1,3 @@
-## Contents
-
 # Mycobacterium tuberculosis (M.tuberculosis) vs Lactobacillus Casei (L.Casei)
 ---
 
