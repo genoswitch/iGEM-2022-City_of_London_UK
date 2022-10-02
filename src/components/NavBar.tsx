@@ -18,7 +18,6 @@ const NavBar = () => {
                     <img
                         src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
                         width={30}
-                        height={30}
                         className="d-inline-block align-top" />{' '}
                     aLFA
                 </Navbar.Brand>
