@@ -1,12 +1,7 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby"
 
-import {
-    ParallaxBanner,
-    ParallaxBannerLayer,
-    ParallaxProvider,
-    Parallax
-} from "react-scroll-parallax";
+import { ParallaxBanner, ParallaxBannerLayer, ParallaxProvider } from "react-scroll-parallax";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -31,47 +26,22 @@ const addBlur = (i: any) => {
 const ParallaxComponent = () => {
     return (
         <ParallaxProvider>
-            <ParallaxBanner style={{ aspectRatio: "2 / 1" }}>
+            <ParallaxBanner style={{ aspectRatio: "2.5/1" }}>
                 <ParallaxBannerLayer
                     speed={-20}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean1.png"
-                    style={addBlur(8)}
+                    image="https://static.igem.wiki/teams/4508/wiki/site-res/beans.png"
                 />
-                <ParallaxBannerLayer
-                    speed={-25}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean2.png"
-                    style={addBlur(1)}
-                />
-                <ParallaxBannerLayer
-                    speed={-20}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean3.png"
-                    style={addBlur(1)}
-                />
-                <ParallaxBannerLayer
-                    speed={-20}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean4.png"
-                    style={addBlur(1)}
-                />
-                <ParallaxBannerLayer
-                    speed={-20}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean5.png"
-                    style={addBlur(3)}
-                />
-                <ParallaxBannerLayer
-                    speed={-20}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean6.png"
-                    style={addBlur(5)}
-                />
-                <ParallaxBannerLayer
-                    speed={-20}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean7.png"
-                    style={addBlur(2)}
-                />
-                <ParallaxBannerLayer
-                    speed={-20}
-                    image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean8.png"
-                    style={addBlur(2)}
-                />
+                <ParallaxBannerLayer>
+                    <div style={{ color: "white", padding: 20, justifyContent: "center", alignItems: "center", display: "flex", height: 500 }}>
+                        <span style={{ fontSize: 81, fontFamily: "iGEM-Baskerville" }}>aLFA</span>
+                        <div style={{ paddingLeft: 20 }}>
+                            <img
+                                src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
+                                width={80}
+                                className="d-inline-block align-top" />
+                        </div>
+                    </div>
+                </ParallaxBannerLayer>
             </ParallaxBanner>
         </ParallaxProvider>
     )
