@@ -16,13 +16,6 @@ import Montserrat from "../fonts/Montserrat";
 
 import "../fonts/Baskerville.css"
 
-const addBlur = (i: any) => {
-    return {
-        "filter": `blur(${i}px)`,
-        "-webkit-filter": `blur(${i}px)`
-    }
-}
-
 const ParallaxComponent = () => {
     return (
         <ParallaxProvider>
