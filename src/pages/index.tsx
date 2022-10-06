@@ -32,7 +32,7 @@ const ParallaxComponent = () => {
                         </div>
                         <div>
                             <img
-                                src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
+                                src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo-white.png"
                                 width={80}
                                 className="d-inline-block align-top" />
                         </div>

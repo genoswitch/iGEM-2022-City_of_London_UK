@@ -16,7 +16,7 @@ const NavBar = () => {
             <Container>
                 <Navbar.Brand href={withPrefix("")} style={{ "font-family": "iGEM-Baskerville" }}>
                     aLFA{' '}<img
-                        src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
+                        src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo-white.png"
                         width={30}
                         className="d-inline-block align-top" />
                 </Navbar.Brand>
