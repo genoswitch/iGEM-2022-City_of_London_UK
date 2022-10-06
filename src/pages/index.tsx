@@ -26,8 +26,11 @@ const ParallaxComponent = () => {
                 />
                 <ParallaxBannerLayer>
                     <div style={{ color: "white", padding: 20, justifyContent: "center", alignItems: "center", display: "flex", height: 500 }}>
-                        <span style={{ fontSize: 81, fontFamily: "iGEM-Baskerville" }}>aLFA</span>
-                        <div style={{ paddingLeft: 20 }}>
+                        <div>
+                            <div style={{ fontSize: 81, fontFamily: "iGEM-Baskerville" }}>aLFA</div>
+                            <div style={{ marginTop: -40, fontSize: 25, fontFamily: "iGEM-Montserrat", fontWeight: "lighter", letterSpacing: 24 }}>remask</div>
+                        </div>
+                        <div>
                             <img
                                 src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo.png"
                                 width={80}
