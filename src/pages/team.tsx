@@ -43,27 +43,53 @@ class CreditEntry extends React.Component {
 
 class TeamPage extends React.Component {
     creditEntries = []
+    totalImages: number = 0
 
 
     state = {
-        ready: false
+        ready: false,
+        imagesLoaded: 0
     }
 
     componentDidMount(): void {
+        let imagesLoaded = 0
+        this.totalImages = teamData.people.length
 
         teamData.people.forEach(person => {
-            console.log(person)
             this.creditEntries.push(
                 <CreditEntry person={person} />
             )
+
+            // Preload the image
+            const image = new Image();
+            image.onload = () => {
+                imagesLoaded++;
+                console.log(`Loaded image ${imagesLoaded} of ${this.totalImages}`)
+                this.setState({ imagesLoaded })
+            }
+            image.src = person.pic
         })
 
-        this.setState({ ready: true })
+    }
+    componentDidUpdate(): void {
+        if (!this.state.ready && this.totalImages == this.state.imagesLoaded) {
 
+            console.log("Images loaded, ready to render page!")
+            this.setState({ ready: true })
+        }
 
     }
 
     render() {
+        if (!this.state.ready) {
+            return <div>
+                <NavBar />
+                <Container>
+                    <h1>Loading team members, please wait...</h1>
+                </Container>
+                <Footer />
+            </div>
+        }
         return <div>
             <NavBar />
             <Container>
