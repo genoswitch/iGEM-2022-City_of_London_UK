@@ -32,6 +32,8 @@ const Footer = () => {
                     <Navbar.Text>(SHA: {commit_sha})</Navbar.Text>
                     <p>© 2022 - Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license.</a></p>
                 </Navbar.Text>
+                {/* TODO: Perhaps have this be underneath the rest of the footer when on mobile (lower width viewports) */}
+                <img style={{ opacity: 0.55 }} width={250} src="https://static.igem.wiki/teams/4508/wiki/site-res/team-logo-1.svg" />
             </Container>
         </Navbar>
     )
