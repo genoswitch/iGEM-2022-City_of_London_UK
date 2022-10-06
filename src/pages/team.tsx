@@ -21,15 +21,23 @@ class CreditEntry extends React.Component {
     }
 
     render() {
-        return (<Col>
-            <Card>
-                <Card.Img src={this.props.person.pic} />
-                <Card.Body>
-                    <Card.Title>{this.props.person.name}</Card.Title>
-                    {this.props.person.desc}
-                </Card.Body>
-            </Card>
-        </Col>)
+        return (
+            <div style={{ padding: 16 }}>
+                <Card>
+                    <Row>
+                        <div class="col-md-4">
+                            <Card.Img src={this.props.person.pic} />
+                        </div>
+                        <div class="col-md-8">
+                            <Card.Body>
+                                <Card.Title>{this.props.person.name}</Card.Title>
+                                {this.props.person.desc}
+                            </Card.Body>
+                        </div>
+                    </Row>
+                </Card>
+            </div>
+        )
     }
 }
 
@@ -58,8 +66,9 @@ class TeamPage extends React.Component {
     render() {
         return <div>
             <NavBar />
-            {`Ready?: ${this.state.ready}`}
-            <Row>{this.creditEntries}</Row>
+            <Container>
+                {`Ready?: ${this.state.ready}`}
+                <div>{this.creditEntries}</div></Container>
             <Footer />
         </div>
     }
