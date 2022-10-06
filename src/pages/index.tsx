@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby"
 
-import { Parallax } from 'react-parallax';
+import { ParallaxBanner, ParallaxBannerLayer, ParallaxProvider } from "react-scroll-parallax";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,12 +16,15 @@ import Montserrat from "../fonts/Montserrat";
 
 import "../fonts/Baskerville.css"
 
-const Index = () => {
+const ParallaxComponent = () => {
     return (
-        <div style={{ "height": "100vh", backgroundColor: "#98a1c1" }}>
-            <div>
-                <NavBar />
-                <Parallax strength={200} bgImage="https://static.igem.wiki/teams/4508/wiki/site-res/beans.png">
+        <ParallaxProvider>
+            <ParallaxBanner style={{ aspectRatio: "2.5/1" }}>
+                <ParallaxBannerLayer
+                    speed={-20}
+                    image="https://static.igem.wiki/teams/4508/wiki/site-res/beans.png"
+                />
+                <ParallaxBannerLayer>
                     <div style={{ color: "white", padding: 20, justifyContent: "center", alignItems: "center", display: "flex", height: 500 }}>
                         <span style={{ fontSize: 81, fontFamily: "iGEM-Baskerville" }}>aLFA</span>
                         <div style={{ paddingLeft: 20 }}>
@@ -31,7 +34,18 @@ const Index = () => {
                                 className="d-inline-block align-top" />
                         </div>
                     </div>
-                </Parallax>
+                </ParallaxBannerLayer>
+            </ParallaxBanner>
+        </ParallaxProvider>
+    )
+}
+
+const Index = () => {
+    return (
+        <div style={{ "height": "100vh", backgroundColor: "#98a1c1" }}>
+            <div>
+                <NavBar />
+                <ParallaxComponent />
                 <Montserrat>
                     <Columns />
                 </Montserrat>
