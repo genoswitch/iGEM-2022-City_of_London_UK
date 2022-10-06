@@ -19,7 +19,7 @@ import "../fonts/Baskerville.css"
 const ParallaxComponent = () => {
     return (
         <ParallaxProvider>
-            <ParallaxBanner style={{ aspectRatio: "2.5/1" }}>
+            <ParallaxBanner style={{ aspectRatio: "2/1" }}>
                 <ParallaxBannerLayer
                     speed={-20}
                     image="https://static.igem.wiki/teams/4508/wiki/site-res/beans.png"
