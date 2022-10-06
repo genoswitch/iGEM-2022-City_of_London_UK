@@ -1,0 +1,24 @@
+{
+    "people": [
+        {
+            "name": "Chairman Meow",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/chairman-meow.jpeg",
+            "desc": "Reminds me there is more to life than work. Dislikes birds even more than his namesake."
+        },
+        {
+            "name": "Arthur Allilaire",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/b6b76b45-df08-4903-8bbd-67ab4b73597f.jpeg",
+            "desc": "Arthur has been the quintessential 1st and 2nd leg of this tripod, with monster energy drinks being the 3rd. He was in charge of the wiki this year, coordinating students on late night sessions, where all of them would much rather be coordinating something else.\nArthur was in charge of the wiki this year, coordinating the content and organising the designers and fellow coders to ensure the wiki was delivered on time and to specification."
+        },
+        {
+            "name": "Luke Wallis",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/photo.jpg",
+            "desc": "More than just a pretty face, and trying to channel the success of the leaders before him, Luke took on the task of leading this year's project (despite his awful puns). Armed with an unhealthy obsession for developing genetic engineering tools, and an army of students hoping to improve their personal statement, he endeavoured to bring the biobrick to the square mile."
+        },
+        {
+            "name": "Cristina Prieto",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/9a279663-1023-4687-8148-07c719882bc8.jpeg",
+            "desc": "Armed with her intrinsic knowledge of biochemistry and boundless enthusiasm, Cristina has truly been the heart and soul of our iGEM team. She has shown herself to be a highly astute and diligent scientist - as well as the most demanding of leaders. Spending many hours perusing through peer-reviewed journals and designing gRNAs, while simultaneously ordering others to do the same - her role in research has been invaluable, as has her unwavering commitment to the team. It has been the greatest honour and privilege to have worked alongside her, and we apologise for the bedtimes lost."
+        }
+    ]
+}
