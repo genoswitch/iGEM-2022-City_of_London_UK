@@ -55,6 +55,9 @@ class TeamPage extends React.Component {
         let imagesLoaded = 0
         this.totalImages = teamData.people.length
 
+        // Sort the people array by name
+        teamData.people.sort((a, b) => a.name.localeCompare(b.name))
+
         teamData.people.forEach(person => {
             this.creditEntries.push(
                 <CreditEntry person={person} />
