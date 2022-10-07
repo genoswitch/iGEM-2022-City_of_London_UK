@@ -106,7 +106,7 @@ An Enterprise Management Incentive (EMI) is a tax efficient way to reward, incen
 
 There is a capital gains deduction on the exercise price, but then there is a capital gains tax at the exit price. The CGT applies to only 10% of the difference between the exit price, and the market value price of those shares at issuance.
 
-[image pending]
+<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/entrepreneurship-graph-initial-equity-offering-to-employees.png" alt="MV of share graph"/>
 
 alFA REMASK will award EMIs of 1-2% to its initial employees. They will only be exercisable if the employee still works there, as well as other conditions which are still to be decided.
 
