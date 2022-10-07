@@ -156,4 +156,6 @@ We decided to patent the fastener that attaches the lateral flow test strips to 
 
 # Business Plan
 
+In order to describe our ideas more fully, we have created a business plan. It details; our market research using PEST and SWOT analysis, market segmentation, the regulations and certifications we need to obey, our rigorous financial modelling of economies of scale, thorough financial projections for the first 4 years as well as a long-term timeline.
+
 <iframe width="100%" height="800px" src="https://static.igem.wiki/teams/4508/wiki/business/business-plan.pdf" frameborder="0"></iframe>
