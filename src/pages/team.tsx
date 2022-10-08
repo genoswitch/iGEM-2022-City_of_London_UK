@@ -8,6 +8,7 @@ import NavBar from "../components/NavBar";
 
 import { ParallaxProvider, ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax"
 
+import Badge from 'react-bootstrap/Badge'
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card'
 
@@ -17,6 +18,28 @@ import teamData from "../../pages/credits.json"
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+const ConstructBadge = (text, bgCol) => {
+    return (<span style={{ paddingRight: 16 }}><Badge bg={bgCol}>{text}</Badge></span>)
+}
+
+const tagColors = {
+    wiki: "primary",
+    biology: "secondary"
+}
+
+class TeamBadges extends React.Component {
+    render() {
+        const tagComponents = []
+        if (this.props.tags) {
+            this.props.tags.forEach((tag: string) => {
+                tagComponents.push(ConstructBadge(tag, tagColors[tag]))
+            })
+            return <div style={{ paddingTop: 16 }}>{tags}</div>
+        }
+
+    }
+}
 
 class CreditEntry extends React.Component {
     static defaultProps = {
@@ -42,6 +65,8 @@ class CreditEntry extends React.Component {
                                 {/* Display the person's description */}
                                 <br />
                                 {this.props.desc}
+                                <br />
+                                <TeamBadges tags={this.props.tags} />
                             </Card.Body>
                         </div>
                     </Row>
