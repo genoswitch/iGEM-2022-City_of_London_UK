@@ -1,8 +1,8 @@
 import * as React from "react"
 
+import CircularProgressWithLabel from "../components/CircularProgressWithLabel";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-
 
 import { ParallaxProvider, ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax"
 
@@ -90,10 +90,13 @@ class TeamPage extends React.Component {
 
     render() {
         if (!this.state.ready) {
+            // If 0/0, will be NaN, so if undefined set to 0%.
+            const loadingPercentage = (this.state.imagesLoaded / this.totalImages) * 100 || 0
             return <div>
                 <NavBar />
                 <Container>
                     <h1>Loading team members, please wait...</h1>
+                    <CircularProgressWithLabel value={loadingPercentage} />
                 </Container>
                 <Footer />
             </div>
