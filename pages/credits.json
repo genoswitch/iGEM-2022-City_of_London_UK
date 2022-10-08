@@ -1,24 +1,180 @@
 {
     "people": [
         {
-            "name": "Chairman Meow",
-            "pic": "https://static.igem.wiki/teams/4508/wiki/team/chairman-meow.jpeg",
-            "desc": "Reminds me there is more to life than work. Dislikes birds even more than his namesake."
-        },
-        {
             "name": "Arthur Allilaire",
+            "title": "Wiki Coordinator",
             "pic": "https://static.igem.wiki/teams/4508/wiki/team/b6b76b45-df08-4903-8bbd-67ab4b73597f.jpeg",
-            "desc": "Arthur has been the quintessential 1st and 2nd leg of this tripod, with monster energy drinks being the 3rd. He was in charge of the wiki this year, coordinating students on late night sessions, where all of them would much rather be coordinating something else.\nArthur was in charge of the wiki this year, coordinating the content and organising the designers and fellow coders to ensure the wiki was delivered on time and to specification."
+            "tags": ["wiki"],
+            "desc": "Arthur has been the quintessential 1st and 2nd leg of this tripod, with monster energy drinks being the 3rd. He was in charge of the wiki this year, coordinating students on late night sessions, where all of them would much rather be coordinating something else."
         },
         {
             "name": "Luke Wallis",
+            "title": "iGEM Team Leader",
             "pic": "https://static.igem.wiki/teams/4508/wiki/team/photo.jpg",
+            "tags": ["leaders"],
             "desc": "More than just a pretty face, and trying to channel the success of the leaders before him, Luke took on the task of leading this year's project (despite his awful puns). Armed with an unhealthy obsession for developing genetic engineering tools, and an army of students hoping to improve their personal statement, he endeavoured to bring the biobrick to the square mile."
         },
         {
             "name": "Cristina Prieto",
+            "title": "Biology Team Leader",
             "pic": "https://static.igem.wiki/teams/4508/wiki/team/9a279663-1023-4687-8148-07c719882bc8.jpeg",
-            "desc": "Armed with her intrinsic knowledge of biochemistry and boundless enthusiasm, Cristina has truly been the heart and soul of our iGEM team. She has shown herself to be a highly astute and diligent scientist - as well as the most demanding of leaders. Spending many hours perusing through peer-reviewed journals and designing gRNAs, while simultaneously ordering others to do the same - her role in research has been invaluable, as has her unwavering commitment to the team. It has been the greatest honour and privilege to have worked alongside her, and we apologise for the bedtimes lost."
+            "tags": ["biology", "leaders"],
+            "desc": "Armed with her intrinsic knowledge of biochemistry and boundless enthusiasm, Cristina has truly been the heart and soul of our iGEM team. She has shown herself to be a highly astute and diligent scientist - as well as the most demanding of leaders. Spending many hours perusing through peer-reviewed journals and designing gRNAs, while simultaneously ordering others to do the same - her role in research has been invaluable, as has her unwavering commitment to the team. Alongside leading the Biology Team, she has been liaising with CLSG finances and technicians to ensure maximum involvement from the girls’ school. It has been the greatest honour and privilege to have worked alongside her, and we apologise for the bedtimes lost."
+        },
+        {
+            "name": "Edwin Robson",
+            "title": "Head of Business and Finance",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/me.jpeg",
+            "tags": ["human practices", "leaders"],
+            "desc": "'-win' by name; Edwin's work for the Entrepreneurship aspect of the project has been an absolute W. He has been crucial in putting together a robust and viable business plan, and even exercised his skills in writing a patent. He has performed invaluable outreach by speaking with the WHO and St Bart’s trust, as well as making a public survey with around 400 responses. His leadership of the Entrepreneurship section has brought the team to where it is today, and his compassion and dry wit are appreciated by all."
+        },
+        {
+            "name": "Chairman Meow",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/chairman-meow.jpeg",
+            "tags": ["meow"],
+            "desc": "Reminds me there is more to life than work. Dislikes birds even more than his namesake."
+        },
+        {
+            "name": "Robin Wopaleński",
+            "title": "Head of Modelling",
+            "tags": ["modelling", "leaders"],
+            "desc": "Robin’s modelling knowledge and grim determination were of great use to him when he led the modelling team to produce a paper on thermal dissipation. He helped build code from the ground up, analysed the convergence conditions of the simulation and made it fully modular with Object Oriented Programming. He was an invaluable help to the team, as we are aiming for that modelling award. As described his skills are very delicious and forthcoming and leave me with no hesitation in supporting his UCAS application."
+        },
+        {
+            "name": "Elizabeth Noon",
+            "title": "Biology Vice Team Leader",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/4b43cc18-5e4b-4712-8529-234ee045db20.jpeg",
+            "tags": ["biology", "leaders"],
+            "desc": "Elizabeth enjoyed both researching initial ideas and then working on the final project as part of the biology team. This included meeting leading scientists, contributing to the iGEM parts registry, and carrying out practical work in the wetlab. She loved this experience of a research project and hopes to go into scientific research in the future."
+        },
+        {
+            "name": "Yamini Sivaraman",
+            "title": "Biology Team Researcher",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/img-3036.jpg",
+            "tags": ["biology"],
+            "desc": "Yamini was a member of the biology team and assisted in conducting research in the wetlab. She also helped to research the project ,particularly CRISPR, make contributions to the IGEM registry and write up the wetlab protocols."
+        },
+        {
+            "name": "Iman Monir",
+            "title": "Biology Team Researcher",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/20221004-235734.jpg",
+            "tags": ["biology"],
+            "desc": "Iman is a member of the biology team, partaking in research and assisting in the wetlab. She particularly enjoyed researching cell lysis methods, making contributions to the write up of protocols. She has learnt a lot about synthetic biology throughout this project and plans to further delve into this field, exploring its many possibilities and potential."
+        },
+        {
+            "name": "Manya Bhargava",
+            "title": "Biology Vice Team Leader",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/a1077108-4a2b-445b-8e98-f963af9d6e15.jpeg",
+            "tags": ["biology", "leaders"],
+            "desc": "Despite not doing biology A-Level, Manya has a keen interest in synthetic biology, and enjoyed learning more about the field throughout the year. She contributed to various preliminary projects before joining the biology sub-team, where she researched lysis methods, helped develop protocols for lab work and helped carry out gram staining in the wetlab."
+        },
+        {
+            "name": "Julian Chen",
+            "title": "Biology Team Leader",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/igem-headshot.png",
+            "tags": ["biology", "leaders"],
+            "desc": "Coming from an extended lineage of doctors, it was deemed at his birth that Julian too, would join the ranks of his ancestors in studying medicine. Julian has diligently led the biology team and aside from his passion for biology and iGEM, he’s a devout communist - enforcing the idea of equal and shared labour amongst our researchers. He has also spent the year attempting to navigate benchling - analysing gene sequences, constructing primers and always failing to design gRNAs, only to be saved by fellow leader, Cristina."
+        },
+        {
+            "name": "Joseph Park",
+            "title": "Outreach Coordinator",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/f3421003-5d60-407c-9211-93d76fc7c5d6.jpeg",
+            "tags": ["human practices"],
+            "desc": "Whilst originally starting out as a part of a research team, Joseph has moved to the Human Practice aspect of the project. Working as part of the Outreach team, Joseph has made great contributions by coming up with various ways to spread awareness of the project, such as getting advice from top professors in the fields of biology, chemistry, and infectious diseases from the top universities in the world."
+        },
+        {
+            "name": "Marc Lee",
+            "title": "Social Media Coordinator",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/image-9476.jpeg",
+            "tags": ["human practices"],
+            "desc": "During his time at iGEM, Marc has dedicated his time to the development of our social media page as well as creating content to spread awareness about the severity of tuberculosis. As part of the human practises team, he has also ensured our research has been sustainable and more importantly, ethical."
+        },
+        {
+            "name": "Sasha Smeulders",
+            "title": "Communications and Outreach Coordinator",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/71aa4a0e-0b5c-4010-9089-ad788b36d371.png",
+            "tags": ["human practices"],
+            "desc": "Sasha has been an important member of human practices, spending his time doing assemblies and outreach for surveys, has raised lots of awareness about the project and tuberculosis. Starting off from the goated source of the project, iGEM team 5 under Cristina, and his only input being jokes and missed deadlines will not be missed."
+        },
+        {
+            "name": "Gautam Krishna",
+            "title": "Hardware Team Leader",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/img-9752.jpg",
+            "tags": ["hardware", "leader"],
+            "desc": "Gautam has once again shown his highly unreasonable talent in electronics this year - as the common denominator in all of our previous successes, his well-deserved and long-awaited ascension to hardware leader brought solace to all, knowing we would be safe in his soft, sensitive and well moisturised hands. It remains to be said that it has been an honour serving under him, for that is the position one invariably finds themselves in his presence."
+        },
+        {
+            "name": "Jacob Sanders",
+            "title": "Outreach Coordinator",
+            "tags": ["human practices"],
+            "desc": "Jacob has dedicated his time to the human practices side of the project, helping write far too complex articles for the school newspaper, resulting in nothing but wasted paper. All jokes aside, his writing was excellent, paired with his dark humour and a profound interest in the subject, ended with him being a (valuable) asset to the team’s morale and success."
+        },
+        {
+            "name": "Sofia-Nur Nizar",
+            "title": "Outreach Coordinator",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/8d667ea4-e58f-4ece-93e5-3c2d175d75a9.jpeg",
+            "tags": ["human practices"],
+            "desc": "Sofia-Nur has been a part of the Human Practices team as an outreach coordinator. She has been able to contact many professionals in the field of synthetic biology, physicians in the respiratory area and researchers from a multitude of universities willing to help and advise our team on our project. She has been able to accumulate a network of contacts within the project and has been able to explain our project to many individuals working and researching in synthetic biology."
+        },
+        {
+            "name": "Westley Spurlock",
+            "title": "Biology Team Researcher",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/screenshot-20221005-131849.png",
+            "tags": ["biology"],
+            "desc": "Westley has been a part of the biology team, in particular contributing with endless research on lysis. Hunting through scientific papers on enzymatic and heat lysis resulted in the smallest bit of sanity lost in the name of this project. He has also contributed through grappling with Benchling software as well as work in the lab."
+        },
+        {
+            "name": "Aiden Hynes",
+            "title": "Business Coordinator",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/hynes-igem.jpg",
+            "tags": ["human practices"],
+            "desc": "Aiden has spent his time working in the Human Practices team, helping to write up and compile the highly professional business plan alongside Edwin Robson. He has also shown himself to be an exceptional researcher in designing one of our preliminary projects on the detection of colorectal cancer."
+        },
+        {
+            "name": "Eva Poliakova",
+            "title": "Social Media Coordinator",
+            "tags": ["human practices"],
+            "desc": "Eva has managed and created content for the team’s social media account. She updates the wider community on the team’s progress through Instagram stories as well as explains the different aspects of the team’s alfaRemask project. Eva also makes educational posts about genetic engineering and the iGEM competition."
+        },
+        {
+            "name": "Aika Ono",
+            "title": "Biology Team Researcher",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/b612-tempphoto-edit-share-20220218-174934-266-1.jpg",
+            "tags": ["biology"],
+            "desc": "Aika works as part of the Biology team. She has the experience of shutting down her computer numerous times while having fun with Benchling. Aika’s contribution to RPA and Module research proved valuable, and through her commitment to iGEM, she hopes to continue research into the future and become a physician-scientist."
+        },
+        {
+            "name": "Daisy Lancaster",
+            "title": "Communications and Outreach Coordinator",
+            "tags": ["human practices"],
+            "desc": "Daisy works as part of the Human Practices Team, designing whole school assemblies to educate high school students about synthetic biology and the team’s alfaRemask project. Daisy hoped to continue research in biomedical science in the future."
+        },
+        {
+            "name": "Rishabh Das",
+            "title": "Wiki Designer",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/site-res/wiki-team-pics/rishabh-0-5x.jpg",
+            "tags": ["wiki"],
+            "desc": "Stepping in at the last minute before the Wiki Freeze, Rishabh (through many late night calls with James) was able to help finalising the design and code for the wiki through his extensive experience with Photoshop and his - not nearly as extensive yet still useful - experience with web development."
+        },
+        {
+            "name": "James Cahill",
+            "title": "Wiki Programmer and Designer",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/site-res/wiki-team-pics/james-0-5x.jpg",
+            "tags": ["wiki"],
+            "desc": "James has always been known to have seemingly limitless knowledge about coding, yet it is still an astounding feat that he was able to code vast amounts of the website despite being brought into the team so close to the deadline, working closely with Rishabh to finalise and implement the design."
+        },
+        {
+            "name": "Xi Da",
+            "title": "Hardware Team Engineer",
+            "pic": "https://static.igem.wiki/teams/4508/wiki/team/xida.jpg",
+            "tags": ["hardware"],
+            "desc": "Xi has divided his time between both the Biology and Hardware teams this year, providing an endless torrent of ‘Amongus’ jokes, while also bringing his well-founded expertise to the table. He has worked behind the computer screen in research, as well taken part in the dry lab - constructing the prototype modules of our mask."
+        },
+        {
+            "name": "Eva Littlewood",
+            "title": "Hardware Team Engineer",
+            "tags": ["hardware"],
+            "desc": "Despite being the shortest member of the entire iGEM team, her efforts and contributions to both the initial biology research and hardware team have been nothing but short. She helped with extensive research at the initial stages of the project, helping it take off before then contributing to the hardware team."
         }
     ]
 }
