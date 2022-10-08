@@ -21,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class CreditEntry extends React.Component {
     static defaultProps = {
         name: "iGEM Contributor",
-        pic: "https://static.igem.org/websites/common/2022/logos/igem-logo-light.svg",
+        pic: "https://static.igem.org/websites/common/2022/logos/igem-logo-dark.svg",
         desc: "iGEM Team Member"
     }
 
