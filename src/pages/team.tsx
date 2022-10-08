@@ -32,7 +32,7 @@ const tagColors = {
     "human practices": "warning",
     hardware: "info",
     modelling: "danger",
-    meow: "light",
+    meow: "secondary",
     leaders: "primary"
 }
 
@@ -43,7 +43,7 @@ class TeamBadges extends React.Component {
             this.props.tags.forEach((tag: string) => {
                 tagComponents.push(ConstructBadge(tag, tagColors[tag]))
             })
-            return <div style={{ paddingTop: 16 }}>{tags}</div>
+            return <div style={{ paddingTop: 16 }}>{tagComponents}</div>
         }
 
     }
@@ -123,7 +123,7 @@ class TeamPage extends React.Component {
             console.log(`Processing person: ${person.name}`)
             this.creditEntries.push({
                 name: person.name,
-                component: <CreditEntry name={person.name} title={person.title} pic={person.pic} desc={person.desc} />
+                component: <CreditEntry name={person.name} title={person.title} pic={person.pic} tags={person.tags} desc={person.desc} />
             })
 
             // Preload the image (if one was set)
