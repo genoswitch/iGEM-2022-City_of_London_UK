@@ -19,8 +19,19 @@ import teamData from "../../pages/credits.json"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const ConstructBadge = (text, bgCol) => {
-    return (<span style={{ paddingRight: 16 }}><Badge bg={bgCol}>{text}</Badge></span>)
+const capitalizeWords = (words: string) => {
+    const wordArray = words.split(" ");
+
+    const processedArray = wordArray.map(item => {
+        return item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()
+    })
+
+    return processedArray.join(" ")
+
+}
+
+const ConstructBadge = (text: string, bgCol: string) => {
+    return (<span style={{ paddingRight: 16 }}><Badge bg={bgCol}>{capitalizeWords(text)}</Badge></span>)
 }
 
 // valid tags:
