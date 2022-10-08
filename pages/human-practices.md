@@ -1,13 +1,16 @@
+## Contents
 
 
 # Outreach
+---
+
 Among our Human Practices team, outreach has been a fundamental aspect of our project journey. Being able to talk and engage with professionals of their field has allowed for the integration of a multitude of synthetic biological techniques in order to create the most sustainable and effective diagnostic tool. Outreach has played an immensely important role in our research and how we could logistically implement our project into society. Speaking with consultants, physicians and researchers has allowed for us to understand where in the world we could best promote our project and why it would be able to replace other diagnostic tools. We have been able to build our knowledge in synthetic biology through outreach and collectively move through the process of our design cycle. 
 
 Through our design cycle we have omitted and introduced different synthetic biological tools in order to be the most cost effective, sustainable and realistic in our approach towards creating a wearable diagnostic tool. By talking with these professionals allowed for the approach towards integrated human practices and bettering our project.
 
 ### Kim Payne: 
 
-![](https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/c08c82f7-f71f-4be9-a62c-9550a486d08a.jpeg)
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/c08c82f7-f71f-4be9-a62c-9550a486d08a.jpeg"/>
 
 Kim Payne is a teaching associate professor at the University of Pittsburgh for the department of biological sciences. She has a research background in Molecular Biology and Virology and with specific experience in studying mycobacteriophages and Herpes Simplex Virus type 1. 
 
@@ -15,7 +18,7 @@ After talking with Kim Payne we were given feedback about the use of the enzymes
 
 ### Dr Simon Tiberi:
 
-![](https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/e9a73583-7a47-49e1-99bf-adcb954824cd.png)
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/e9a73583-7a47-49e1-99bf-adcb954824cd.png"/>
 
 Dr Simon Tiberi is an honorary consultant physician in infectious diseases at Barts Health NHS Trust and at Queen Mary University of London. He works in Infections and Tuberculosis clinics in East London Hospitals and is also TB secretary for the European Respiratory Society. Much of his research is focused on mycobacteria, respiratory infections and antimicrobials, and he is involved in many clinical trials, translational and health service research. 
 
@@ -23,7 +26,7 @@ Having spoken to Dr Tiberi we were able to understand the expanse of Tuberculosi
 
 ### Dr Peter Nguyen:
 
-![](https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/150f6fae-204f-4cdf-8dbf-1e679f5501c0.jpeg)
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/150f6fae-204f-4cdf-8dbf-1e679f5501c0.jpeg"/>
 
 Dr Peter Nguyen currently works on programmable probiotics and freeze-dried cell-free manufacturing technology at the Wyss Institute. He also researched engineering systems for the self-assembly and control of nanoscale structures which include protein engineering for synthetic biology. He is in the process of creating and developing wearable diagnostics through synthetic biology and the use of freeze-dried biological circuits. 
 
@@ -31,7 +34,7 @@ Dr Nguyen had already researched and came up with the idea of a wearable diagnos
 
 ### Oliver Stringer:
 
-![](https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/70863dc2-3338-48e4-ac7a-0dda7d0033b1.jpeg)
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/70863dc2-3338-48e4-ac7a-0dda7d0033b1.jpeg"/>
 
 Oliver Stringer is a postgraduate researcher for the Faculty of Medicine, Department of Infectious Disease at Imperial College London. His research includes human and veterinary based pathogens with a core focus on diagnostic methods. He also has experience of working with traditional PCR and isothermal amplification techniques.
 
@@ -39,7 +42,7 @@ We were given feedback from Oliver Stringer that enabled us to understand the be
 
 ### Dr David Rueda:
 
-![](https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/a5b54691-d77f-4e5d-bda6-b088cbf4bab4.jpeg)
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/a5b54691-d77f-4e5d-bda6-b088cbf4bab4.jpeg"/>
 
 Dr David Rueda is currently the Chair in Molecular and Cellular Biophysics within the Faculty of Medicine, Department of Infectious Disease at Imperial College London. His research consists of developing and applying single molecule approaches to understand the mechanisms by which protein and nucleic acids regulate cellular functions such as DNA replication and repair. 
 
@@ -47,7 +50,7 @@ Through speaking with Dr Rueda, he helped us learn about the importance of CRISP
 
 ### Seda Yerlikaya:
 
-![](https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/bda2446d-bbbb-4664-916c-1d0131376f5d.jpeg)
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/bda2446d-bbbb-4664-916c-1d0131376f5d.jpeg"/>
 
 Seda Yerlikaya works with the Tuberculosis foundation and also works with the Find Diagnosis for all foundation where they interconnect countries, healthcare facilities and funding to aid with diagnosis for diseases around the world. They try to improve healthcare systems and implement sustainability where possible in terms of cost and realism.
 
@@ -55,13 +58,15 @@ We managed to get into contact with Seda Yerlikaya very early on in our design c
 
 ### Professor Andrew Martin:
 
-![](https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/0f1a736f-03c6-4070-bc28-370f38ad7e6f.jpeg)
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/0f1a736f-03c6-4070-bc28-370f38ad7e6f.jpeg"/>
+
 
 Professor Andrew Martin is a Professor of Bioinformatics and Computational Biology and UCL. He takes particular interest in the sequence, structure and function of antibodies and also the impact of mutations on protein structure and function. He has also acted as a consultant to many pharmaceutical companies and teaches about protein energetics, protein folding and antibody structure. 
 
 When we had spoken to Professor Andrew Martin at the very beginning of our design cycle, he aided us in understanding the potential for using custom made proteins which would allow us to detect tuberculosis or a multitude of other diseases. However, after learning about the synthetic biological processes and techniques our project would have to undergo, we came to the conclusion that this would not be possible for us to. This being a prime example of integrated human practise where we took on the advice from Professor Andrew Martin about custom made proteins and our limited ability to be able to pursue this. 
 
 # Education in CLS/G
+---
 
 We had the opportunity to give assemblies to students across both City of London Boys’, and City of London Girls’ schools. This spanned across all year groups ranging from ages 11-18. The assemblies allowed us to introduce the iGEM competition to younger students so they could have a better understanding of what it involves. We also raised awareness on the issue of tuberculosis across the world, which helped us to introduce our project idea in a simplified manner to show them the potential benefits that an iGEM project can have. One of our key points was to emphasise that iGEM can be a lot more than just Biology and Chemistry, and that students with different interests such as economics and philosophy can also contribute and really enjoy taking part. 
 
@@ -72,19 +77,21 @@ We worked with an organisation called IntoUniversity, educating young children (
 
 
 # Collaborations
+---
+
 Collaboration is not only at the heart of iGEM, but of our culture in the City of London iGEM team. Being the only high school in the United Kingdom that partakes, and the first in Europe to compete, every year we are placed in the unique position of performing with a small budget and with a team and is new to genetic engineering. This deficit, however, is made up entirely through our collaboration with the other brilliant teams in the UK. 
 
 
 ### Our ongoing partnership with King’s College London
 Our prime partner in this endeavour is the King’s College London Team. Building on our strong history of partnership, this year we initiated contact early into our design cycle to glean advice and opinions on our potential projects. The conversations that we had helped inform us of the challenges that each idea would present, leading to a fully informed decision of going forwards with aLFA REMASK. At this point, our design cycle was ahead of their schedule and so our insights focussed on the experiences and understandings that our leadership team had found from working on our 2021 team project. 
 
-![](https://static.igem.wiki/teams/4508/wiki/hp/kcl-zoom-call.png)
+<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/hp/kcl-zoom-call.png"/>
 
 Later in our work with them, we were able to get to the point where we could provide good feedback for their brilliant idea; helping them understand what our concerns, as ‘lay people’, would be. This initiated a period of their education and communication about their ideas, similarly following our creation of the CLS iGEM instagram page.
 
 The main aspect of our work with the team, however, was undeniably through our joint education programmes. Beyond the integrated feedback given to our project, we were able to create surveys and questionnaires for students at our school about their understanding of synthetic biology and how they would react to using it in their everyday lives. The insights that we gained from this, we shared with KCL to further help both of our integrated human practices programmes. We learnt that the vast majority of young people had little understanding of what genetic engineering was, and how to get started in STEM. So immediately we worked on multiple newspaper articles that were published for free to over 3,000 recipients about iGEM, our ideas, how to get started in synthetic biology, and how it is possible to be a part of this culture with skillsets focussed on business, communication, and non-STEM subjects. 
 
-![](https://static.igem.wiki/teams/4508/wiki/hp/citizen-article.jpeg)
+<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/hp/citizen-article.jpeg"/>
 
 
 This collaboration was so successful that within a range of weeks, we started receiving emails and communications from students as young as 13 years old, asking if they could join our team and be a part of our new approach to science. For us, it showed that we were doing the right thing and that we should push forward to achieve more. So, in a similar vein, we had the gumption to use the City of London School Future Guidance team, the group who help all students decide on their futures (and help them get there!), to promote Science Mind Magazine, a quarterly publication from Kings College focussing on big news and important discoveries in STEM. This magazine was promoted to students as young as Year 6, for free, to get people more interested and invested in the work of iGEM and similar organisations.
@@ -108,4 +115,6 @@ Alongside KCL, UCL is one of our cultural twins with its campus at the heart of 
 
 
 # Podcast
+---
+
 Starting a team podcast was a great opportunity for us to share different aspects of our IGEM project with the broader community. Our podcast series had a total of X episodes covering a broad range of topics from discussion of the importance of inclusivity and diversity in STEM to a detailed explanation of the biology of our aLFA REMASK. Team members worked in pairs or threes to make the episode content and film their podcast episodes. The opportunity to engage with the broader community through the podcast, rather than traditional written content, allowed our team to build a stronger connection with other IGEM teams, professionals, and our school community. 
