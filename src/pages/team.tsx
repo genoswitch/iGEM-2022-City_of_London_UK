@@ -3,13 +3,18 @@ import * as React from "react"
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
+
+import { ParallaxProvider, ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax"
+
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card'
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import teamData from "../../pages/credits.json"
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class CreditEntry extends React.Component {
     static defaultProps = {
@@ -95,6 +100,16 @@ class TeamPage extends React.Component {
         }
         return <div>
             <NavBar />
+            <ParallaxProvider>
+                <ParallaxBanner style={{ aspectRatio: "2.5/1" }}>
+                    <ParallaxBannerLayer speed={-20} image="https://static.igem.wiki/teams/4508/wiki/team/most-of-team-header-pic.jpg" />
+                    <ParallaxBannerLayer>
+                        <div style={{ color: "white", padding: 20, justifyContent: "center", alignItems: "center", display: "flex", height: 500 }}>
+                            <h1>Meet the Team</h1>
+                        </div>
+                    </ParallaxBannerLayer>
+                </ParallaxBanner>
+            </ParallaxProvider>
             <Container>
                 {`Ready?: ${this.state.ready}`}
                 <div>{this.creditEntries}</div></Container>
