@@ -23,9 +23,17 @@ const ConstructBadge = (text, bgCol) => {
     return (<span style={{ paddingRight: 16 }}><Badge bg={bgCol}>{text}</Badge></span>)
 }
 
+// valid tags:
+// wiki, biology, human practices, hardware, modelling, meow, leaders
+
 const tagColors = {
-    wiki: "primary",
-    biology: "secondary"
+    wiki: "dark",
+    biology: "success",
+    "human practices": "warning",
+    hardware: "info",
+    modelling: "danger",
+    meow: "light",
+    leaders: "primary"
 }
 
 class TeamBadges extends React.Component {
