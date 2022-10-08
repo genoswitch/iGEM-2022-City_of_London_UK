@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import { TextField } from "@mui/material";
+
 import CircularProgressWithLabel from "../components/CircularProgressWithLabel";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
@@ -59,7 +61,8 @@ class TeamPage extends React.Component {
 
     state = {
         ready: false,
-        imagesLoaded: 0
+        imagesLoaded: 0,
+        searchQuery: ""
     }
 
     componentDidMount(): void {
@@ -81,9 +84,10 @@ class TeamPage extends React.Component {
 
         teamData.people.forEach(person => {
             console.log(`Processing person: ${person.name}`)
-            this.creditEntries.push(
-                <CreditEntry name={person.name} title={person.title} pic={person.pic} desc={person.desc} />
-            )
+            this.creditEntries.push({
+                name: person.name,
+                component: <CreditEntry name={person.name} title={person.title} pic={person.pic} desc={person.desc} />
+            })
 
             // Preload the image (if one was set)
             if (person.pic) {
@@ -130,6 +134,7 @@ class TeamPage extends React.Component {
                 <Footer />
             </div>
         }
+
         return <div>
             <NavBar />
             <ParallaxProvider>
@@ -143,7 +148,22 @@ class TeamPage extends React.Component {
                 </ParallaxBanner>
             </ParallaxProvider>
             <Container>
-                <div>{this.creditEntries}</div></Container>
+                <div style={{ paddingTop: 16, paddingLeft: 16 }}>
+                    <TextField id="outlined-basic" label="Search" variant="outlined" onChange={event => this.setState({ searchQuery: event.target.value })} />
+                </div>
+                <div style={{ minHeight: 750 }}>
+                    {this.creditEntries.filter(entry => {
+                        // If the search query is empty (default state) allow everything
+                        if (this.state.searchQuery == "") {
+                            return true
+                            // Otherwise only return people whose names match the query string.
+                        } else if (entry.name.toLowerCase().includes(this.state.searchQuery.toLowerCase())) {
+                            return true
+                        }
+                        // map() to only return the component from each item in the array
+                    }).map(e => e.component)}
+                </div>
+            </Container>
             <Footer />
         </div>
     }
