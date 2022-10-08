@@ -146,6 +146,13 @@ class TeamPage extends React.Component {
       return +!aIsLeader - +!bIsLeader;
     });
 
+    // Allow for prominent positioning via optional pos key
+    teamData.people.sort((a, b) => {
+      const aPos: number = a.pos || 99;
+      const bPos: number = b.pos || 99;
+      return aPos - bPos;
+    });
+
     teamData.people.forEach(person => {
       console.log(`Processing person: ${person.name}`);
       this.creditEntries.push({

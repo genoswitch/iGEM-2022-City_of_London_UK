@@ -5,28 +5,32 @@
       "title": "Wiki Coordinator",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/b6b76b45-df08-4903-8bbd-67ab4b73597f.jpeg",
       "tags": ["wiki"],
-      "desc": "Arthur has been the quintessential 1st and 2nd leg of this tripod, with monster energy drinks being the 3rd. He was in charge of the wiki this year, coordinating students on late night sessions, where all of them would much rather be coordinating something else."
+      "desc": "Arthur has been the quintessential 1st and 2nd leg of this tripod, with monster energy drinks being the 3rd. He was in charge of the wiki this year, coordinating students on late night sessions, where all of them would much rather be coordinating something else.",
+      "pos": 6
     },
     {
       "name": "Luke Wallis",
       "title": "iGEM Team Leader",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/photo.jpg",
       "tags": ["leaders"],
-      "desc": "More than just a pretty face, and trying to channel the success of the leaders before him, Luke took on the task of leading this year's project (despite his awful puns). Armed with an unhealthy obsession for developing genetic engineering tools, and an army of students hoping to improve their personal statement, he endeavoured to bring the biobrick to the square mile."
+      "desc": "More than just a pretty face, and trying to channel the success of the leaders before him, Luke took on the task of leading this year's project (despite his awful puns). Armed with an unhealthy obsession for developing genetic engineering tools, and an army of students hoping to improve their personal statement, he endeavoured to bring the biobrick to the square mile.",
+      "pos": 1
     },
     {
       "name": "Cristina Prieto",
       "title": "Biology Team Leader",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/9a279663-1023-4687-8148-07c719882bc8.jpeg",
       "tags": ["biology", "leaders"],
-      "desc": "Armed with her intrinsic knowledge of biochemistry and boundless enthusiasm, Cristina has truly been the heart and soul of our iGEM team. She has shown herself to be a highly astute and diligent scientist - as well as the most demanding of leaders. Spending many hours perusing through peer-reviewed journals and designing gRNAs, while simultaneously ordering others to do the same - her role in research has been invaluable, as has her unwavering commitment to the team. Alongside leading the Biology Team, she has been liaising with CLSG finances and technicians to ensure maximum involvement from the girls' school. It has been the greatest honour and privilege to have worked alongside her, and we apologise for the bedtimes lost."
+      "desc": "Armed with her intrinsic knowledge of biochemistry and boundless enthusiasm, Cristina has truly been the heart and soul of our iGEM team. She has shown herself to be a highly astute and diligent scientist - as well as the most demanding of leaders. Spending many hours perusing through peer-reviewed journals and designing gRNAs, while simultaneously ordering others to do the same - her role in research has been invaluable, as has her unwavering commitment to the team. Alongside leading the Biology Team, she has been liaising with CLSG finances and technicians to ensure maximum involvement from the girls' school. It has been the greatest honour and privilege to have worked alongside her, and we apologise for the bedtimes lost.",
+      "pos": 2
     },
     {
       "name": "Edwin Robson",
       "title": "Head of Business and Finance",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/me.jpeg",
       "tags": ["human practices", "leaders"],
-      "desc": "'-win' by name; Edwin's work for the Entrepreneurship aspect of the project has been an absolute W. He has been crucial in putting together a robust and viable business plan, and even exercised his skills in writing a patent. He has performed invaluable outreach by speaking with the WHO and St Bart's trust, as well as making a public survey with around 400 responses. His leadership of the Entrepreneurship section has brought the team to where it is today, and his compassion and dry wit are appreciated by all."
+      "desc": "'-win' by name; Edwin's work for the Entrepreneurship aspect of the project has been an absolute W. He has been crucial in putting together a robust and viable business plan, and even exercised his skills in writing a patent. He has performed invaluable outreach by speaking with the WHO and St Bart's trust, as well as making a public survey with around 400 responses. His leadership of the Entrepreneurship section has brought the team to where it is today, and his compassion and dry wit are appreciated by all.",
+      "pos": 5
     },
     {
       "name": "Chairman Meow",
@@ -39,14 +43,16 @@
       "title": "Head of Modelling",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/img-20220910-wa0001.jpg",
       "tags": ["modelling", "leaders"],
-      "desc": "Robin's modelling knowledge and grim determination were of great use to him when he led the modelling team to produce a paper on thermal dissipation. He was an invaluable help to the team, as we are aiming for that modelling award. As described his skills are very delicious and forthcoming and leave me with no hesitation in supporting his UCAS application."
+      "desc": "Robin's modelling knowledge and grim determination were of great use to him when he led the modelling team to produce a paper on thermal dissipation. He was an invaluable help to the team, as we are aiming for that modelling award. As described his skills are very delicious and forthcoming and leave me with no hesitation in supporting his UCAS application.",
+      "pos": 7
     },
     {
       "name": "Elizabeth Noon",
       "title": "Biology Vice Team Leader",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/4b43cc18-5e4b-4712-8529-234ee045db20.jpeg",
       "tags": ["biology", "leaders"],
-      "desc": "Elizabeth enjoyed both researching initial ideas and then working on the final project as part of the biology team. This included meeting leading scientists, contributing to the iGEM parts registry, and carrying out practical work in the wetlab. She loved this experience of a research project and hopes to go into scientific research in the future."
+      "desc": "Elizabeth enjoyed both researching initial ideas and then working on the final project as part of the biology team. This included meeting leading scientists, contributing to the iGEM parts registry, and carrying out practical work in the wetlab. She loved this experience of a research project and hopes to go into scientific research in the future.",
+      "pos": 9
     },
     {
       "name": "Yamini Sivaraman",
@@ -67,14 +73,16 @@
       "title": "Biology Vice Team Leader",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/a1077108-4a2b-445b-8e98-f963af9d6e15.jpeg",
       "tags": ["biology", "leaders"],
-      "desc": "Despite not doing biology A-Level, Manya has a keen interest in synthetic biology, and enjoyed learning more about the field throughout the year. She contributed to various preliminary projects before joining the biology sub-team, where she researched lysis methods, helped develop protocols for lab work and helped carry out gram staining in the wetlab."
+      "desc": "Despite not doing biology A-Level, Manya has a keen interest in synthetic biology, and enjoyed learning more about the field throughout the year. She contributed to various preliminary projects before joining the biology sub-team, where she researched lysis methods, helped develop protocols for lab work and helped carry out gram staining in the wetlab.",
+      "pos": 8
     },
     {
       "name": "Julian Chen",
       "title": "Biology Team Leader",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/igem-headshot.png",
       "tags": ["biology", "leaders"],
-      "desc": "Coming from an extended lineage of doctors, it was deemed at his birth that Julian too, would join the ranks of his ancestors in studying medicine. Julian has diligently led the biology team and aside from his passion for biology and iGEM, he's a devout communist - enforcing the idea of equal and shared labour amongst our researchers. He has also spent the year attempting to navigate benchling - analysing gene sequences, constructing primers and always failing to design gRNAs, only to be saved by fellow leader, Cristina."
+      "desc": "Coming from an extended lineage of doctors, it was deemed at his birth that Julian too, would join the ranks of his ancestors in studying medicine. Julian has diligently led the biology team and aside from his passion for biology and iGEM, he's a devout communist - enforcing the idea of equal and shared labour amongst our researchers. He has also spent the year attempting to navigate benchling - analysing gene sequences, constructing primers and always failing to design gRNAs, only to be saved by fellow leader, Cristina.",
+      "pos": 3
     },
     {
       "name": "Joseph Park",
@@ -102,7 +110,8 @@
       "title": "Hardware Team Leader",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/img-9752.jpg",
       "tags": ["hardware", "leader"],
-      "desc": "Gautam has once again shown his highly unreasonable talent in electronics this year - as the common denominator in all of our previous successes, his well-deserved and long-awaited ascension to hardware leader brought solace to all, knowing we would be safe in his soft, sensitive and well moisturised hands. It remains to be said that it has been an honour serving under him, for that is the position one invariably finds themselves in his presence."
+      "desc": "Gautam has once again shown his highly unreasonable talent in electronics this year - as the common denominator in all of our previous successes, his well-deserved and long-awaited ascension to hardware leader brought solace to all, knowing we would be safe in his soft, sensitive and well moisturised hands. It remains to be said that it has been an honour serving under him, for that is the position one invariably finds themselves in his presence.",
+      "pos": 4
     },
     {
       "name": "Jacob Sanders",
@@ -155,14 +164,16 @@
       "title": "Wiki Designer",
       "pic": "https://static.igem.wiki/teams/4508/wiki/site-res/wiki-team-pics/rishabh-0-5x.jpg",
       "tags": ["wiki"],
-      "desc": "Stepping in at the last minute before the Wiki Freeze, Rishabh (through many late night calls with James) was able to help finalising the design and code for the wiki through his extensive experience with Photoshop and his - not nearly as extensive yet still useful - experience with web development."
+      "desc": "Stepping in at the last minute before the Wiki Freeze, Rishabh (through many late night calls with James) was able to help finalising the design and code for the wiki through his extensive experience with Photoshop and his - not nearly as extensive yet still useful - experience with web development.",
+      "pos": 11
     },
     {
       "name": "James Cahill",
       "title": "Wiki Programmer and Designer",
       "pic": "https://static.igem.wiki/teams/4508/wiki/site-res/wiki-team-pics/james-0-5x.jpg",
       "tags": ["wiki"],
-      "desc": "James has always been known to have seemingly limitless knowledge about coding, yet it is still an astounding feat that he was able to code vast amounts of the website despite being brought into the team so close to the deadline, working closely with Rishabh to finalise and implement the design."
+      "desc": "James has always been known to have seemingly limitless knowledge about coding, yet it is still an astounding feat that he was able to code vast amounts of the website despite being brought into the team so close to the deadline, working closely with Rishabh to finalise and implement the design.",
+      "pos": 10
     },
     {
       "name": "Xi Da",
