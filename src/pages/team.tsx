@@ -94,10 +94,17 @@ class TeamPage extends React.Component {
             const loadingPercentage = (this.state.imagesLoaded / this.totalImages) * 100 || 0
             return <div>
                 <NavBar />
-                <Container>
-                    <h1>Loading team members, please wait...</h1>
-                    <CircularProgressWithLabel value={loadingPercentage} />
-                </Container>
+                <div style={{ padding: 100, display: "flex", "justifyContent": "center" }}>
+                    <Card style={{ width: 300 }}>
+                        <Card.Body>
+                            <Card.Title>
+                                Loading team members...
+                            </Card.Title>
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <CircularProgressWithLabel value={loadingPercentage} /></div>
+                        </Card.Body>
+                    </Card>
+                </div>
                 <Footer />
             </div>
         }
