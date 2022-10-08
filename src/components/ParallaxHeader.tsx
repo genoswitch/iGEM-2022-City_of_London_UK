@@ -28,7 +28,7 @@ class ParallaxHeader extends React.Component {
                 justifyContent: 'center',
                 alignItems: 'center',
                 display: 'flex',
-                height: 500,
+                height: '100%',
               }}
             >
               <h1>{this.props.title}</h1>
