@@ -136,6 +136,16 @@ class TeamPage extends React.Component {
       return aSurname.localeCompare(bSurname);
     });
 
+    // Sort the people array so people with the 'leader' tag are first
+    teamData.people.sort((a, b) => {
+      const aIsLeader: boolean = a.tags.includes('leaders');
+      const bIsLeader: boolean = b.tags.includes('leaders');
+
+      // +bool converts it into an integer
+      // ! reverses it
+      return +!aIsLeader - +!bIsLeader;
+    });
+
     teamData.people.forEach(person => {
       console.log(`Processing person: ${person.name}`);
       this.creditEntries.push({
