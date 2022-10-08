@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "iGEM-Baskerville";
-    src: url("https://static.igem.wiki/teams/4508/wiki/site-res/librebaskerville-regular.ttf");
+  font-family: 'iGEM-Baskerville';
+  src: url('https://static.igem.wiki/teams/4508/wiki/site-res/librebaskerville-regular.ttf');
 }
 
 @font-face {
-    font-family: "iGEM-BaskervilleBold";
-    src: url("https://static.igem.wiki/teams/4508/wiki/site-res/librebaskerville-bold.ttf");
+  font-family: 'iGEM-BaskervilleBold';
+  src: url('https://static.igem.wiki/teams/4508/wiki/site-res/librebaskerville-bold.ttf');
 }
 
 @font-face {
-    font-family: "iGEM-BaskervilleItalic";
-    src: url("https://static.igem.wiki/teams/4508/wiki/site-res/librebaskerville-italic.ttf");
+  font-family: 'iGEM-BaskervilleItalic';
+  src: url('https://static.igem.wiki/teams/4508/wiki/site-res/librebaskerville-italic.ttf');
 }

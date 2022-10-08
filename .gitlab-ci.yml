@@ -9,7 +9,6 @@ cache:
     - .cache/
     - public/
 
-
 pages:
   stage: build
   script:
@@ -20,4 +19,4 @@ pages:
     paths:
       - public
   only:
-  - main
+    - main

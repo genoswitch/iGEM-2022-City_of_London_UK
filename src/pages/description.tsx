@@ -1,11 +1,11 @@
-import * as React from "react"
+import * as React from 'react';
 
-import MarkdownPage from "../components/MarkdownPage"
+import MarkdownPage from '../components/MarkdownPage';
 
-import data from "../../pages/description.md"
+import data from '../../pages/description.md';
 
 const Page = () => {
-    return (<MarkdownPage data={data} title="Description" />)
-}
+  return <MarkdownPage data={data} title="Description" />;
+};
 
-export default Page
+export default Page;

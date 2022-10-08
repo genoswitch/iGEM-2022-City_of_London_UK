@@ -1,20 +1,20 @@
 /* Link underline */
 a.markdown-header-link:link {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 a.markdown-header-link:visited {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 a.markdown-header-link:hover {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 a.markdown-header-link:active {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
