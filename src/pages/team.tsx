@@ -50,6 +50,9 @@ class CreditEntry extends React.Component {
 }
 
 class TeamPage extends React.Component {
+
+    bannerImageSrc = "https://static.igem.wiki/teams/4508/wiki/team/most-of-team-header-pic.jpg"
+
     creditEntries = []
     totalImages: number = 0
 
@@ -61,7 +64,17 @@ class TeamPage extends React.Component {
 
     componentDidMount(): void {
         let imagesLoaded = 0
-        this.totalImages = teamData.people.length
+        // We add an extra image to we can add the banner image to the preload list.
+        this.totalImages = teamData.people.length + 1
+
+        // Preload the banner image
+        const image = new Image();
+        image.onload = () => {
+            imagesLoaded++;
+            console.log(`Loaded banner image!`)
+            this.setState({ imagesLoaded })
+        }
+        image.src = this.bannerImageSrc
 
         // Sort the people array by name
         teamData.people.sort((a, b) => a.name.localeCompare(b.name))
@@ -121,7 +134,7 @@ class TeamPage extends React.Component {
             <NavBar />
             <ParallaxProvider>
                 <ParallaxBanner style={{ aspectRatio: "2.5/1" }}>
-                    <ParallaxBannerLayer speed={-20} image="https://static.igem.wiki/teams/4508/wiki/team/most-of-team-header-pic.jpg" />
+                    <ParallaxBannerLayer speed={-20} image={this.bannerImageSrc} />
                     <ParallaxBannerLayer>
                         <div style={{ color: "white", padding: 20, justifyContent: "center", alignItems: "center", display: "flex", height: 500 }}>
                             <h1>Meet the Team</h1>
