@@ -35,6 +35,10 @@ const NavBar = () => {
                                 Description <sup>(where does this go?)</sup>
                             </Nav.Link>
                         </Nav.Item>
+
+                        <Nav.Item>
+                            <Nav.Link href={withPrefix("team")}>Team</Nav.Link>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
