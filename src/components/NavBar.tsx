@@ -23,18 +23,14 @@ const NavBar = () => {
                 <Navbar.Collapse>
                     <Nav>
                         <NavDropdown title="Project">
+                            <NavDropdown.Item href={withPrefix("description")}>Description</NavDropdown.Item>
                             <NavDropdown.Item href={withPrefix("experiments")}>Experiments</NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Awards">
+                        <NavDropdown title="Human Practices">
+                            <NavDropdown.Item href={withPrefix("human-practices")}>Human Practices</NavDropdown.Item>
                             <NavDropdown.Item href={withPrefix("entrepreneurship")}>Entrepreneurship</NavDropdown.Item>
                         </NavDropdown>
-
-                        <Nav.Item>
-                            <Nav.Link href={withPrefix("description")}>
-                                Description <sup>(where does this go?)</sup>
-                            </Nav.Link>
-                        </Nav.Item>
 
                         <Nav.Item>
                             <Nav.Link href={withPrefix("team")}>Team</Nav.Link>
