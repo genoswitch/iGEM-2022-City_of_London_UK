@@ -36,6 +36,11 @@ class CreditEntry extends React.Component {
                         <div class="col-md-8">
                             <Card.Body>
                                 <Card.Title>{this.props.person.name}</Card.Title>
+                                {/* If this person has a title, display it under their name. Otherwise, don't display anything there. */}
+                                {this.props.person.title ? <Card.Subtitle>{this.props.person.title}</Card.Subtitle> : undefined}
+
+                                {/* Display the person's description */}
+                                <br />
                                 {this.props.person.desc}
                             </Card.Body>
                         </div>
