@@ -121,7 +121,6 @@ class TeamPage extends React.Component {
                 </ParallaxBanner>
             </ParallaxProvider>
             <Container>
-                {`Ready?: ${this.state.ready}`}
                 <div>{this.creditEntries}</div></Container>
             <Footer />
         </div>
