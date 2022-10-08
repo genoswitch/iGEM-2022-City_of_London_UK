@@ -13,7 +13,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "localprod": "gatsby build && gatsby serve"
+    "localprod": "gatsby build && gatsby serve",
+    "lint": "prettier -w ./"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
