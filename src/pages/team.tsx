@@ -79,8 +79,12 @@ class TeamPage extends React.Component {
         }
         image.src = this.bannerImageSrc
 
-        // Sort the people array by name
-        teamData.people.sort((a, b) => a.name.localeCompare(b.name))
+        // Sort the people array by surname
+        teamData.people.sort((a, b) => {
+            const aSurname: string = a.name.split(" ").slice(-1)[0]
+            const bSurname: string = b.name.split(" ").slice(-1)[0]
+            return aSurname.localeCompare(bSurname)
+        })
 
         teamData.people.forEach(person => {
             console.log(`Processing person: ${person.name}`)
