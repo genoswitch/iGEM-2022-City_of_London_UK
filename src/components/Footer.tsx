@@ -39,7 +39,15 @@ const Footer = () => {
           <Button variant="light" href="#">
             Placeholder
           </Button>
-          <Navbar.Text>(SHA: {commit_sha})</Navbar.Text>
+          <Navbar.Text>
+            (SHA:{' '}
+            <a
+              href={`https://gitlab.igem.org/2022/city-of-london-uk/-/commit/${commit_sha}`}
+            >
+              {commit_sha}
+            </a>
+            )
+          </Navbar.Text>
           <p>
             © 2022 - Content on this site is licensed under a{' '}
             <a href="https://creativecommons.org/licenses/by/4.0/">
