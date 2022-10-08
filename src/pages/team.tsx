@@ -5,12 +5,7 @@ import { TextField } from '@mui/material';
 import CircularProgressWithLabel from '../components/CircularProgressWithLabel';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
-
-import {
-  ParallaxProvider,
-  ParallaxBanner,
-  ParallaxBannerLayer,
-} from 'react-scroll-parallax';
+import ParallaxHeader from '../components/ParallaxHeader';
 
 import Badge from 'react-bootstrap/Badge';
 import Container from 'react-bootstrap/Container';
@@ -218,25 +213,7 @@ class TeamPage extends React.Component {
     return (
       <div>
         <NavBar />
-        <ParallaxProvider>
-          <ParallaxBanner style={{ aspectRatio: '2.5/1' }}>
-            <ParallaxBannerLayer speed={-20} image={this.bannerImageSrc} />
-            <ParallaxBannerLayer>
-              <div
-                style={{
-                  color: 'white',
-                  padding: 20,
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  height: 500,
-                }}
-              >
-                <h1>Meet the Team</h1>
-              </div>
-            </ParallaxBannerLayer>
-          </ParallaxBanner>
-        </ParallaxProvider>
+        <ParallaxHeader title={'Meet the Team'} bgSrc={this.bannerImageSrc} />
         <Container>
           <div style={{ paddingTop: 16, paddingLeft: 16 }}>
             <TextField
