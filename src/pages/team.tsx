@@ -18,11 +18,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 class CreditEntry extends React.Component {
     static defaultProps = {
-        person: {
-            name: "iGEM Contributor",
-            pic: "https://static.igem.org/websites/common/2022/logos/igem-logo-light.svg",
-            desc: "Description goes here"
-        }
+        name: "iGEM Contributor",
+        pic: "https://static.igem.org/websites/common/2022/logos/igem-logo-light.svg",
+        desc: "iGEM Team Member"
     }
 
     render() {
@@ -31,17 +29,17 @@ class CreditEntry extends React.Component {
                 <Card>
                     <Row>
                         <div class="col-md-4">
-                            <Card.Img src={this.props.person.pic} />
+                            <Card.Img src={this.props.pic} />
                         </div>
                         <div class="col-md-8">
                             <Card.Body>
-                                <Card.Title>{this.props.person.name}</Card.Title>
+                                <Card.Title>{this.props.name}</Card.Title>
                                 {/* If this person has a title, display it under their name. Otherwise, don't display anything there. */}
-                                {this.props.person.title ? <Card.Subtitle>{this.props.person.title}</Card.Subtitle> : undefined}
+                                {this.props.title ? <Card.Subtitle>{this.props.title}</Card.Subtitle> : undefined}
 
                                 {/* Display the person's description */}
                                 <br />
-                                {this.props.person.desc}
+                                {this.props.desc}
                             </Card.Body>
                         </div>
                     </Row>
@@ -69,18 +67,24 @@ class TeamPage extends React.Component {
         teamData.people.sort((a, b) => a.name.localeCompare(b.name))
 
         teamData.people.forEach(person => {
+            console.log(`Processing person: ${person.name}`)
             this.creditEntries.push(
-                <CreditEntry person={person} />
+                <CreditEntry name={person.name} title={person.title} pic={person.pic} desc={person.desc} />
             )
 
-            // Preload the image
-            const image = new Image();
-            image.onload = () => {
-                imagesLoaded++;
-                console.log(`Loaded image ${imagesLoaded} of ${this.totalImages}`)
-                this.setState({ imagesLoaded })
+            // Preload the image (if one was set)
+            if (person.pic) {
+                const image = new Image();
+                image.onload = () => {
+                    imagesLoaded++;
+                    console.log(`Loaded image ${imagesLoaded} of ${this.totalImages}`)
+                    this.setState({ imagesLoaded })
+                }
+                image.src = person.pic
+            } else {
+                console.log(`${person.name} has no pic, not preloading...`)
+                imagesLoaded++
             }
-            image.src = person.pic
         })
 
     }
