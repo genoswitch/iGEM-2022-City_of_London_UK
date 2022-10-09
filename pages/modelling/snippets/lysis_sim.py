@@ -7,7 +7,7 @@ length_x = h_cyl * 1.5 # length of X side
 
 scale =  length_x / dims[0] # dx
 
-mid = np.array([int(dims[0]/2), int(dims[1]/2), int(dims[2]/2)])
+mid = np.array([int(dims[0]/2), int(dims[1]/2), int(dims[2]/2)]) # Midpoints of array in each dim
 
 def pixels(length):
     return int(length / scale)
@@ -15,18 +15,20 @@ def pixels(length):
 
 
 
-initial = np.ones(dims) * room_temp # inital Temp
+initial = np.ones(dims) * room_temp # inital temperature state
 
-alpha = np.ones(dims) * alpha_air
+alpha = np.ones(dims) * alpha_air # set diffusivity to all alpha_air
 
 
 cyl_bool = rg.cylinder(dims, pixels(h_cyl), pixels(r_water + thickness_cyl), axis = 0)
 water_bool = rg.cylinder(dims, pixels(h_water), pixels(r_water), axis = 0)
 wire_bool = rg.cylinder(dims, pixels(h_wire), pixels(r_wire), axis = 1)
+# Rasterise cylinders as Boolean mask arrays
 
 alpha[cyl_bool] = alpha_cyl
 alpha[water_bool] = alpha_water
 alpha[wire_bool] = alpha_wire
+# Fill diffusivity data with these region masks
 
 
 
@@ -52,11 +54,12 @@ def Wire_tick(self):
 import simulation as sim
 
 Model = sim.ThermalModel(initial, alpha, scale, 'void', -1, room_temp)
+# Construct a model with the above initial state, diffusivity, delta_x, void boundary, no convergence cutoff rate
 
 Model.voxel_tick_override(wire_bool, Wire_tick)
+# Enact the resistive element simulation override
 
 frames, times = Model.simulate_to(30, log = True)
-
 # Simulate evolution of temperature
 
 

@@ -3,25 +3,22 @@ import numpy as np
 import time as t
 
 
-
 def find_dt(self) -> float:
     a_max = np.max(self.diffusivity)
     return self.delta_xyz**2 / a_max / np.ndim(self.initial_state) / 8
 
-def find_stop(self) -> float:
-    return np.max()
 
 
 class ThermalModel:
 
     def reset_sim(self) -> None:
-        #self.frames = np.empty((0,) + self.dims)
-        self.frames = []
-        # Creates array with time dim (1) and space dims
 
-        #self.frame_times = np.empty((0,))
+        self.frames = []
+        # Creates list to store frames
+
         self.frame_times = []
-        # Creates array for times corresponding to frames
+        # Creates list for times corresponding to frames
+
 
         self.state = np.copy(self.initial_state)
         # Makes a copy of the initial state
@@ -41,13 +38,15 @@ class ThermalModel:
 
 
         self.stop = smallest_rate
+        # Smallest rate of temperature change (K/s) before simulation "converges" and stops
 
         
         self.void_temp = void_temp
+        # Temperature of void boundary condition (if chosen)
 
 
         self.reset_sim()
-        # Primes simulation
+        # Resets simulation
 
         self.diffusivity = np.copy(thermal_diffusivity)
 
@@ -57,13 +56,15 @@ class ThermalModel:
 
 
         self.overrides = []
+        # List of tuples of overrides
 
 
 
     def voxel_tick_override(self, overriden_voxels, appended_tick_differential) -> None:
-
         override = ( (overriden_voxels != 0) , appended_tick_differential)
-        # Appended_tick should take args (self) and return an array of self.dims to be multiplied by dt
+        # Overriden_voxels is truned into a Boolean mask, selecting which pixels to override
+        # Appended_tick_differential (type: Function) should take args (self) and return an array of self.dims to be multiplied by dt
+        
         self.overrides.append(override)
     
 
@@ -71,27 +72,26 @@ class ThermalModel:
 
 
     def cache_state(self) -> None:
-        #self.frames = np.concatenate((self.frames, np.expand_dims(self.state, axis = 0)), axis = 0)
         self.frames.append(self.state)
-
         self.frame_times.append(self.time)
+        # Saves current time, frame
 
 
     def tick(self, delta_time) -> bool:
 
         differential = mt.Laplacian(self.state, self.delta_xyz, self.boundary_conditions, self.void_temp)
-
+        # Works out discretised Laplacian, with the given boundary condition
 
         differential *= self.diffusivity
 
         for override in self.overrides:
             differential += override[0] * override[1](self)
-        # Local Override equation iterations
+        # Local (masked by override[0]) override equation iterations
 
 
         if np.max(differential) < self.stop:
             return False
-        # Check if further iterations will result in visible change
+        # Check if further iterations will result in temperature change greater than the smallest allowed rate
 
         self.state += differential * delta_time
         # Global heat equation iteration
@@ -101,47 +101,53 @@ class ThermalModel:
         # Advance time
 
         return True
+        # returns False if simulation "converges" (falls below minimum allowed rate of change)
 
 
     def simulate_to(self, time, cache_fps = None, dt = None, log = False):
         self.reset_sim()
-        # Prime simulation
 
         if dt is None:
             dt = find_dt(self)
-        # If no dt given, finds a suitable delta time
+        # If no dt given, finds a suitable convergent delta time
 
         ticks = int(time / dt)
         # Works out how many times to tick
 
         checks = int(ticks / 10)
+        # Works out how many ticks makes 10%
 
         tic = t.time()
+        # Set stopwatch
 
         if cache_fps:
+            # If a selective frame caching rate (simulated time) is given, only save frames every 'caches' ticks
             caches = int(1 / cache_fps / dt)
             for i in range(ticks):
 
                 if log and i % checks == 0:
                     percent = round(i / ticks, 1) * 100
                     print(percent, "% : t = ", self.time)
+                    # Print every 10% progress
 
 
                 if i == 20:
                     elapsed = t.time() - tic
                     print("ETA in seconds: ", round(elapsed / 20 * (ticks - 20), 1))
+                    # Calculate an overestimated time of completion (seconds)
 
 
                 if not self.tick(dt):
                     print("Simulation converges, stopping further iteration")
                     self.cache_state()
                     break
+                # Checks for "convergence", breaks the loop of simulation
 
                 if i % caches == 0:
                     self.cache_state()
 
         else:
-
+            # Else save every frame
             for i in range(ticks):
 
                 if log and i % checks == 0:
@@ -164,4 +170,3 @@ class ThermalModel:
 
         return np.array(self.frames), np.array(self.frame_times)
         # Returns tuple of array of frames across time and the corresponding frame times
-
