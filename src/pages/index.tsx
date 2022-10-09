@@ -20,11 +20,23 @@ import '../fonts/Baskerville.css';
 const ParallaxComponent = () => {
   return (
     <ParallaxProvider>
-      <ParallaxBanner style={{ aspectRatio: '2/1' }}>
+      <ParallaxBanner style={{ aspectRatio: '2/1', backgroundColor: "#98a1c1" }}>
         <ParallaxBannerLayer
-          speed={-20}
-          image="https://static.igem.wiki/teams/4508/wiki/site-res/beans.png"
+          speed={0}
+          image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean3x04.png"
         />
+        <ParallaxBannerLayer
+          speed={10}
+          image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean3x03.png"
+        />
+        <ParallaxBannerLayer
+          speed={20}
+          image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean3x02.png"
+        />
+        <ParallaxBannerLayer
+          speed={30}
+          image="https://static.igem.wiki/teams/4508/wiki/site-res/bean-states/bean3x01.png"
+        />       
         <ParallaxBannerLayer>
           <div
             style={{
@@ -37,18 +49,10 @@ const ParallaxComponent = () => {
             }}
           >
             <div>
-              <div style={{ fontSize: 81, fontFamily: 'iGEM-Baskerville' }}>
+              <div style={{ fontSize: 81, fontFamily: 'iGEM-Baskerville', marginTop: 40}}>
                 aLFA
               </div>
-              <div
-                style={{
-                  marginTop: -40,
-                  fontSize: 25,
-                  fontFamily: 'iGEM-Montserrat',
-                  fontWeight: 'lighter',
-                  letterSpacing: 24,
-                }}
-              >
+              <div style={{ marginTop: -30, fontSize: 25, fontFamily: 'iGEM-Montserrat', fontWeight: 'lighter', letterSpacing: 24, }}>
                 remask
               </div>
             </div>
@@ -57,6 +61,7 @@ const ParallaxComponent = () => {
                 src="https://static.igem.wiki/teams/4508/wiki/site-res/alfa-logo-white.png"
                 width={80}
                 className="d-inline-block align-top"
+                style={{ marginTop: 40 }}
               />
             </div>
           </div>
