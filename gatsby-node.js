@@ -18,6 +18,14 @@ exports.onCreateWebpackConfig = ({
             },
           ],
         },
+        {
+          test: /\.py$/,
+          use: [
+            {
+              loader: 'raw-loader',
+            },
+          ],
+        },
       ],
     },
   });
