@@ -24,14 +24,15 @@ class ColumnEntry extends React.Component {
             position: 'absolute', 
             bottom: 48,  
           }}></div>
-          <div className="bottom-text" style={{ 
+          <a className="bottom-text" style={{ 
             marginLeft: 15,
-            fontFamily: "iGEM-BaskervilleItalic", 
+            fontFamily: "iGEM-BaskervilleItalic",
+            color: this.props.col, 
             fontSize: 13, 
             position: 'absolute', 
             bottom: 15, }}>
               Click to read more...
-          </div>
+          </a>
           <i className="arrow" style={{borderColor: this.props.col, position: 'absolute', bottom: 18}}></i>
         </Card.Body>
       </Card>
@@ -39,18 +40,20 @@ class ColumnEntry extends React.Component {
   }
 }
 
+
+
 const Columns = () => {
   return (
     <div>
       <CardGroup style={{ height: '200px', }}>
         <ColumnEntry title="Meet the Team" col="#d4e6f1" bg_col="#ae997a" />
-        <ColumnEntry title="Methodology" col="#4c5b61" bg_col="#e0ccd8" />
-        <ColumnEntry title="An Introductory Guide" col="#fbf7e4" bg_col="#90bbc4" />
+        <ColumnEntry title="Description" col="#4c5b61" bg_col="#e0ccd8" />
+        <ColumnEntry title="Human Practices" col="#fbf7e4" bg_col="#90bbc4" />
       </CardGroup>
       <CardGroup style={{ height: '200px' }}>
-        <ColumnEntry col="#485c52" bg_col="#ced5de" />
-        <ColumnEntry col="#4e426b" bg_col="#b7c1b8" />
-        <ColumnEntry title="People" col="#f7f1e2" bg_col="#ce7984" />
+        <ColumnEntry title="Entrepreneurship" col="#485c52" bg_col="#ced5de" />
+        <ColumnEntry title="Modelling" col="#4e426b" bg_col="#b7c1b8" />
+        <ColumnEntry title="Experiments" col="#f7f1e2" bg_col="#ce7984" />
       </CardGroup>
     </div>
   );
