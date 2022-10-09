@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import "D:/igem2/city-of-london-uk/src/styles.css"
 
 class ColumnEntry extends React.Component {
   static defaultProps = {
@@ -16,8 +17,21 @@ class ColumnEntry extends React.Component {
         className="list-group-flush"
         style={{ 'background-color': this.props.bg_col, color: this.props.col, borderColor: this.props.bg_col}}
       >
-        <Card.Body>
-          <Card.Title style={{fontWeight: 1000}}>{this.props.title}</Card.Title>
+        <Card.Body style={{padding: 0}}>
+          <Card.Title style={{fontWeight: 1000, marginTop: 15, marginLeft: 15}}>{this.props.title}</Card.Title>
+          <div className="line" style={{
+            backgroundColor: this.props.col,
+            position: 'absolute', 
+            bottom: 38,  
+          }}></div>
+          <div style={{ 
+            marginLeft: 15,
+            fontFamily: "iGEM-BaskervilleItalic", 
+            fontSize: 13, 
+            position: 'absolute', 
+            bottom: 10, }}>
+              Click to read more
+          </div>
         </Card.Body>
       </Card>
     );
