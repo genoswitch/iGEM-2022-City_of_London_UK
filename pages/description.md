@@ -6,6 +6,8 @@
 
 _Mycobacterium tuberculosis_ (_M. tuberculosis_) is a gram positive bacteria, so has a thick peptidoglycan cell wall. Therefore, it is harder to break down its wall and retrieve its DNA when compared to gram negative bacteria. In order to detect the hsp65 gene in the _Mycobacterium tuberculosis_, lysis of the bacteria is required; we have specifically utilised thermal lysis. Whilst enzymatic lysis of _M. tuberculosis_ was investigated, it required a waiting period of more than 24 hours, thus we concluded that it would be unfeasible to enforce a 24+ hour waiting time for a mask-related product. Although thermal lysis requires temperatures of 60-65 degrees celsius, our hardware system ensures that this is reached whilst still ensuring the user’s safety. Thermal lysis was also deemed safer and more reliable due to the absence of chemicals and toxins, making it the better option when the user’s wellbeing is taken into account.
 
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/lysis-wiki.jpg"/>
+
 ## Thermal Lysis
 
 - Thermal lysis would occur at approximately 60-65°C, in order for thermal lysis and amplification of the DNA to occur in one step. This was proven to also work for the H37Rv strain of _M.tuberculosis_, where it disinfected the mycobacteria culture, lysed the cells and performed helicase dependent amplification (HDA) on the extracted DNA, where HDA occured after approximately 10 minutes and the whole process took around 60 minutes.<sup>1</sup>
@@ -15,6 +17,8 @@ _Mycobacterium tuberculosis_ (_M. tuberculosis_) is a gram positive bacteria, so
 Lysis leaves the cell in a messy state, with Mycolic acids as well as other waxy acids covalently and non-covalently connected to the cell wall. Therefore, a detergent solution is necessary to wash away unwanted particles. The proposed solution is Tween 80, which has been shown to have no effect on the function of lytic and amplification enzymes.<sup>2</sup>
 
 ## Gene Amplification
+
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/rpa-wiki.jpg"/>
 
 Recombinase Polymerase Amplification (RPA) is needed in order to achieve sufficient amounts of hsp65 gene, so it can be detected by Cas12a to signal _M. tuberculosis_ is present. This reliable method of amplification effectively complements the project due to the high sensitivity of RPA which can amplify as low as 1-10 DNA target copies.<sup>3</sup> This is ideal due to the low quantity of bacteria present in breath for someone positive for _M.tuberculosis_. The optimum temperature of RPA is 37-42°C, so no heavy machinery such as a thermocycler is needed and as it is an isothermal amplification, it does not require specialised instrumentation.<sup>4</sup> The temperature is achieved by allowing the lysis liquid to cool as it passes through to the RPA compartment.
 
@@ -51,6 +55,8 @@ There are two enzymes that can be used for SHERLOCK (Specific High-sensitivity E
 
 # LFA Output
 
+---
+
 <img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/description/lfa-output.png"/>
 
 **When no tuberculosis in sample** (reporter molecule not cleaved)
@@ -62,6 +68,90 @@ The reporter molecule is collaterally cleaved so the two ends will be split. The
 ## Why did we choose LFA?
 
 LFAs are simple and rapid, detecting the presence of certain hormones without necessitating expensive and specialised medical technology. They are easy to manufacture and distribute, making it an optimal and accessible option that isn’t costly to use on a regular basis.<sup>10,11</sup>Additionally, they are compact and easy to fit into a mask without making wearing it uncomfortable. They have a long shelf life, paired with their straightforward usage and can therefore be optimal for use in developing countries. Furthermore, the short development period of LFAs makes them easily adaptable and easy to adjust if necessary. As such, an LFA is the optimal technology for us to implement.<sup>12</sup>
+
+# Prolonged heating of L.Casei at 65 C promotes lysis of bacteria
+
+---
+
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/prolonged-heating-of-l-casei-at-65-c-promotes-lysis-of-bacteria.png"/>
+
+The baseline image at room temperature, taken before heating, shows the presence of only single cells. After heating the sample for 20 minutes, chains of L.Casei can be seen to have formed. This effect of increased chain formation and growth has been previously reported at high temperatures<sup>13</sup>. However, by 80 mins of incubation, change in morphology with disruption of the chain formation and increased debris indicates increased bacterial lysis.
+
+## Methodology
+
+1. Heat water bath to 65 C
+
+2. Remove L. casei jars from incubator
+
+3. Gram-stain sample from jar to create a negative control slide (see gram-staining methodology below)
+
+4. Transfer vials of L. casei into water bath
+
+5. Let vials sit for 20 mins, then remove and take a swab to procure a slide for gram-staining
+
+6. Use swab to transfer bacteria in vial to slide
+
+7. Repeat each time for periods at 40 mins, 60 mins and 80 mins
+
+8. Inspect slides for changes
+
+## Gram-staining methodology
+
+1. Dip swab into bacterial culture then smear thoroughly onto microscope slide
+
+2. Heat dry the slide by passing over Bunsen flame using forceps-this will also heat-fix the bacterial smear to the slide
+
+3. Wait for slide to cool down
+
+4. Switch off Bunsen flame
+
+5. Suspend slide over sink using slide racks then flood slide with crystal violet solution
+
+6. Wait for 1 min
+
+7. Pour off excess stain, then wash with bottle of deionised water
+
+8. Flood slide with Gram’s iodine solution and wait for 1 min
+
+9. Tilt slide using forceps, then wash down with a few drops of ethanol until run-off is clear
+
+10. Wash with deionised water
+
+11. Pour off water, then flood slide with Safranin counterstain, leave for 15 seconds
+
+12. Wash away with deionised water and wait for slide to dry
+
+13. Place slide under microscope for inspection
+
+# Modularity + use in wider healthcare
+
+---
+
+## Potential of our project
+
+As part of our proposal to create a mask that can simultaneously prevent infection of Tuberculosis and test for the disease, we plan on transferring this system to other infectious, airborne respiratory diseases. The only components of our test that we plan on changing are the primers and the gRNA in the CRISPR detection section. This is easily done on a software called Benchling.
+
+We believe that the versatility of the system will allow us to apply the design on a much larger scale, and potentially more internationally, rather than just targeting regions with high TB infection rates. Furthermore, our project has a potential for multiplexing, where a single diagnostic mask could potentially be used to detect multiple infections.
+
+### Example : Streptococcus pneumoniae
+
+S.Pneumoniae is a bacterium that has historically been the most common pathogen to cause Community-acquired pneumonia (CAP) world wide. Pneumonia accounts for 14% of all deaths of children under 5 years old, killing 740,180 children in 2019.
+It is a gram-positive bacteria, so we expect that the lysis stage would remain the same.
+The primers and the gRNA has been modified for S.pneumoniae.
+
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/modularity-use-in-wider-healthcare.jpg"/>
+
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/modularity-use-in-wider-healthcare2.png"/>
+
+## Sources
+
+World Health Organization. Pneumonia (2021). Available from : https://www.who.int/news-room/fact-sheets/detail/pneumonia (accessed 31/07/2022)
+
+Dion CF, Ashurst JV. Streptococcus Pneumoniae. [Updated 2022 Apr 30]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK470537/ (accessed 31/07/2022)
+
+El Aila NA, Emler S, Kaijalainen T, De Baere T, Saerens B, Alkan E, Deschaght P, Verhelst R, Vaneechoutte M. The development of a 16S rRNA gene based PCR for the identification of Streptococcus pneumoniae and comparison with four other species specific PCR assays. BMC Infect Dis. 2010 Apr 29;10:104. doi: 10.1186/1471-2334-10-104. PMID: 20426878; PMCID: PMC2874796.
+
+Gootenberg, Jonathan S.; Abudayyeh, Omar O.; Kellner, Max J.; Joung, Julia; Collins, James J.; Zhang, Feng (2018). _Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a, and Csm6. Science, (), eaaq0179–._ doi:10.1126/science.aaq0179
 
 # References
 
@@ -91,3 +181,5 @@ LFAs are simple and rapid, detecting the presence of certain hormones without ne
 11. 2016. _Lateral Flow Assay Development Guide._ 1st ed. [ebook] p.5. Available at: https://www.stratech.co.uk/wp-content/uploads/2016/10/BioReady-Lateral-Flow-Handbook-v-1.0.pdf [Accessed 17 January 2022].
 
 12. Breitbach A, (2020) Lateral Flow Readout for CRISPR/Cas-based detection strategies Available at : https://www.milenia-biotec.com/en/tips-lateral-flow-readouts-crispr-cas-strategies/ (accessed 18th August 2022)
+
+13. Novitsky, T., Chan, M., Himes, R. and Akagi, J., 1974. Effect of Temperature on the Growth and Cell Wall Chemistry of a Facultative Thermophilic Bacillus. _Journal of Bacteriology_, 117(2), pp.858-865.
