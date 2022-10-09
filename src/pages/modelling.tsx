@@ -55,7 +55,7 @@ class ModellingPage extends React.Component {
           </div>
           {/** Add a dividing line between the header and doc content */}
           <hr />
-          <MathJaxContext>
+          <MathJaxContext version={3} src={'../mathjax@3.2.2_tex-mml-chtml.js'}>
             <MathJax>
               <div class="converted-content">
                 <h1 id="equations">Equations</h1>
