@@ -7,6 +7,8 @@ import NavBar from '../components/NavBar';
 import ParallaxHeader from '../components/ParallaxHeader';
 
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+import Stack from 'react-bootstrap/Stack';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -251,7 +253,7 @@ class ModellingPage extends React.Component {
                   unexpected behaviour of the model.
                 </p>
                 <p>
-                  <em>checkerboard.gif</em>
+                  <img src="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/checkerboard.gif" />
                 </p>
                 <p>
                   Some voxels begin to oscillate, forming a checkerboard pattern
@@ -400,10 +402,13 @@ class ModellingPage extends React.Component {
                 </p>
                 <p>
                   <em>
-                    &lt;iframe
-                    src="https://www.desmos.com/calculator/gjawwhqvyd?embed"
-                    width="500" height="500" style="border: 1px solid #ccc"
-                    frameborder=0&gt;&lt;/iframe&gt;
+                    <iframe
+                      src="https://www.desmos.com/calculator/gjawwhqvyd?embed"
+                      width="500"
+                      height="500"
+                      style={{ border: '1px solid #ccc' }}
+                      frameborder="0"
+                    />
                   </em>
                 </p>
                 <p>
@@ -680,10 +685,13 @@ class ModellingPage extends React.Component {
                 </p>
                 <p>
                   <em>
-                    &lt;iframe
-                    src="https://www.desmos.com/calculator/ejggksictr?embed"
-                    width="500" height="500" style="border: 1px solid #ccc"
-                    frameborder=0&gt;&lt;/iframe&gt;
+                    <iframe
+                      src="https://www.desmos.com/calculator/ejggksictr?embed"
+                      width="500"
+                      height="500"
+                      style={{ border: '1px solid #ccc' }}
+                      frameborder="0"
+                    />
                   </em>
                 </p>
                 <h1 id="conditions-for-convergent-iteration">
@@ -845,10 +853,26 @@ class ModellingPage extends React.Component {
                   lost to surroundings, energy conserved within volume):
                 </p>
                 <p>
-                  <em>
-                    for each gif: void.gif, void2.gif [Caption: "Void boundary
-                    condition"]
-                  </em>
+                  <Stack direction="horizontal">
+                    <Card>
+                      <Card.Img
+                        variant="top"
+                        src="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/void.gif"
+                      />
+                      <Card.ImgOverlay>
+                        <Card.Title>Void boundary condition (#1)</Card.Title>
+                      </Card.ImgOverlay>
+                    </Card>
+                    <Card>
+                      <Card.Img
+                        variant="top"
+                        src="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/void2.gif"
+                      />
+                      <Card.ImgOverlay>
+                        <Card.Title>Void boundary condition (#2)</Card.Title>
+                      </Card.ImgOverlay>
+                    </Card>
+                  </Stack>
                 </p>
                 <p>
                   ...the simulation was run with the model parameters, with the
