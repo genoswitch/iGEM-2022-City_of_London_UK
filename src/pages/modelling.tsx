@@ -30,6 +30,31 @@ class ModellingPage extends React.Component {
         <ParallaxHeader title={'Modelling'} />
         <div style={{ height: 20 }} />
         <Container>
+          <div class="converted-standalone-header">
+            <header id="title-block-header">
+              <h1 class="title">
+                Modelling Temperature Dissipation in the Mask Lysis Unit
+              </h1>
+              <p class="date" style={{ opacity: 0.8 }}>
+                April 2022
+              </p>
+              <div class="abstract">
+                <h2 class="abstract-title">Abstract</h2>
+                <p>
+                  We aim to model the effects of heating on different conditions
+                  in the lysis unit to determine whether heating is uniform and
+                  fast enough, and how scale affects it. We use thermal
+                  iterative methods on a discrete space in three dimensions.
+                  Code is written in Python with the NumPy library, Raster
+                  Geometry and Matplotlib. Electronics information in liaison
+                  with Guantanamo Krishna. Thanks to Sophie Elena - co-writer of
+                  the code and modelling expert - and Jian-Hui Mo.
+                </p>
+              </div>
+            </header>
+          </div>
+          {/** Add a dividing line between the header and doc content */}
+          <hr />
           <MathJaxContext>
             <MathJax>
               <div class="converted-content">
