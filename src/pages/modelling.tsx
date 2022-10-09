@@ -274,8 +274,8 @@ class ModellingPage extends React.Component {
                   />
                   <CodeBlock
                     code={MatricesSnippet}
-                    title="Matricies"
-                    subtitle={'matricies.py'}
+                    title="Matrices"
+                    subtitle={'matrices.py'}
                   />
                   <CodeBlock
                     code={LysisSimSnippet}
