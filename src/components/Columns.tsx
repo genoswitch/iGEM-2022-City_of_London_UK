@@ -29,9 +29,10 @@ class ColumnEntry extends React.Component {
             fontFamily: "iGEM-BaskervilleItalic", 
             fontSize: 13, 
             position: 'absolute', 
-            bottom: 10, }}>
-              Click to read more
+            bottom: 8, }}>
+              Click to read more...
           </div>
+          <i className="arrow" style={{borderColor: this.props.col, position: 'absolute', bottom: 13}}></i>
         </Card.Body>
       </Card>
     );
