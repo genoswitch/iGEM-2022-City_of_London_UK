@@ -6,7 +6,6 @@ import NavBar from '../components/NavBar';
 import CodeBlock from '../components/CodeBlock';
 
 import ParallaxHeader from '../components/ParallaxHeader';
-import OverrideMathJaxFontLocation from '../components/OverrideMathJaxFontLocation';
 
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
@@ -57,7 +56,6 @@ class ModellingPage extends React.Component {
           {/** Add a dividing line between the header and doc content */}
           <hr />
           <MathJaxContext version={3} src={'../mathjax@3.2.2_tex-mml-chtml.js'}>
-            <OverrideMathJaxFontLocation />
             <MathJax>
               <div class="converted-content">
                 <h1 id="equations">Equations</h1>
