@@ -14,10 +14,10 @@ class ColumnEntry extends React.Component {
     return (
       <Card
         className="list-group-flush"
-        style={{ 'background-color': this.props.bg_col, color: this.props.col, borderColor: this.props.bg_col, fontWeight: "bold"}}
+        style={{ 'background-color': this.props.bg_col, color: this.props.col, borderColor: this.props.bg_col}}
       >
         <Card.Body>
-          <Card.Title>{this.props.title}</Card.Title>
+          <Card.Title style={{fontWeight: 1000}}>{this.props.title}</Card.Title>
         </Card.Body>
       </Card>
     );
