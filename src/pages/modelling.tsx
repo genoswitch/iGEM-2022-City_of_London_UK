@@ -242,10 +242,21 @@ class ModellingPage extends React.Component {
                 </p>
                 <h1 id="code">Code</h1>
                 <p>
-                  <em>simulation.py, matrices.py, lysissim.py</em>
-                  <CodeBlock code={SimulationSnippet} title="Simulation" />
-                  <CodeBlock code={MatricesSnippet} title="Matricies" />
-                  <CodeBlock code={LysisSimSnippet} title="Lysis Sim" />
+                  <CodeBlock
+                    code={SimulationSnippet}
+                    title="Simulation"
+                    subtitle={'simulation.py'}
+                  />
+                  <CodeBlock
+                    code={MatricesSnippet}
+                    title="Matricies"
+                    subtitle={'matricies.py'}
+                  />
+                  <CodeBlock
+                    code={LysisSimSnippet}
+                    title="Lysis Sim"
+                    subtitle={'lysis_sim.py'}
+                  />
                 </p>
                 <h1 id="the-oscillating-grid-problem">
                   The Oscillating Grid Problem

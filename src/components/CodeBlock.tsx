@@ -6,6 +6,7 @@ import { CopyBlock, github } from 'react-code-blocks';
 class CodeBlock extends React.Component {
   static defaultProps = {
     title: 'Code Snippet',
+    subtitle: 'Subtitle',
     language: 'python',
     code: `print("Hello, world!")`,
     showLineNumbers: false,
@@ -17,6 +18,9 @@ class CodeBlock extends React.Component {
         <Card>
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
+            <Card.Subtitle>
+              <i style={{ opacity: 0.8 }}>{this.props.subtitle}</i>
+            </Card.Subtitle>
             <CopyBlock
               codeblock
               text={this.props.code}
