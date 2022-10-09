@@ -3,12 +3,17 @@ import { MathJaxContext, MathJax } from 'better-react-mathjax';
 
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
+import CodeBlock from '../components/CodeBlock';
 
 import ParallaxHeader from '../components/ParallaxHeader';
 
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
+
+import SimulationSnippet from '../../pages/modelling/snippets/simulation.py';
+import MatricesSnippet from '../../pages/modelling/snippets/matrices.py';
+import LysisSimSnippet from '../../pages/modelling/snippets/lysis_sim.py';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -238,6 +243,9 @@ class ModellingPage extends React.Component {
                 <h1 id="code">Code</h1>
                 <p>
                   <em>simulation.py, matrices.py, lysissim.py</em>
+                  <CodeBlock code={SimulationSnippet} title="Simulation" />
+                  <CodeBlock code={MatricesSnippet} title="Matricies" />
+                  <CodeBlock code={LysisSimSnippet} title="Lysis Sim" />
                 </p>
                 <h1 id="the-oscillating-grid-problem">
                   The Oscillating Grid Problem
