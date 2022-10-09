@@ -17,6 +17,26 @@ import LysisSimSnippet from '../../pages/modelling/snippets/lysis_sim.py';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+class GIFCard extends React.Component {
+  render() {
+    return (
+      <div style={{ padding: 16 }}>
+        <Card>
+          <Card.Body>
+            <Card.Title style={{ textAlign: 'center' }}>
+              {this.props.title}
+            </Card.Title>
+          </Card.Body>
+          <Card.Img
+            variant="top"
+            src={`https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/${this.props.src}`}
+          />
+        </Card>
+      </div>
+    );
+  }
+}
+
 class ModellingPage extends React.Component {
   static defaultProps = {
     data: '# Placeholder Page',
@@ -898,24 +918,44 @@ class ModellingPage extends React.Component {
                 </p>
                 <p>
                   <Stack direction="horizontal">
-                    <Card>
-                      <Card.Img
-                        variant="top"
-                        src="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/void.gif"
-                      />
-                      <Card.ImgOverlay>
-                        <Card.Title>Void boundary condition (#1)</Card.Title>
-                      </Card.ImgOverlay>
-                    </Card>
-                    <Card>
-                      <Card.Img
-                        variant="top"
-                        src="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/void2.gif"
-                      />
-                      <Card.ImgOverlay>
-                        <Card.Title>Void boundary condition (#2)</Card.Title>
-                      </Card.ImgOverlay>
-                    </Card>
+                    <GIFCard
+                      title="Void boundary condition (#1)"
+                      src="void.gif"
+                    />
+                    <GIFCard
+                      title="Void boundary condition (#2)"
+                      src="void2.gif"
+                    />
+                  </Stack>
+                  <Stack direction="horizontal">
+                    <GIFCard
+                      title="Adiabatic boundary condition (#1)"
+                      src="adiabatic.gif"
+                    />
+                    <GIFCard
+                      title="Adiabatic boundary condition (#2)"
+                      src="adiabatic2.gif"
+                    />
+                  </Stack>
+                  <Stack direction="horizontal">
+                    <GIFCard
+                      title="Frozen boundary condition (#1)"
+                      src="frozen.gif"
+                    />
+                    <GIFCard
+                      title="Frozen boundary condition (#2)"
+                      src="frozen2.gif"
+                    />
+                  </Stack>
+                  <Stack direction="horizontal">
+                    <GIFCard
+                      title="Repeat boundary condition (#1)"
+                      src="repeat.gif"
+                    />
+                    <GIFCard
+                      title="Repeat boundary condition (#2)"
+                      src="repeat2.gif"
+                    />
                   </Stack>
                 </p>
                 <p>
