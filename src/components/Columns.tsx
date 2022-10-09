@@ -14,7 +14,7 @@ class ColumnEntry extends React.Component {
     return (
       <Card
         className="list-group-flush"
-        style={{ 'background-color': this.props.bg_col, color: this.props.col }}
+        style={{ 'background-color': this.props.bg_col, color: this.props.col, borderColor: this.props.bg_col, fontWeight: "bold"}}
       >
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
@@ -27,14 +27,10 @@ class ColumnEntry extends React.Component {
 const Columns = () => {
   return (
     <div>
-      <CardGroup style={{ height: '200px' }}>
+      <CardGroup style={{ height: '200px', }}>
         <ColumnEntry title="Meet the Team" col="#d4e6f1" bg_col="#ae997a" />
         <ColumnEntry title="Methodology" col="#4c5b61" bg_col="#e0ccd8" />
-        <ColumnEntry
-          title="An Introductory Guide"
-          col="#fbf7e4"
-          bg_col="#90bbc4"
-        />
+        <ColumnEntry title="An Introductory Guide" col="#fbf7e4" bg_col="#90bbc4" />
       </CardGroup>
       <CardGroup style={{ height: '200px' }}>
         <ColumnEntry col="#485c52" bg_col="#ced5de" />
