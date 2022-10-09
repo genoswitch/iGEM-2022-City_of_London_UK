@@ -22,17 +22,17 @@ class ColumnEntry extends React.Component {
           <div className="line" style={{
             backgroundColor: this.props.col,
             position: 'absolute', 
-            bottom: 38,  
+            bottom: 48,  
           }}></div>
-          <div style={{ 
+          <div className="bottom-text" style={{ 
             marginLeft: 15,
             fontFamily: "iGEM-BaskervilleItalic", 
             fontSize: 13, 
             position: 'absolute', 
-            bottom: 8, }}>
+            bottom: 15, }}>
               Click to read more...
           </div>
-          <i className="arrow" style={{borderColor: this.props.col, position: 'absolute', bottom: 13}}></i>
+          <i className="arrow" style={{borderColor: this.props.col, position: 'absolute', bottom: 18}}></i>
         </Card.Body>
       </Card>
     );
