@@ -131,7 +131,8 @@ As well as angel investors we also spoke with the liveries and guilds of the Cit
 
 In summary, we had 2 sources of funding; the alumnus of CLS, and the “friends of CLSG”. As previously stated we are unable to release the amount donated by the alumnus, but we are able to say that 35% of the funding was the £4,000 from the “friends of CLSG”.
 
-<iframe width="100%" height="800px" src=" https://static.igem.wiki/teams/4508/wiki/business/copy-of-alfa-remask-igem-2022-investment-proposal.pdf" frameborder="0"></iframe>
+<iframe width="100%" height="800px" src="https://static.igem.wiki/teams/4508/wiki/business/copy-of-alfa-remask-igem-2022-investment-proposal.pdf" frameborder="0"></iframe>
+<a href="https://static.igem.wiki/teams/4508/wiki/business/copy-of-alfa-remask-igem-2022-investment-proposal.pdf">Link to Investment Proposal for iOS</a>
 
 # Patents and Intellectual property
 
@@ -156,9 +157,11 @@ At the IPO, an expedited patent can cost around £500, and takes 2-4 months to b
 We decided to patent the fastener that attaches the lateral flow test strips to the mask. Our fastener allows for the test strips to be swapped by the user, and so if successfully prosecuted it would prevent competitors both from mounting lateral flow tests strips to masks, and from developing competing modular tests designs. A successful prosecution at the IPO would also ease the prosecution at other patent offices as there would be a precedent. Having a patent would make ALFA REMASK LTD look much more attractive to investors as it would already have a value- the patent. Writing the patent ourselves also takes the financial burden off the company as patent attorneys normally cost around £4,000. The patent is shown in the PDF below.
 
 <iframe width="100%" height="800px" src="https://static.igem.wiki/teams/4508/wiki/business/patent.pdf" frameborder="0"></iframe>
+<a href="https://static.igem.wiki/teams/4508/wiki/business/patent.pdf">Link to Patent for iOS</a>
 
 # Business Plan
 
 In order to describe our ideas more fully, we have created a business plan. It details; our market research using PEST and SWOT analysis, market segmentation, the regulations and certifications we need to obey, our rigorous financial modelling of economies of scale, thorough financial projections for the first 4 years as well as a long-term timeline.
 
 <iframe width="100%" height="800px" src="https://static.igem.wiki/teams/4508/wiki/business/business-plan.pdf" frameborder="0"></iframe>
+<a href="https://static.igem.wiki/teams/4508/wiki/business/business-plan.pdf">Link to Business plan for iOS</a>
