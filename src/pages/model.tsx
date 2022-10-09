@@ -467,7 +467,7 @@ class ModellingPage extends React.Component {
                 <p>
                   <em>
                     <iframe
-                      src="https://www.desmos.com/calculator/gjawwhqvyd?embed"
+                      src="https://www.desmos.com/calculator/jrygvkeahk?embed"
                       width="500"
                       height="500"
                       style={{ border: '1px solid #ccc' }}
@@ -750,7 +750,7 @@ class ModellingPage extends React.Component {
                 <p>
                   <em>
                     <iframe
-                      src="https://www.desmos.com/calculator/ejggksictr?embed"
+                      src="https://www.desmos.com/calculator/y5onybtw1s?embed"
                       width="500"
                       height="500"
                       style={{ border: '1px solid #ccc' }}
