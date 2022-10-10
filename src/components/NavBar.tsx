@@ -50,6 +50,9 @@ const NavBar = () => {
               <NavDropdown.Item href={withPrefix('entrepreneurship')}>
                 Entrepreneurship
               </NavDropdown.Item>
+              <NavDropdown.Item href={withPrefix('partnership')}>
+                Partnership
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Item>
