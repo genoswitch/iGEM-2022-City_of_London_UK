@@ -195,6 +195,13 @@
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/1dec4eb2-94c4-4378-84d2-8b74a94913ce.jpeg",
       "tags": ["hardware"],
       "desc": "Valerio has worked in both the designing of the mask within the hardware team and the biology research that led to this project being chosen, although he still firmly believes his idea to minimise the effects of Coeliac’s disease to have been just as strong a project. Despite his beliefs he has endured many calls with Gautam to successfully design and 3D print the components of the mask."
+    },
+    {
+      "name": "Micah Chote",
+      "title": "Wiki Designer",
+      "pic": "https://static.igem.wiki/teams/4508/wiki/team/micah.jpg",
+      "tags": ["wiki"],
+      "desc": "Micah was the main designer of the iGEM website. He is responsible for the layout, colour scheme and most of the UI elements."
     }
   ]
 }
