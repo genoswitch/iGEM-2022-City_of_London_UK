@@ -17,6 +17,36 @@ import LysisSimSnippet from '../../pages/modelling/snippets/lysis_sim.py';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Component with a desmos *thumbnail* and link as we are not allowed to embed it directly
+class DesmosCard extends React.Component {
+  static defaultProps = {
+    title: 'Desmos Calculator',
+    thumbnail:
+      'https://static.igem.org/websites/common/2022/logos/igem-logo-dark.svg',
+    link: 'https://desmos.com/calculator',
+  };
+
+  render() {
+    return (
+      <div>
+        <Card style={{ width: '26rem' }}>
+          <Card.Body>
+            <Card.Title style={{ textAlign: 'center' }}>
+              {this.props.title}
+            </Card.Title>
+            <Card.Img src={this.props.thumbnail} />
+          </Card.Body>
+          <Card.Footer>
+            <Card.Link href={this.props.link}>
+              Click here to open this graph in Desmos.
+            </Card.Link>
+          </Card.Footer>
+        </Card>
+      </div>
+    );
+  }
+}
+
 class GIFCard extends React.Component {
   render() {
     return (
@@ -465,15 +495,12 @@ class ModellingPage extends React.Component {
                   </span>
                 </p>
                 <p>
-                  <em>
-                    <iframe
-                      src="https://www.desmos.com/calculator/jrygvkeahk?embed"
-                      width="500"
-                      height="500"
-                      style={{ border: '1px solid #ccc' }}
-                      frameborder="0"
-                    />
-                  </em>
+                  {/** DesmosCard #1 */}
+                  <DesmosCard
+                    title="Analytic Temp"
+                    thumbnail="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/modelling-desmos1x01-th6fufwipm.png"
+                    link="https://www.desmos.com/calculator/th6fufwipm"
+                  />
                 </p>
                 <p>
                   The iterative solution must be expressed in terms of a sum.
@@ -748,15 +775,12 @@ class ModellingPage extends React.Component {
                   the following section.
                 </p>
                 <p>
-                  <em>
-                    <iframe
-                      src="https://www.desmos.com/calculator/y5onybtw1s?embed"
-                      width="500"
-                      height="500"
-                      style={{ border: '1px solid #ccc' }}
-                      frameborder="0"
-                    />
-                  </em>
+                  {/** DesmosCard #2 */}
+                  <DesmosCard
+                    title="Analytic vs Iterative"
+                    thumbnail="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-embeds/modelling-desmos1x02-iwyvy80rce.png"
+                    link="https://www.desmos.com/calculator/iwyvy80rce"
+                  />
                 </p>
                 <h1 id="conditions-for-convergent-iteration">
                   Conditions for Convergent Iteration
