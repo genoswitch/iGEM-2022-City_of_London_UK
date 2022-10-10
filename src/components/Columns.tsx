@@ -9,6 +9,7 @@ class ColumnEntry extends React.Component {
     title: 'Placeholder',
     bg_col: '#ffffff',
     col: '#000000',
+    link: "",
   };
 
   render() {
@@ -24,7 +25,7 @@ class ColumnEntry extends React.Component {
             position: 'absolute', 
             bottom: 48,  
           }}></div>
-          <a className="bottom-text" style={{ 
+          <a href={this.props.link} className="bottom-text" style={{ 
             marginLeft: 15,
             fontFamily: "iGEM-BaskervilleItalic",
             color: this.props.col, 
@@ -46,14 +47,14 @@ const Columns = () => {
   return (
     <div>
       <CardGroup style={{ height: '200px', }}>
-        <ColumnEntry title="Meet the Team" col="#d4e6f1" bg_col="#ae997a" />
-        <ColumnEntry title="Description" col="#4c5b61" bg_col="#e0ccd8" />
-        <ColumnEntry title="Human Practices" col="#fbf7e4" bg_col="#90bbc4" />
+        <ColumnEntry link="https://2022.igem.wiki/city-of-london-uk/team/" title="Meet the Team" col="#d4e6f1" bg_col="#ae997a" />
+        <ColumnEntry link="https://2022.igem.wiki/city-of-london-uk/description/" title="Description" col="#4c5b61" bg_col="#e0ccd8" />
+        <ColumnEntry link="https://2022.igem.wiki/city-of-london-uk/human-practices/" title="Human Practices" col="#fbf7e4" bg_col="#90bbc4" />
       </CardGroup>
       <CardGroup style={{ height: '200px' }}>
-        <ColumnEntry title="Entrepreneurship" col="#485c52" bg_col="#ced5de" />
-        <ColumnEntry title="Modelling" col="#4e426b" bg_col="#b7c1b8" />
-        <ColumnEntry title="Experiments" col="#f7f1e2" bg_col="#ce7984" />
+        <ColumnEntry link="https://2022.igem.wiki/city-of-london-uk/entrepreneurship/" title="Entrepreneurship" col="#485c52" bg_col="#ced5de" />
+        <ColumnEntry link="https://2022.igem.wiki/city-of-london-uk/model/" title="Modelling" col="#4e426b" bg_col="#b7c1b8" />
+        <ColumnEntry link="https://2022.igem.wiki/city-of-london-uk/experiments/" title="Experiments" col="#f7f1e2" bg_col="#ce7984" />
       </CardGroup>
     </div>
   );

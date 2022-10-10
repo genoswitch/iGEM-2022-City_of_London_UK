@@ -15,15 +15,12 @@
     margin-left: 90%;
 }
 
-.arrow:hover {
-    cursor: pointer;
-}
-
 @media only screen and (max-width: 575px) {
     .bottom-text {
         display: none;
     }
 }
+
 .bottom-text:link { text-decoration: none; }
 .bottom-text:visited { text-decoration: none; }
 .bottom-text:hover { text-decoration: none; }
