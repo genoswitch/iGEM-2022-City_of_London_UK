@@ -26,8 +26,8 @@ const NavBar = () => {
         <Navbar.Collapse>
           <Nav>
             <NavDropdown title="Project">
-              <NavDropdown.Item href={withPrefix('contributions')}>
-                Contributions
+              <NavDropdown.Item href={withPrefix('contribution')}>
+                Contribution
               </NavDropdown.Item>
               <NavDropdown.Item href={withPrefix('description')}>
                 Description
