@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import "D:/igem2/city-of-london-uk/src/styles.css"
+import "./styles.css"
 
 class ColumnEntry extends React.Component {
   static defaultProps = {
