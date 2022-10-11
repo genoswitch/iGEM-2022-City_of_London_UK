@@ -10,6 +10,7 @@ import ParallaxHeader from '../components/ParallaxHeader';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
+import Row from 'react-bootstrap/Row';
 
 import SimulationSnippet from '../../pages/modelling/snippets/simulation.py';
 import MatricesSnippet from '../../pages/modelling/snippets/matrices.py';
@@ -301,12 +302,24 @@ class ModellingPage extends React.Component {
                 </p>
                 <h1 id="model-parameters">Model Parameters</h1>
                 <p>
-                  <em>
-                    DeathStar.png [Caption: "The lysis unit can be modelled as
-                    the intersection of three regions: a large outer cylinder of
-                    PLA, a smaller inner cylinder of fluid (water), and a
-                    smallest resistive cylinder with a perpendicular axis."]
-                  </em>
+                  <Card style={{ width: '50%' }}>
+                    <Row>
+                      <div class="col-md-4">
+                        <Card.Img
+                          style={{ maxWidth: 300 }}
+                          src="https://static.igem.wiki/teams/4508/wiki/site-res/deathstar.png"
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <Card.Body>
+                          The lysis unit can be modelled as the intersection of
+                          three regions: a large outer cylinder of PLA, a
+                          smaller inner cylinder of fluid (water), and a
+                          smallest resistive cylinder with a perpendicular axis.
+                        </Card.Body>
+                      </div>
+                    </Row>
+                  </Card>
                 </p>
                 <p>
                   The lysis unit can be modelled as being contained within a
