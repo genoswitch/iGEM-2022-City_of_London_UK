@@ -57,7 +57,7 @@ class ColumnEntry extends React.Component {
                 bottom: 15,
               }}
             >
-              Click to read more...
+              Click the card to read more...
             </a>
             <i
               className="arrow"
