@@ -1014,6 +1014,18 @@ class ModellingPage extends React.Component {
                   cross-section of the model volume and a graph tracking the
                   temperature of fixed points in the volume over time.
                 </p>
+                <div>
+                  <img
+                    style={{ maxWidth: '100%' }}
+                    src="https://static.igem.wiki/teams/4508/wiki/site-res/modelling-graph.png"
+                  />
+                  <p>
+                    The graph above shows the temperature sampled from three
+                    points over time. In blue: a point in the lysis unit. In
+                    orange: a point far from the resistive element. And, in
+                    green is a sampled point outside of the PLA container.
+                  </p>
+                </div>
                 <p>
                   <em>finalheatmap.gif</em>
                 </p>
