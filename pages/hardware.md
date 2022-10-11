@@ -1,9 +1,7 @@
-## Contents
-
-## Renders
-
 <img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-1.png" />
 <img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-2.png" />
+
+## Contents
 
 # Background
 
