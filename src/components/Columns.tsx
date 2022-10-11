@@ -22,53 +22,54 @@ class ColumnEntry extends React.Component {
           paddingRight: 0,
         }}
       >
-        <Card
-          className="list-group-flush"
-          style={{
-            height: 200,
-            'background-color': this.props.bg_col,
-            color: this.props.col,
-            borderColor: this.props.bg_col,
-          }}
-        >
-          <Card.Body style={{ padding: 0 }}>
-            <Card.Title
-              style={{ fontWeight: 1000, marginTop: 15, marginLeft: 15 }}
-            >
-              {this.props.title}
-            </Card.Title>
-            <div
-              className="line"
-              style={{
-                backgroundColor: this.props.col,
-                position: 'absolute',
-                bottom: 48,
-              }}
-            ></div>
-            <a
-              href={this.props.link}
-              className="bottom-text"
-              style={{
-                marginLeft: 15,
-                fontFamily: 'iGEM-BaskervilleItalic',
-                color: this.props.col,
-                fontSize: 13,
-                position: 'absolute',
-                bottom: 15,
-              }}
-            >
-              Click the card to read more...
-            </a>
-            <i
-              className="arrow"
-              style={{
-                borderColor: this.props.col,
-                position: 'absolute',
-                bottom: 18,
-              }}
-            ></i>
-          </Card.Body>
-        </Card>
+        <a href={this.props.link} className="card-link">
+          <Card
+            className="list-group-flush"
+            style={{
+              height: 200,
+              'background-color': this.props.bg_col,
+              color: this.props.col,
+              borderColor: this.props.bg_col,
+            }}
+          >
+            <Card.Body style={{ padding: 0 }}>
+              <Card.Title
+                style={{ fontWeight: 1000, marginTop: 15, marginLeft: 15 }}
+              >
+                {this.props.title}
+              </Card.Title>
+              <div
+                className="line"
+                style={{
+                  backgroundColor: this.props.col,
+                  position: 'absolute',
+                  bottom: 48,
+                }}
+              ></div>
+              <span
+                className="bottom-text"
+                style={{
+                  marginLeft: 15,
+                  fontFamily: 'iGEM-BaskervilleItalic',
+                  color: this.props.col,
+                  fontSize: 13,
+                  position: 'absolute',
+                  bottom: 15,
+                }}
+              >
+                Click the card to read more...
+              </span>
+              <i
+                className="arrow"
+                style={{
+                  borderColor: this.props.col,
+                  position: 'absolute',
+                  bottom: 18,
+                }}
+              ></i>
+            </Card.Body>
+          </Card>
+        </a>
       </Col>
     );
   }

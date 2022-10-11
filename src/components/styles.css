@@ -15,21 +15,18 @@
   margin-left: 90%;
 }
 
-.bottom-text:link {
+.card-link:link {
   text-decoration: none;
 }
-.bottom-text:visited {
+.card-link:visited {
   text-decoration: none;
 }
-.bottom-text:hover {
+.card-link:hover {
   text-decoration: none;
 }
-.bottom-text:active {
+.card-link:active {
   text-decoration: none;
 }
-.bottom-text {
+.card-link {
   text-decoration: none;
-}
-.bottom-text:hover {
-  cursor: pointer;
 }
