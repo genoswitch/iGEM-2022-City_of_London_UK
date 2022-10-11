@@ -1,17 +1,32 @@
 import numpy as np, raster_geometry as rg
 from parameters import *
 
-a = 25
-dims = (4*a, 3*a, 3*a)
-length_x = h_cyl * 1.5 # length of X side
 
-scale =  length_x / dims[0] # dx
-
-mid = np.array([int(dims[0]/2), int(dims[1]/2), int(dims[2]/2)]) # Midpoints of array in each dim
 
 def pixels(length):
-    return int(length / scale)
+    return length / scale
     # Converts continuous length to counterpart scale in pixels
+
+
+
+def reuleaux(dims, height, infra_radius, radius):
+    a = np.ones(dims, dtype = bool)
+
+    constructors = [
+    [-infra_radius, 0, 0],
+    [0.5 * infra_radius, np.sqrt(3) / 2 * infra_radius, 0],
+    [0.5 * infra_radius, -np.sqrt(3) / 2 * infra_radius, 0]]
+
+    for i in constructors:
+        a *= rg.cylinder(dims, height, radius, position = np.array(i) / np.array(dims) + 0.5)
+
+
+    return a
+
+# Construct Reuleaux triangle raster by intersection of three equidistant constructor cylinders
+
+
+
 
 
 
@@ -20,19 +35,15 @@ initial = np.ones(dims) * room_temp # inital temperature state
 alpha = np.ones(dims) * alpha_air # set diffusivity to all alpha_air
 
 
-cyl_bool = rg.cylinder(dims, pixels(h_cyl), pixels(r_water + thickness_cyl), axis = 0)
-water_bool = rg.cylinder(dims, pixels(h_water), pixels(r_water), axis = 0)
+cyl_bool = reuleaux(dims, pixels(h_cyl), pixels(infra_cyl), pixels(r_cyl))
+water_bool = reuleaux(dims, pixels(h_water), pixels(infra_cyl), pixels(r_water))
 wire_bool = rg.cylinder(dims, pixels(h_wire), pixels(r_wire), axis = 1)
-# Rasterise cylinders as Boolean mask arrays
+# Rasterise reuleaux / cylinders as Boolean mask arrays
 
 alpha[cyl_bool] = alpha_cyl
 alpha[water_bool] = alpha_water
 alpha[wire_bool] = alpha_wire
 # Fill diffusivity data with these region masks
-
-
-
-
 
 
 J = voltage**2 / mass_resistor / heat_capacity_resistor / ref_resistance
@@ -50,7 +61,6 @@ def Wire_tick(self):
 
 
 
-
 import simulation as sim
 
 Model = sim.ThermalModel(initial, alpha, scale, 'void', -1, room_temp)
@@ -59,7 +69,7 @@ Model = sim.ThermalModel(initial, alpha, scale, 'void', -1, room_temp)
 Model.voxel_tick_override(wire_bool, Wire_tick)
 # Enact the resistive element simulation override
 
-frames, times = Model.simulate_to(30, log = True)
+frames, times = Model.simulate_to(20, cache_fps=60, log = True)
 # Simulate evolution of temperature
 
 
