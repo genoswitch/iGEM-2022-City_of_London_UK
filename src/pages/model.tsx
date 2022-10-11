@@ -300,7 +300,17 @@ class ModellingPage extends React.Component {
                     t\]
                   </span>
                 </p>
-                <h1 id="model-parameters">Model Parameters</h1>
+                <h1 id="model-parameters">
+                  Model Parameters
+                  <a
+                    href="#fn3"
+                    class="footnote-ref"
+                    id="fnref3"
+                    role="doc-noteref"
+                  >
+                    <sup>3</sup>
+                  </a>
+                </h1>
                 <p>
                   <Card style={{ width: '50%' }}>
                     <Row>
@@ -1040,6 +1050,21 @@ class ModellingPage extends React.Component {
                         </span>
                         <a
                           href="#fnref2"
+                          class="footnote-back"
+                          role="doc-backlink"
+                        >
+                          ↩︎
+                        </a>
+                      </p>
+                    </li>
+                    <li id="fn3">
+                      <p>
+                        Thermal diffusivity values were sourced from:{' '}
+                        <a href="https://thermtest.com/thermal-resources/materials-database">
+                          https://thermtest.com/thermal-resources/materials-database
+                        </a>
+                        <a
+                          href="#fnref3"
                           class="footnote-back"
                           role="doc-backlink"
                         >
