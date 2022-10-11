@@ -1030,10 +1030,7 @@ class ModellingPage extends React.Component {
                   </p>
                 </div>
                 <p>
-                  <em>finalheatmap.gif</em>
-                </p>
-                <p>
-                  <em>fixedpointsample.gif</em>
+                  <GIFCard title="Final Heatmap" src="heatmap.gif" />
                 </p>
                 <section
                   id="footnotes"
