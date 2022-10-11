@@ -13,6 +13,7 @@ class ParallaxHeader extends React.Component {
     bgSrc:
       'https://static.igem.wiki/teams/4508/wiki/site-res/banners/banner-cropped.jpg',
     children: <React.Fragment></React.Fragment>,
+    textCol: 'white',
   };
 
   render() {
@@ -31,7 +32,7 @@ class ParallaxHeader extends React.Component {
                 height: '100%',
               }}
             >
-              <h1>{this.props.title}</h1>
+              <h1 style={{ color: this.props.textCol }}>{this.props.title}</h1>
             </div>
           </ParallaxBannerLayer>
           {this.props.children}

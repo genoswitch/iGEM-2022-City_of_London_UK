@@ -25,13 +25,19 @@ class MarkdownPage extends React.Component {
   static defaultProps = {
     data: '# Placeholder Page',
     title: 'Title',
+    parallaxBgSrc: undefined,
+    titleTextCol: undefined,
   };
 
   render() {
     return (
       <div>
         <NavBar />
-        <ParallaxHeader title={this.props.title} />
+        <ParallaxHeader
+          title={this.props.title}
+          bgSrc={this.props.parallaxBgSrc}
+          textCol={this.props.titleTextCol}
+        />
         <div style={{ height: 20 }} />
         <Container>
           <ReactMarkdown
