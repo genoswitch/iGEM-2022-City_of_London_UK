@@ -1,5 +1,10 @@
 ## Contents
 
+## Renders
+
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-1.png" />
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-2.png" />
+
 # Background
 
 ---
@@ -10,6 +15,7 @@ Project Alfa Remask relies heavily on hardware to enable lysis and amplification
 - Heat the sample for an hour at 65 degrees
 - Transfer the sample to an amplification chamber for RPA for 15 minutes
 - Transfer the sample to the detection chamber for Crispr
+- Transfer the sample to the lateral flow
 
 All while minimising complexity and input from a user perspective.
 
@@ -25,7 +31,7 @@ To start with, we considered an exothermic chemical reaction (such as that of ca
 
 The other more obvious approach (and the one we have opted for) was to electrically heat the sample. While we did initially have concerns regarding the energy required for this, some rough ideal calculations capacity indicated that a consumer button cell was theoretically up to the task, and we went about developing a model to confirm this (see model).
 
-Once our model confirmed that heating at approximately 50mW would be sufficient for our sample size at 65 degrees, we needed a heating filament. The LR44 button cell we had chosen has an EMF of 1.5V. Rearranging P=V2/R we found that we need a heating element of resistance 45 ohms. The only suitable element of small size and such resistance was, in fact, a resistor. While resistors are designed to themselves absorb as much thermal energy as possible, we concluded that while this may add a few minutes to the start of the heating process, ultimately the excess thermal energy would be transferred to the diluted sample. The next issue was one of time.
+Once our model confirmed that heating at approximately 50mW would be sufficient for our sample size at 65 degrees, we needed a heating filament. The LR44 button cell we had chosen has an EMF of 1.5V. Rearranging _P=V<sup>2</sup>/R_ we found that we need a heating element of resistance 45 ohms. The only suitable element of small size and such resistance was, in fact, a resistor. While resistors are designed to themselves absorb as much thermal energy as possible, we concluded that while this may add a few minutes to the start of the heating process, ultimately the excess thermal energy would be transferred to the diluted sample. The next issue was one of time.
 
 # Time delays
 
@@ -47,16 +53,17 @@ By altering the thickness and infill (density of material vs air) of the plate w
 ---
 
 The cost model below outlines how much each mask cost us to make and how much it might cost to make in bulk, in parts. The price of the LR44 button cell accounts for the fact that each can be used for two tests.
-|Part|Cost per mask|Cost per mask (bulk)|
-| ----------- | ----------- | ----------- |
-|N95 Mask|£1|£0.40|
-|Resistor|£0.05|<£0.01|
-|PLA filament|£0.01|<£0.01|
-|LR44 battery|£0.50|£0.15|
-|PVA filament|<£0.01|<£0.01|
-|Wire|<£0.01|<£0.01|
-||||
-|Total:|<£1.58|<£0.5|
+
+| Part             | Cost per mask | Cost per mask (bulk) |
+| ---------------- | ------------- | -------------------- |
+| N95 Mask         | £1            | £0.40                |
+| Resistor         | £0.05         | <£0.01               |
+| PLA filament     | £0.01         | <£0.01               |
+| LR44 battery     | £0.50         | £0.15                |
+| PVA filament     | <£0.01        | <£0.01               |
+| Wire             | <£0.01        | <£0.01               |
+| Porex Sample Pad | £0.40 (N/A)   | £0.10                |
+| Total:           | <£1.98        | <£0.69               |
 
 However, while the mask could be mass manufactured with its current design, it would be far more effective, ergonomic and economical to alter some elements. Most notably, the chambers for each stage need not be 3D printed with PLA, but rather should be injection moulded to improve precision and cost. In addition, instead of using a resistor for heating a thin nichrome wire would better regulate temperature. This is because nichrome has a high temperature coefficient of resistivity, meaning as the temperature of the sample increases, the heating power would decrease. This would better regulate the temperature of the sample in lysis to 65 degrees.
 
