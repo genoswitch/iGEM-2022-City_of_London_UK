@@ -15,12 +15,6 @@
   margin-left: 90%;
 }
 
-@media only screen and (max-width: 575px) {
-  .bottom-text {
-    display: none;
-  }
-}
-
 .bottom-text:link {
   text-decoration: none;
 }
