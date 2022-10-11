@@ -313,9 +313,10 @@ class ModellingPage extends React.Component {
                       <div class="col-md-8">
                         <Card.Body>
                           The lysis unit can be modelled as the intersection of
-                          three regions: a large outer cylinder of PLA, a
-                          smaller inner cylinder of fluid (water), and a
-                          smallest resistive cylinder with a perpendicular axis.
+                          three regions: a large outer Reuleaux cylinder of PLA,
+                          a smaller inner Reuleaux cylinder of fluid (water),
+                          and a smallest resistive cylinder with a perpendicular
+                          axis.
                         </Card.Body>
                       </div>
                     </Row>
