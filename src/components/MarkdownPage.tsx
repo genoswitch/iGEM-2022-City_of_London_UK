@@ -19,6 +19,8 @@ import remarkToc from 'remark-toc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './MarkdownPage.css';
 
+import './tables.css';
+
 class MarkdownPage extends React.Component {
   static defaultProps = {
     data: '# Placeholder Page',
