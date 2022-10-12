@@ -1,5 +1,11 @@
 ## Contents
 
+# Why we chose this project
+
+---
+
+1.5 million people worldwide died from tuberculosis in 2020, making it the second leading infectious killer after COVID-19.<sup>1</sup> One of the main problems is the lack of rapid and accessible diagnostic tests, which our project aims to solve. Current methods such as X-rays, blood tests and skin tests can be slow and expensive.<sup>2</sup> In contrast our mask is self-contained, relatively cheap, and only takes around 3 hours for diagnosis. It is also easy to use and non-invasive, simply requiring breathing onto the sample collection pad. The inspiration for our project was a mask designed by researchers at MIT and the Wyss institute that successfully diagnosed SARS-Cov-2. Our mask has a similar mechanism. However, M.tuberculosis is significantly more difficult to lyse than SARS-Cov-2 providing an extra challenge for our biology and hardware teams.<sup>3</sup>
+
 # Lysis
 
 ---
@@ -102,6 +108,12 @@ Gootenberg, Jonathan S.; Abudayyeh, Omar O.; Kellner, Max J.; Joung, Julia; Coll
 # References
 
 ---
+
+1. Who.int. 2022. _Tuberculosis (TB)._ [online] Available at: <https://www.who.int/news-room/fact-sheets/detail/tuberculosis#:~:text=Worldwide%2C%20TB%20is%20the%2013th,all%20countries%20and%20age%20groups.> [Accessed 11 October 2022].
+
+2. nhs.uk. 2022. _Tuberculosis (TB)_ - Diagnosis. [online] Available at: <https://www.nhs.uk/conditions/tuberculosis-tb/diagnosis/#:~:text=You%20may%20have%20a%20chest,most%20effective%20treatment%20for%20you> [Accessed 11 October 2022].
+
+3. Nguyen, P., Soenksen, L., Donghia, N., Angenent-Mari, N., de Puig, H., Huang, A., Lee, R., Slomovic, S., Galbersanini, T., Lansberry, G., Sallum, H., Zhao, E., Niemi, J. and Collins, J., 2021. Wearable materials with embedded synthetic biology sensors for biomolecule detection. Nature Biotechnology, 39(11), pp.1366-1374.
 
 4. João Catalão, M. and Pimentel, M., 2022. _Mycobacteriophage Lysis Enzymes: Targeting the Mycobacterial Cell Envelope._ [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116114/ [Accessed 28 July 2022].
 
