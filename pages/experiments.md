@@ -94,6 +94,26 @@ The baseline image at room temperature, taken before heating, shows the presence
 
 13. Place slide under microscope for inspection
 
+# RPA and Lateral Flow
+
+---
+
+## RPA
+
+Part of our initial plan was to test RPA alongside lysis to prove that our selectively designed primers are correctly optimised, however, due to the renovations in some of our labs and delay in fundraising, we were unable to carry out the RPA in time for the Wiki freeze. Our successful fundraising has permitted us to carry out the testing of this component of our project, so we have opted to go ahead with the wet lab to obtain results before the Jamboree in Paris.
+
+## LFA Output
+
+Due to the aforementioned issues encountered by our team, we were unable to access the laboratories to test the final stage of our system. The results below have been provided by similar research conducted by the Wyss Institute. They too, used the Cas12 enzyme in conjunction with lateral flow assay technology - detecting RPA amplicons using gRNA/Cas complexes, resulting in the collateral cleavage of FAM-Biotin probes.<sup>5</sup>
+
+Using gRNAs modelled by Benchling, we are confident in our ability to procure successful results.
+
+The figures below show the sensitivity of the LFA sensor.
+
+<img style="max-width: 100%;" src="https://static.igem.wiki/teams/4508/wiki/site-res/rpa-and-lateral-flow-img1.png">
+
+<img style="max-width: 100%;" src="https://static.igem.wiki/teams/4508/wiki/site-res/rpa-and-lateral-flow-img2.png">
+
 ## References
 
 <sup>[1]</sup> Philippe Herman, M. F.-D. B. B. V. V. K. P. C. D. D. T. M. S. M. W. R. S. &. W. M., 2006. Biosafety Recommendations for the Contained Use of Mycobacterium tuberculosis Complex Isolates in Industrialized Countries.. [Online]
@@ -115,3 +135,5 @@ Available at: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6160870/#__ffn_secti
 [Accessed 20 September 2022].
 
 <sup>[4]</sup> Novitsky, T., Chan, M., Himes, R. and Akagi, J., 1974. Effect of Temperature on the Growth and Cell Wall Chemistry of a Facultative Thermophilic Bacillus. _Journal of Bacteriology_, 117(2), pp.858-865.
+
+<sup>[5]</sup> Nguyen, P., Soenksen, L., Donghia, N., Angenent-Mari, N., de Puig, H., Huang, A., Lee, R., Slomovic, S., Galbersanini, T., Lansberry, G., Sallum, H., Zhao, E., Niemi, J. and Collins, J., 2021. Wearable materials with embedded synthetic biology sensors for biomolecule detection. Nature Biotechnology, 39(11), pp.1366-1374.
