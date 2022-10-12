@@ -165,3 +165,9 @@ In order to describe our ideas more fully, we have created a business plan. It d
 
 <iframe width="100%" height="800px" src="https://static.igem.wiki/teams/4508/wiki/business/business-plan.pdf" frameborder="0"></iframe>
 <a href="https://static.igem.wiki/teams/4508/wiki/business/business-plan.pdf">Link to Business plan for iOS</a>
+
+---
+
+#### Footnote
+
+_References can be found within the business plan._
