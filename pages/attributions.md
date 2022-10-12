@@ -2,6 +2,14 @@ Among our Human Practices team, outreach has been a fundamental aspect of our pr
 
 Through our design cycle we have omitted and introduced different synthetic biological tools in order to be the most cost effective, sustainable and realistic in our approach towards creating a wearable diagnostic tool. By talking with these professionals allowed for the approach towards integrated human practices and bettering our project.
 
+### Chris Witty:
+
+<img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/f14837cc-0d37-45ec-b380-4c5b7d984cd8.jpeg"/>
+
+Professor Chris Witty is the Chief Medical Officer for England and the UK’s Chief Medical Adviser. He is the representative for the UK on the Executive Board of the World Health Organisation. He is a consultant at the University College London Hospital and at the Hospital for Tropical Diseases. Most importantly for us, he is an epidemiologist and has curated research from working as a doctor in the UK, Africa and Asia. He previously had the position of being the Professor of Public and International Health at the London School of Hygiene and Tropical Medicine which again is very relevant for our project.
+
+After having spoken with Professor Chris Witty, we learnt from him that ‘the spread of disease through hospitals and via healthcare workers is one of the three causes of transmission and prevalence of disease’. This gave us more of an inclination to how to best implement our project to society and also what the problems were in modern healthcare that made our project most useful. He also validated our idea for the project completely, and told us numerous times how our concept would aim and most likely succeed in reducing infection rates. We also spoke to him about the specifics behind our project; the constant testing for TB in patients in order to manage control the spread of the infection. He told us that it is absolutely vital for us to do and is the ‘first and best’ thing to do. Accumulating this validation has helped us to further improve our project and implement much of the feedback we have received.
+
 ### Kim Payne:
 
 <img style="max-width: 250px;" src="https://static.igem.wiki/teams/4508/wiki/hp-photos-of-professionals/c08c82f7-f71f-4be9-a62c-9550a486d08a.jpeg"/>
@@ -40,7 +48,7 @@ We were given feedback from Oliver Stringer that enabled us to understand the be
 
 Dr David Rueda is currently the Chair in Molecular and Cellular Biophysics within the Faculty of Medicine, Department of Infectious Disease at Imperial College London. His research consists of developing and applying single molecule approaches to understand the mechanisms by which protein and nucleic acids regulate cellular functions such as DNA replication and repair.
 
-Through speaking with Dr Rueda, he helped us learn about the importance of CRISPR in our mask as a synthetic biological component. He helped us understand the benefits and challenges towards using CRISPR and how we could implement an efficient approach within our mask. He validated the fact that we were going to be using this method of CRISPR, and so this was very much taken on board as an important aspect to factor in competely for the mask.
+Through speaking with Dr Rueda, he helped us learn about the importance of CRISPR in our mask as a synthetic biological component. He helped us understand the benefits and challenges towards using CRISPR and how we could implement an efficient approach within our mask. He validated the fact that we were going to be using this method of CRISPR, and so this was very much taken on board as an important aspect to factor in completely for the mask.
 
 ### Seda Yerlikaya:
 
@@ -56,4 +64,4 @@ We managed to get into contact with Seda Yerlikaya very early on in our design c
 
 Professor Andrew Martin is a Professor of Bioinformatics and Computational Biology and UCL. He takes particular interest in the sequence, structure and function of antibodies and also the impact of mutations on protein structure and function. He has also acted as a consultant to many pharmaceutical companies and teaches about protein energetics, protein folding and antibody structure.
 
-When we had spoken to Professor Andrew Martin at the very beginning of our design cycle, he aided us in understanding the potential for using custom made proteins which would allow us to detect tuberculosis or a multitude of other diseases. However, after learning about the synthetic biological processes and techniques our project would have to undergo, we came to the conclusion that this would not be possible for us to. This being a prime example of integrated human practise where we took on the advice from Professor Andrew Martin about custom made proteins and our limited ability to be able to pursue this.
+When we had spoken to Professor Andrew Martin at the very beginning of our design cycle, he aided us in understanding the potential for using custom made proteins which would allow us to detect tuberculosis or a multitude of other diseases. However, after learning about the synthetic biological processes and techniques our project would have to undergo, we came to the conclusion that this would not be possible for us to. This being a prime example of integrated human practice where we took on the advice from Professor Andrew Martin about custom made proteins and our limited ability to be able to pursue this.
