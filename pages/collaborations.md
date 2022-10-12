@@ -1,9 +1,3 @@
-## Contents
-
-# Collaborations
-
----
-
 Collaboration is not only at the heart of iGEM, but of our culture in the City of London iGEM team. Being the only high school in the United Kingdom that partakes, and the first in Europe to compete, every year we are placed in the unique position of performing with a small budget and with a team and is new to genetic engineering. This deficit, however, is made up entirely through our collaboration with the other brilliant teams in the UK.
 
 ## International and Multi-team Collaborations:
