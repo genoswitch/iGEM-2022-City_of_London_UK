@@ -1,5 +1,4 @@
 import * as React from 'react';
-import type { HeadFC } from 'gatsby';
 
 import {
   ParallaxBanner,
@@ -104,8 +103,3 @@ const Index = () => {
   );
 };
 export default Index;
-
-// Now done with HeaderTags instead.
-//export const Head: HeadFC = () => {
-//  return <title>aLFA</title>;
-//};
