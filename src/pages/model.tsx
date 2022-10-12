@@ -4,6 +4,7 @@ import { MathJaxContext, MathJax } from 'better-react-mathjax';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import CodeBlock from '../components/CodeBlock';
+import HeaderTags from '../components/HeaderTags';
 
 import ParallaxHeader from '../components/ParallaxHeader';
 
@@ -71,12 +72,13 @@ class GIFCard extends React.Component {
 class ModellingPage extends React.Component {
   static defaultProps = {
     data: '# Placeholder Page',
-    title: 'Title',
+    title: 'Title', // is this unused here?
   };
 
   render() {
     return (
       <div>
+        <HeaderTags title={`aLFA | Modelling`} />
         <NavBar />
         <ParallaxHeader
           title={'Modelling'}

@@ -6,6 +6,7 @@ import CircularProgressWithLabel from '../components/CircularProgressWithLabel';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import ParallaxHeader from '../components/ParallaxHeader';
+import HeaderTags from '../components/HeaderTags';
 
 import Badge from 'react-bootstrap/Badge';
 import Container from 'react-bootstrap/Container';
@@ -192,6 +193,7 @@ class TeamPage extends React.Component {
         (this.state.imagesLoaded / this.totalImages) * 100 || 0;
       return (
         <div>
+          <HeaderTags title={`aLFA | Meet the Team`} />
           <NavBar />
           <div
             style={{ padding: 100, display: 'flex', justifyContent: 'center' }}
@@ -212,6 +214,7 @@ class TeamPage extends React.Component {
 
     return (
       <div>
+        <HeaderTags title={`aLFA | Meet the Team`} />
         <NavBar />
         <ParallaxHeader title={'Meet the Team'} bgSrc={this.bannerImageSrc} />
         <Container>

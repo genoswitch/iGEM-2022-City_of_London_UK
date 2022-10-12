@@ -2,6 +2,7 @@ import * as React from 'react';
 import ReactMarkdown from 'react-markdown';
 
 import Footer from '../components/Footer';
+import HeaderTags from '../components/HeaderTags';
 import NavBar from '../components/NavBar';
 
 import ParallaxHeader from '../components/ParallaxHeader';
@@ -32,6 +33,7 @@ class MarkdownPage extends React.Component {
   render() {
     return (
       <div>
+        <HeaderTags title={`aLFA | ${this.props.title}`} />
         <NavBar />
         <ParallaxHeader
           title={this.props.title}
