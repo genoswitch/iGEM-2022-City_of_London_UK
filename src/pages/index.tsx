@@ -47,7 +47,7 @@ const ParallaxComponent = () => {
               justifyContent: 'center',
               alignItems: 'center',
               display: 'flex',
-              height: '100%',
+              height: '80%',
             }}
           >
             <div>
