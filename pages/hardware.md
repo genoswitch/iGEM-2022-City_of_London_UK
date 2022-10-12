@@ -1,6 +1,3 @@
-<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-1.png" />
-<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-2.png" />
-
 ## Contents
 
 # Background
@@ -78,3 +75,8 @@ After wearing the mask for two hours the user can then initiate the testing proc
 (\*)Removing the battery is optional but allows it to be used once more for another test.
 
 Following this there will either be one or two lines on the lateral flow to indicate a negative/positive result.
+
+# Renders
+
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-1.png" />
+<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/hardware/mask-model-2.png" />
