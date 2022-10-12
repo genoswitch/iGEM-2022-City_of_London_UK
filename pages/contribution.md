@@ -13,3 +13,5 @@ Additionally, new parts have been designed by the City of London 2022 Team and a
 | Yamini Sivaraman, Julian Chen | <a href="http://parts.igem.org/Part:BBa_K4508002">BBa_K4508002</a> (Designed) |
 | Yamini Sivaraman, Julian Chen | <a href="http://parts.igem.org/Part:BBa_K4508003">BBa_K4508003</a> (Designed) |
 | Julian Chen                   | <a href="http://parts.igem.org/Part:BBa_J428061">BBa_J428061</a>              |
+
+New additions to the BioBrick registry include forward and reverse primers for Heat shock protein 65 (HSP65) and GroEL2. We hope that any future teams wishing to amplify these genes may refer to our documented parts. Also, our contribution to existing parts page on Cas12a and its use in a sequential system consisting of recombinase polymerase amplification and LFA output, will also help to inform succeeding teams about the uses of various CRISPR variants.
