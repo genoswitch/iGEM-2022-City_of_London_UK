@@ -10,17 +10,17 @@ _Mycobacterium tuberculosis_ (_M. tuberculosis_) is a gram positive bacteria, so
 
 ## Thermal Lysis
 
-- Thermal lysis would occur at approximately 60-65°C, in order for thermal lysis and amplification of the DNA to occur in one step. This was proven to also work for the H37Rv strain of _M.tuberculosis_, where it disinfected the mycobacteria culture, lysed the cells and performed helicase dependent amplification (HDA) on the extracted DNA, where HDA occured after approximately 10 minutes and the whole process took around 60 minutes.<sup>1</sup>
+- Thermal lysis would occur at approximately 60-65°C, in order for thermal lysis and amplification of the DNA to occur in one step. This was proven to also work for the H37Rv strain of _M.tuberculosis_, where it disinfected the mycobacteria culture, lysed the cells and performed helicase dependent amplification (HDA) on the extracted DNA, where HDA occured after approximately 10 minutes and the whole process took around 60 minutes.<sup>4</sup>
 
 - Although Recombinase Polymerase Amplification (RPA) is being used in our project in place of HDA, the main objective of this thermal lysis is to be able to successfully lyse the bacteria rather than to amplify DNA.
 
-Lysis leaves the cell in a messy state, with Mycolic acids as well as other waxy acids covalently and non-covalently connected to the cell wall. Therefore, a detergent solution is necessary to wash away unwanted particles. The proposed solution is Tween 80, which has been shown to have no effect on the function of lytic and amplification enzymes.<sup>2</sup>
+Lysis leaves the cell in a messy state, with Mycolic acids as well as other waxy acids covalently and non-covalently connected to the cell wall. Therefore, a detergent solution is necessary to wash away unwanted particles. The proposed solution is Tween 80, which has been shown to have no effect on the function of lytic and amplification enzymes.<sup>5</sup>
 
 ## Gene Amplification
 
 <img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/rpa-wiki.jpg"/>
 
-Recombinase Polymerase Amplification (RPA) is needed in order to achieve sufficient amounts of hsp65 gene, so it can be detected by Cas12a to signal _M. tuberculosis_ is present. This reliable method of amplification effectively complements the project due to the high sensitivity of RPA which can amplify as low as 1-10 DNA target copies.<sup>3</sup> This is ideal due to the low quantity of bacteria present in breath for someone positive for _M.tuberculosis_. The optimum temperature of RPA is 37-42°C, so no heavy machinery such as a thermocycler is needed and as it is an isothermal amplification, it does not require specialised instrumentation.<sup>4</sup> The temperature is achieved by allowing the lysis liquid to cool as it passes through to the RPA compartment.
+Recombinase Polymerase Amplification (RPA) is needed in order to achieve sufficient amounts of hsp65 gene, so it can be detected by Cas12a to signal _M. tuberculosis_ is present. This reliable method of amplification effectively complements the project due to the high sensitivity of RPA which can amplify as low as 1-10 DNA target copies.<sup>6</sup> This is ideal due to the low quantity of bacteria present in breath for someone positive for _M.tuberculosis_. The optimum temperature of RPA is 37-42°C, so no heavy machinery such as a thermocycler is needed and as it is an isothermal amplification, it does not require specialised instrumentation.<sup>7</sup> The temperature is achieved by allowing the lysis liquid to cool as it passes through to the RPA compartment.
 
 # CRISPR Detection
 
@@ -39,19 +39,19 @@ Abstract
 2.  When the Cas12a detects hsp65 and attaches to it, Cas12a becomes activated.
 3.  When activated, it cleaves ssDNA attached.
 
-Using SHERLOCKv2, we programmed CRISPR Cas12a (LbCas12a) to recognise the hsp65 gene. The hsp65 gene is usually specific to all strains of TB. In previous experiments with this gene, high sensitivity (100%) and specificity (93%) have been achieved with this gene.<sup>5</sup>
+Using SHERLOCKv2, we programmed CRISPR Cas12a (LbCas12a) to recognise the hsp65 gene. The hsp65 gene is usually specific to all strains of TB. In previous experiments with this gene, high sensitivity (100%) and specificity (93%) have been achieved with this gene.<sup>8</sup>
 
-To use CRISPR Cas12a, a gRNA and a PAM are needed. PAM is a short gene sequence (around 3-4 bases long - our PAM sequence, found on 5’ of target is 5’ TTTG 3’) that the Cas enzyme can scan for to speed up the process instead of scanning for a long gRNA so that a Cas nuclease can cut and distinguish between its own DNA and the TB DNA. When the CRISPR Cas12a complex (with gRNA) recognises and binds to the promoter sequence, the gRNA attaches to the target sequence of the hsp65 gene. This activates the Cas12a cleaving function and starts to cleave the ssDNA between the FAM-ssDNA-Biotin probes attached to the enzyme. To show the hsp65 gene is detected, FAM-ssDNA-Biotin probes are cleaved and it is these cleaved probes that lead to a positive LFA result.<sup>6</sup>
+To use CRISPR Cas12a, a gRNA and a PAM are needed. PAM is a short gene sequence (around 3-4 bases long - our PAM sequence, found on 5’ of target is 5’ TTTG 3’) that the Cas enzyme can scan for to speed up the process instead of scanning for a long gRNA so that a Cas nuclease can cut and distinguish between its own DNA and the TB DNA. When the CRISPR Cas12a complex (with gRNA) recognises and binds to the promoter sequence, the gRNA attaches to the target sequence of the hsp65 gene. This activates the Cas12a cleaving function and starts to cleave the ssDNA between the FAM-ssDNA-Biotin probes attached to the enzyme. To show the hsp65 gene is detected, FAM-ssDNA-Biotin probes are cleaved and it is these cleaved probes that lead to a positive LFA result.<sup>9</sup>
 
 ## Why did we choose CRISPR Cas12a?
 
-There are two enzymes that can be used for SHERLOCK (Specific High-sensitivity Enzymatic Reporter un-Locking) : Cas12a and Cas13. Cas12a is more compatible with our design as it cuts DNA, whereas Cas13 only cuts RNA.<sup>7</sup>
+There are two enzymes that can be used for SHERLOCK (Specific High-sensitivity Enzymatic Reporter un-Locking) : Cas12a and Cas13. Cas12a is more compatible with our design as it cuts DNA, whereas Cas13 only cuts RNA.<sup>10</sup>
 
 - High specificity and sensitivity
 - Cost effective
 - Components can be stored fairly long term before use.
 - Allows the LFA to be done very quickly.
-- Highly compatible with RPA.<sup>8</sup>
+- Highly compatible with RPA.<sup>11</sup>
 
 # LFA Output
 
@@ -63,11 +63,11 @@ There are two enzymes that can be used for SHERLOCK (Specific High-sensitivity E
 One end of the reporter molecule binds to the control line on the lateral flow test and the other end binds to the gold nanoparticles present in the solution, forming a line. There is a second test line beyond this that the nanoparticles can directly bind to but in this case it won’t form or will be very faint as most of the nanoparticles will have already bonded to the control line.
 
 **When there is TB in the sample**
-The reporter molecule is collaterally cleaved so the two ends will be split. Therefore the nanoparticles won’t bind to the control line as they need the full reporter molecule as an intermediate; instead they will flow to the test line and bind, forming a strong line.<sup>9</sup>
+The reporter molecule is collaterally cleaved so the two ends will be split. Therefore the nanoparticles won’t bind to the control line as they need the full reporter molecule as an intermediate; instead they will flow to the test line and bind, forming a strong line.<sup>12</sup>
 
 ## Why did we choose LFA?
 
-LFAs are simple and rapid, detecting the presence of certain hormones without necessitating expensive and specialised medical technology. They are easy to manufacture and distribute, making it an optimal and accessible option that isn’t costly to use on a regular basis.<sup>10,11</sup>Additionally, they are compact and easy to fit into a mask without making wearing it uncomfortable. They have a long shelf life, paired with their straightforward usage and can therefore be optimal for use in developing countries. Furthermore, the short development period of LFAs makes them easily adaptable and easy to adjust if necessary. As such, an LFA is the optimal technology for us to implement.<sup>12</sup>
+LFAs are simple and rapid, detecting the presence of certain hormones without necessitating expensive and specialised medical technology. They are easy to manufacture and distribute, making it an optimal and accessible option that isn’t costly to use on a regular basis.<sup>13,14</sup>Additionally, they are compact and easy to fit into a mask without making wearing it uncomfortable. They have a long shelf life, paired with their straightforward usage and can therefore be optimal for use in developing countries. Furthermore, the short development period of LFAs makes them easily adaptable and easy to adjust if necessary. As such, an LFA is the optimal technology for us to implement.<sup>15</sup>
 
 # Modularity + use in wider healthcare
 
@@ -103,27 +103,27 @@ Gootenberg, Jonathan S.; Abudayyeh, Omar O.; Kellner, Max J.; Joung, Julia; Coll
 
 ---
 
-1. João Catalão, M. and Pimentel, M., 2022. _Mycobacteriophage Lysis Enzymes: Targeting the Mycobacterial Cell Envelope._ [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116114/ [Accessed 28 July 2022].
+4. João Catalão, M. and Pimentel, M., 2022. _Mycobacteriophage Lysis Enzymes: Targeting the Mycobacterial Cell Envelope._ [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116114/ [Accessed 28 July 2022].
 
-2. Shetty, Prasad; Ghosh, Dipayan; Paul, Debjani (2017). Thermal lysis and isothermal amplification of Mycobacterium tuberculosis H37Rv in one tube. Journal of Microbiological Methods, 143(), 1–5. [online] Available at: https://scholar.google.co.uk/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0167701217302531&hl=en&sa=X&ei=9KYpY6OTOfuSy9YP1Lyz8AQ&scisig=AAGBfm01OLxgt6kasqmNH5zuZjgihikBOg&oi=scholarr [Accessed 29 July 2022].
+5. Shetty, Prasad; Ghosh, Dipayan; Paul, Debjani (2017). Thermal lysis and isothermal amplification of Mycobacterium tuberculosis H37Rv in one tube. Journal of Microbiological Methods, 143(), 1–5. [online] Available at: https://scholar.google.co.uk/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0167701217302531&hl=en&sa=X&ei=9KYpY6OTOfuSy9YP1Lyz8AQ&scisig=AAGBfm01OLxgt6kasqmNH5zuZjgihikBOg&oi=scholarr [Accessed 29 July 2022].
 
-3. Magriñá Lobato, I., 2022. _Recombinase polymerase amplification: Basics, applications and recent advances._ [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7112910/ [Accessed 16 January 2022].
+6. Magriñá Lobato, I., 2022. _Recombinase polymerase amplification: Basics, applications and recent advances._ [online] Pubmed. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7112910/ [Accessed 16 January 2022].
 
-4. Guo, X., Wei, Y. and Yu, B., 2022. _Recombinant Mycobacterium smegmatis expressing Hsp65-hIL-2 fusion protein and its influence on lymphocyte function in mice._ [online] Pubmed. Available at: https://pubmed.ncbi.nlm.nih.gov/22546648/ [Accessed 16 January 2022].
+7. Guo, X., Wei, Y. and Yu, B., 2022. _Recombinant Mycobacterium smegmatis expressing Hsp65-hIL-2 fusion protein and its influence on lymphocyte function in mice._ [online] Pubmed. Available at: https://pubmed.ncbi.nlm.nih.gov/22546648/ [Accessed 16 January 2022].
 
-5. Priyadarshini P, Tiwari K, Das A, Kumar D, Mishra MN, Desikan P, Nath G. Evaluation of highly conserved _hsp65_-specific nested PCR primers for diagnosing _Mycobacterium tuberculosis._ Int J Tuberc Lung Dis. 2017 Feb 1;21(2):214-217. doi: 10.5588/ijtld.16.0343. PMID: 28234087.
+8. Priyadarshini P, Tiwari K, Das A, Kumar D, Mishra MN, Desikan P, Nath G. Evaluation of highly conserved _hsp65_-specific nested PCR primers for diagnosing _Mycobacterium tuberculosis._ Int J Tuberc Lung Dis. 2017 Feb 1;21(2):214-217. doi: 10.5588/ijtld.16.0343. PMID: 28234087.
 
-6. Nguyen, P.Q., Soenksen, L.R., Donghia, N.M. _et al._ Wearable materials with embedded synthetic biology sensors for biomolecule detection. _Nat Biotechnol_ 39, 1366–1374 (2021). https://doi.org/10.1038/s41587-021-00950-3
+9. Nguyen, P.Q., Soenksen, L.R., Donghia, N.M. _et al._ Wearable materials with embedded synthetic biology sensors for biomolecule detection. _Nat Biotechnol_ 39, 1366–1374 (2021). https://doi.org/10.1038/s41587-021-00950-3
 
-7. Kellner MJ, Koob JG, Gootenberg JS, Abudayyeh OO, Zhang F. SHERLOCK: nucleic acid detection with CRISPR nucleases. Nat Protoc. 2019 Oct;14(10):2986-3012. doi: 10.1038/s41596-019-0210-2. Epub 2019 Sep 23. Erratum in: Nat Protoc. 2020 Mar;15(3):1311. PMID: 31548639; PMCID: PMC6956564. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6956564/
+10. Kellner MJ, Koob JG, Gootenberg JS, Abudayyeh OO, Zhang F. SHERLOCK: nucleic acid detection with CRISPR nucleases. Nat Protoc. 2019 Oct;14(10):2986-3012. doi: 10.1038/s41596-019-0210-2. Epub 2019 Sep 23. Erratum in: Nat Protoc. 2020 Mar;15(3):1311. PMID: 31548639; PMCID: PMC6956564. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6956564/
 
-8. Li, SY., Cheng, QX., Wang, JM. _et al._ CRISPR-Cas12a-assisted nucleic acid detection. Cell Discov 4, 20 (2018). https://doi.org/10.1038/s41421-018-0028-z
+11. Li, SY., Cheng, QX., Wang, JM. _et al._ CRISPR-Cas12a-assisted nucleic acid detection. Cell Discov 4, 20 (2018). https://doi.org/10.1038/s41421-018-0028-z
 
-9. Kaminski, M.M., Abudayyeh, O.O., Gootenberg, J.S. _et al._ CRISPR-based diagnostics. Nat Biomed Eng 5, 643–656 (2021). https://doi.org/10.1038/s41551-021-00760-7
-   https://www.nature.com/articles/s41551-021-00760-7
+12. Kaminski, M.M., Abudayyeh, O.O., Gootenberg, J.S. _et al._ CRISPR-based diagnostics. Nat Biomed Eng 5, 643–656 (2021). https://doi.org/10.1038/s41551-021-00760-7
+    https://www.nature.com/articles/s41551-021-00760-7
 
-10. Mujahed IM, Abdelrafie, A., 2021. SHERLOCK and DETECTR: CRISPR-Cas Systems as Potential Rapid Diagnostic Tools for Emerging Infectious Diseases. Journal of Clinical Microbiology. (2021) https://doi.org/10.1128/JCM.00745-20
+13. Mujahed IM, Abdelrafie, A., 2021. SHERLOCK and DETECTR: CRISPR-Cas Systems as Potential Rapid Diagnostic Tools for Emerging Infectious Diseases. Journal of Clinical Microbiology. (2021) https://doi.org/10.1128/JCM.00745-20
 
-11. 2016. _Lateral Flow Assay Development Guide._ 1st ed. [ebook] p.5. Available at: https://www.stratech.co.uk/wp-content/uploads/2016/10/BioReady-Lateral-Flow-Handbook-v-1.0.pdf [Accessed 17 January 2022].
+14. 2016. _Lateral Flow Assay Development Guide._ 1st ed. [ebook] p.5. Available at: https://www.stratech.co.uk/wp-content/uploads/2016/10/BioReady-Lateral-Flow-Handbook-v-1.0.pdf [Accessed 17 January 2022].
 
-12. Breitbach A, (2020) Lateral Flow Readout for CRISPR/Cas-based detection strategies Available at : https://www.milenia-biotec.com/en/tips-lateral-flow-readouts-crispr-cas-strategies/ (accessed 18th August 2022)
+15. Breitbach A, (2020) Lateral Flow Readout for CRISPR/Cas-based detection strategies Available at : https://www.milenia-biotec.com/en/tips-lateral-flow-readouts-crispr-cas-strategies/ (accessed 18th August 2022)
