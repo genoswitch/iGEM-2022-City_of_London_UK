@@ -33,10 +33,11 @@
       "pos": 5
     },
     {
-      "name": "Chairman Meow",
+      "name": "Bunting",
       "pic": "https://static.igem.wiki/teams/4508/wiki/team/chairman-meow.jpeg",
       "tags": ["meow"],
-      "desc": "Reminds me there is more to life than work. Dislikes birds even more than his namesake."
+      "desc": "Reminds me there is more to life than work. Dislikes birds even more than his namesake.",
+      "pos": 100
     },
     {
       "name": "Robin Wopaleński",
