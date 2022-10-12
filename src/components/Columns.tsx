@@ -27,7 +27,7 @@ class ColumnEntry extends React.Component {
             className="list-group-flush"
             style={{
               height: 200,
-              'background-color': this.props.bg_col,
+              backgroundColor: this.props.bg_col,
               color: this.props.col,
               borderColor: this.props.bg_col,
             }}
