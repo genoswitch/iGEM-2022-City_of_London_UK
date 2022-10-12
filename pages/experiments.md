@@ -6,7 +6,7 @@ _M.tuberculosis_ is a BSL-3 (Figure 1) airborne pathogen as there is a high risk
 
 Figure 1; Definitions of various Biosafety Levels<sup>[2]</sup>
 
-![](https://static.igem.wiki/teams/4508/wiki/labwork/lab-work-pyramid.png)
+<img style="max-width: 100%;" src="https://static.igem.wiki/teams/4508/wiki/labwork/lab-work-pyramid.png"/>
 
 Therefore, we used _Lactobacillus casei_ (BSL-1) instead of _M. tuberculosis_ in the laboratory, as it is safe to use and has similar features to the M. tuberculosis bacterium such as the gram-positive cell wall.<sup>[3]</sup> _L. casei_ is a suitable substitute for _M. tuberculosis_ as it is gram-positive, much safer to use and will require the same conditions for thermal lysis.
 
@@ -44,7 +44,7 @@ Our intended use for L. casei is to conduct tests to show and record the success
 
 ---
 
-<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/prolonged-heating-of-l-casei-at-65-c-promotes-lysis-of-bacteria.png"/>
+<img style="max-width: 100%;" src="https://static.igem.wiki/teams/4508/wiki/site-res/prolonged-heating-of-l-casei-at-65-c-promotes-lysis-of-bacteria.png"/>
 
 The baseline image at room temperature, taken before heating, shows the presence of only single cells. After heating the sample for 20 minutes, chains of L.Casei can be seen to have formed. This effect of increased chain formation and growth has been previously reported at high temperatures<sup>4</sup>. However, by 80 mins of incubation, change in morphology with disruption of the chain formation and increased debris indicates increased bacterial lysis.
 
