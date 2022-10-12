@@ -33,12 +33,6 @@ const Footer = () => {
           >
             Source Code
           </Button>
-          <Button variant="light" href="#">
-            Sponsors
-          </Button>
-          <Button variant="light" href="#">
-            Placeholder
-          </Button>
           <Navbar.Text>
             (SHA:{' '}
             <a
