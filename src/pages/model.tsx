@@ -103,8 +103,8 @@ class ModellingPage extends React.Component {
                   iterative methods on a discrete space in three dimensions.
                   Code is written in Python with the NumPy library, Raster
                   Geometry and Matplotlib. Electronics information in liaison
-                  with Guantanamo Krishna. Thanks to Sophie Elena - co-writer of
-                  the code and modelling expert - and Jian-Hui Mo.
+                  with Gautam Krishna. Thanks to Sophie Elena - co-writer of the
+                  code and modelling expert - and Jian-Hui Mo.
                 </p>
               </div>
             </header>
