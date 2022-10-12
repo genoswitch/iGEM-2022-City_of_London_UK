@@ -69,60 +69,6 @@ The reporter molecule is collaterally cleaved so the two ends will be split. The
 
 LFAs are simple and rapid, detecting the presence of certain hormones without necessitating expensive and specialised medical technology. They are easy to manufacture and distribute, making it an optimal and accessible option that isn’t costly to use on a regular basis.<sup>10,11</sup>Additionally, they are compact and easy to fit into a mask without making wearing it uncomfortable. They have a long shelf life, paired with their straightforward usage and can therefore be optimal for use in developing countries. Furthermore, the short development period of LFAs makes them easily adaptable and easy to adjust if necessary. As such, an LFA is the optimal technology for us to implement.<sup>12</sup>
 
-# Prolonged heating of L.Casei at 65 C promotes lysis of bacteria
-
----
-
-<img style="max-width: 100%" src="https://static.igem.wiki/teams/4508/wiki/site-res/prolonged-heating-of-l-casei-at-65-c-promotes-lysis-of-bacteria.png"/>
-
-The baseline image at room temperature, taken before heating, shows the presence of only single cells. After heating the sample for 20 minutes, chains of L.Casei can be seen to have formed. This effect of increased chain formation and growth has been previously reported at high temperatures<sup>13</sup>. However, by 80 mins of incubation, change in morphology with disruption of the chain formation and increased debris indicates increased bacterial lysis.
-
-## Methodology
-
-1. Heat water bath to 65 C
-
-2. Remove L. casei jars from incubator
-
-3. Gram-stain sample from jar to create a negative control slide (see gram-staining methodology below)
-
-4. Transfer vials of L. casei into water bath
-
-5. Let vials sit for 20 mins, then remove and take a swab to procure a slide for gram-staining
-
-6. Use swab to transfer bacteria in vial to slide
-
-7. Repeat each time for periods at 40 mins, 60 mins and 80 mins
-
-8. Inspect slides for changes
-
-## Gram-staining methodology
-
-1. Dip swab into bacterial culture then smear thoroughly onto microscope slide
-
-2. Heat dry the slide by passing over Bunsen flame using forceps-this will also heat-fix the bacterial smear to the slide
-
-3. Wait for slide to cool down
-
-4. Switch off Bunsen flame
-
-5. Suspend slide over sink using slide racks then flood slide with crystal violet solution
-
-6. Wait for 1 min
-
-7. Pour off excess stain, then wash with bottle of deionised water
-
-8. Flood slide with Gram’s iodine solution and wait for 1 min
-
-9. Tilt slide using forceps, then wash down with a few drops of ethanol until run-off is clear
-
-10. Wash with deionised water
-
-11. Pour off water, then flood slide with Safranin counterstain, leave for 15 seconds
-
-12. Wash away with deionised water and wait for slide to dry
-
-13. Place slide under microscope for inspection
-
 # Modularity + use in wider healthcare
 
 ---
@@ -181,5 +127,3 @@ Gootenberg, Jonathan S.; Abudayyeh, Omar O.; Kellner, Max J.; Joung, Julia; Coll
 11. 2016. _Lateral Flow Assay Development Guide._ 1st ed. [ebook] p.5. Available at: https://www.stratech.co.uk/wp-content/uploads/2016/10/BioReady-Lateral-Flow-Handbook-v-1.0.pdf [Accessed 17 January 2022].
 
 12. Breitbach A, (2020) Lateral Flow Readout for CRISPR/Cas-based detection strategies Available at : https://www.milenia-biotec.com/en/tips-lateral-flow-readouts-crispr-cas-strategies/ (accessed 18th August 2022)
-
-13. Novitsky, T., Chan, M., Himes, R. and Akagi, J., 1974. Effect of Temperature on the Growth and Cell Wall Chemistry of a Facultative Thermophilic Bacillus. _Journal of Bacteriology_, 117(2), pp.858-865.
