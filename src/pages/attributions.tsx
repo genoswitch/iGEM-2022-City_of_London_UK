@@ -5,7 +5,7 @@ import MarkdownPage from '../components/MarkdownPage';
 import data from '../../pages/attributions.md';
 
 const Page = () => {
-  return <MarkdownPage data={data} title="Attributions" />;
+  return <MarkdownPage data={data} title="Attributions and Outreach" />;
 };
 
 export default Page;
