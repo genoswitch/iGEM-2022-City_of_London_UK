@@ -11,9 +11,9 @@ class ParallaxHeader extends React.Component {
     aspectRatio: '2.5/1',
     title: 'Sample Page',
     bgSrc:
-      'https://static.igem.wiki/teams/4508/wiki/site-res/banners/banner-cropped.jpg',
+      'https://static.igem.wiki/teams/4508/wiki/site-res/banners/jian-hui-bg-dscf0101.jpg',
     children: <React.Fragment></React.Fragment>,
-    textCol: 'white',
+    textCol: 'black',
   };
 
   render() {
