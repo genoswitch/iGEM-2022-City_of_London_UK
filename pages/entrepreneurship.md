@@ -45,12 +45,26 @@ The final 2 questions related to pricing. We asked the respondents to guess what
 
 In conclusion, the response to survey 2 was mostly expected, however it appears that members of the public could still be satisfied by a slower, more expensive test. The full data from the second survey is presented below.
 
-<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey1.png" alt="Mantoux test results"/>
-<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey2.png" alt="Breath Sample"/>
-<img width="100% "src="https://static.igem.wiki/teams/4508/wiki/business/survey3.png" alt="Mantoux test results"/>
-<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey4.png" alt="Breath Sample"/>
-<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey5.png" alt="Mantoux test results"/>
-<img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey6.png" alt="Breath Sample"/>
+<div class="row row-cols-sm-2 row-cols-1">
+    <div style="padding-left: 0; padding-right: 0;" class="col">
+        <img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey1.png" alt="Mantoux test results"/>
+    </div>
+    <div style="padding-left: 0; padding-right: 0;"class="col">
+        <img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey2.png" alt="Breath Sample"/>
+    </div>
+    <div style="padding-left: 0; padding-right: 0;"class="col">
+        <img width="100% "src="https://static.igem.wiki/teams/4508/wiki/business/survey3.png" alt="Mantoux test results"/>
+    </div>
+    <div style="padding-left: 0; padding-right: 0;"class="col">
+        <img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey4.png" alt="Breath Sample"/>
+    </div>
+    <div style="padding-left: 0; padding-right: 0;"class="col">
+        <img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey5.png" alt="Mantoux  test results"/>
+    </div>
+    <div style="padding-left: 0; padding-right: 0;"class="col">
+        <img width="100%" src="https://static.igem.wiki/teams/4508/wiki/business/survey6.png" alt="Breath Sample"/>
+    </div>
+</div>
 
 # Legally setting up a company
 
