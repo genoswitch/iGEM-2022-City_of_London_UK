@@ -5,7 +5,13 @@ import MarkdownPage from '../components/MarkdownPage';
 import data from '../../pages/entrepreneurship.md';
 
 const Page = () => {
-  return <MarkdownPage data={data} title="Entrepreneurship" />;
+  return (
+    <MarkdownPage
+      data={data}
+      title="Entrepreneurship"
+      parallaxBgSrc="https://static.igem.wiki/teams/4508/wiki/site-res/banners/entrepreneurship-banner.jpg"
+    />
+  );
 };
 
 export default Page;
