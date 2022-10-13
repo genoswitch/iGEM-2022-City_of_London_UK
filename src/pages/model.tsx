@@ -82,6 +82,7 @@ class ModellingPage extends React.Component {
         <NavBar />
         <ParallaxHeader
           title={'Modelling'}
+          textCol="white"
           bgSrc="https://static.igem.wiki/teams/4508/wiki/site-res/banners/modelling-banner-lq.png"
         />
         <div style={{ height: 20 }} />

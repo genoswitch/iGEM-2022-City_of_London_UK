@@ -216,7 +216,11 @@ class TeamPage extends React.Component {
       <div>
         <HeaderTags title={`aLFA | Meet the Team`} />
         <NavBar />
-        <ParallaxHeader title={'Meet the Team'} bgSrc={this.bannerImageSrc} />
+        <ParallaxHeader
+          title={'Meet the Team'}
+          bgSrc={this.bannerImageSrc}
+          textCol="white"
+        />
         <Container>
           <div style={{ paddingTop: 16, paddingLeft: 16 }}>
             <TextField

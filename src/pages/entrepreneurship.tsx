@@ -9,6 +9,7 @@ const Page = () => {
     <MarkdownPage
       data={data}
       title="Entrepreneurship"
+      titleTextCol="white"
       parallaxBgSrc="https://static.igem.wiki/teams/4508/wiki/site-res/banners/entrepreneurship-banner.jpg"
     />
   );
