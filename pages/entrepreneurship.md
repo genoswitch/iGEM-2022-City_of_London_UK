@@ -129,7 +129,7 @@ In conclusion, our project will become ALFA REMASK LTD., a limited by shares com
 
 ## Initial equity offering to employees
 
-alFA REMASK Ltd. will initially have few employees as in the first few months. This is because the mask’s designs will be being modified by Triviton to be more suitable for mass production. It is expected that it will take about 4months and 8-10 design cycles to get the prototype to a design that we deem acceptable. As such, we will not need lots of inhouse engineers. alFA REMASK is a company that makes masks, except it outsources the manufacture and design.
+alFA REMASK Ltd. will initially have few employees as in the first few months. This is because the mask’s designs will be being modified by Triviton to be more suitable for mass production. It is expected that it will take about 4 months and 8-10 design cycles to get the prototype to a design that we deem acceptable. As such, we will not need lots of inhouse engineers. alFA REMASK is a company that makes masks, except it outsources the manufacture and design.
 
 Initial employees can be offered equity to incentivise them to work. It also allows the company to pay the employee a slightly lower salary, if only at the beginning. The company can either offer an initial share of equity or an EMI.
 
