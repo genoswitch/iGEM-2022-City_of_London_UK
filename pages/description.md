@@ -4,7 +4,15 @@
 
 ---
 
-1.5 million people worldwide died from tuberculosis in 2020, making it the second leading infectious killer after COVID-19.<sup>1</sup> One of the main problems is the lack of rapid and accessible diagnostic tests, which our project aims to solve. Current methods such as X-rays, blood tests and skin tests can be slow and expensive.<sup>2</sup> In contrast our mask is self-contained, relatively cheap, and only takes around 3 hours for diagnosis. It is also easy to use and non-invasive, simply requiring breathing onto the sample collection pad. The inspiration for our project was a mask designed by researchers at MIT and the Wyss institute that successfully diagnosed SARS-Cov-2. Our mask has a similar mechanism. However, M.tuberculosis is significantly more difficult to lyse than SARS-Cov-2 providing an extra challenge for our biology and hardware teams.<sup>3</sup>
+1.5 million people worldwide died from tuberculosis in 2020, making it the second leading infectious killer after COVID-19.<sup>1</sup> One of the main problems is the lack of rapid and accessible diagnostic tests, which our project aims to solve. Current methods such as X-rays, sputum cultures, blood tests and skin tests can be slow and expensive.<sup>2</sup> In contrast our mask is self-contained, relatively cheap, and only takes around 3 hours for diagnosis. It is also easy to use and non-invasive, simply requiring breathing onto the sample collection pad. The inspiration for our project was a mask designed by researchers at MIT and the Wyss institute that successfully diagnosed SARS-Cov-2, using a similar mechanism to detect the DNA of the organism. However, M.tuberculosis is significantly more difficult to lyse in order to release the DNA than SARS-Cov-2, providing an extra challenge for our biology and hardware teams.<sup>3</sup> The mask incorporates the following sequential processes:
+
+i. thermal lysis
+
+ii. gene amplification by RPA
+
+iii. CRISPR detection
+
+iv. lateral flow assay (LFA).
 
 # Lysis
 
