@@ -1,5 +1,17 @@
 ## Contents
 
+# General Introduction
+
+---
+
+At Alfa Remask, we firmly believe that scientific breakthroughs are not beneficial if they are unable to be put into practice! Therefore, we have developed a business plan to distribute our unique product to the public. Here at Alfa, we are driven towards building a company that operates out of the United Kingdom, delivering its masks overseas.
+
+We have decided to first sell masks in India as it is a relatively wealthy BRIC economy, as well as having the most TB cases globally. Thus, we feel it is really important to start work there as soon as we can. To produce our masks, we will be partnering with Triviton as they are the largest medical device manufacturer in India and also offer turnkey manufacturing. We will then sell these masks to NGOs as well as both private and public hospitals. In the future we have plans to expand the region of operations beyond India, as well as using parts of our current design to develop tests for other respiratory diseases.
+
+India has become our initial sales location, due to its relatively wealthy BRIC economy in addition to their globally-high TB cases.
+
+Below we go into greater detail about the product. We discuss; our consumer research (both with hospitals and members of the public), intellectual property and the patent we have written, how the company will be legally formed and structured, how we raised investment, and a business plan.
+
 # Survey Breakdown
 
 ---
@@ -165,6 +177,12 @@ In order to describe our ideas more fully, we have created a business plan. It d
 
 <iframe width="100%" height="800px" src="https://static.igem.wiki/teams/4508/wiki/business/business-plan.pdf" frameborder="0"></iframe>
 <a href="https://static.igem.wiki/teams/4508/wiki/business/business-plan.pdf">Link to Business plan for iOS</a>
+
+# Outro
+
+---
+
+As you can see we have put a lot of thought into our business ideas, and we firmly believe that this idea is profitable and has the capacity to revolutionise TB detection. It grants governments and health workers better information on the current infection situation, enabling them to save more lives. Thank you for reading!
 
 ---
 
