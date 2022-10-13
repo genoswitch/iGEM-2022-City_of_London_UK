@@ -127,9 +127,7 @@ PSCs must be reported to the company house.
 
 In conclusion, our project will become ALFA REMASK LTD., a limited by shares company. A director will be initially chosen from a member of our team, and all members will have equal equity.
 
-# Initial equity offering to employees
-
----
+## Initial equity offering to employees
 
 alFA REMASK Ltd. will initially have few employees as in the first few months. This is because the mask’s designs will be being modified by Triviton to be more suitable for mass production. It is expected that it will take about 4months and 8-10 design cycles to get the prototype to a design that we deem acceptable. As such, we will not need lots of inhouse engineers. alFA REMASK is a company that makes masks, except it outsources the manufacture and design.
 
