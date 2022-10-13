@@ -90,7 +90,7 @@ const ParallaxComponent = () => {
 const Index = () => {
   return (
     <div style={{ height: '100vh', backgroundColor: '#98a1c1' }}>
-      <HeaderTags title={`aLFA | Home`} />
+      <HeaderTags title="aLFA | Home" />
       <div>
         <NavBar />
         <ParallaxComponent />

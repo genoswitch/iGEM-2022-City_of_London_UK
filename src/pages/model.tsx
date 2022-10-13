@@ -78,10 +78,10 @@ class ModellingPage extends React.Component {
   render() {
     return (
       <div>
-        <HeaderTags title={`aLFA | Modelling`} />
+        <HeaderTags title="aLFA | Modelling" />
         <NavBar />
         <ParallaxHeader
-          title={'Modelling'}
+          title="Modelling"
           textCol="white"
           bgSrc="https://static.igem.wiki/teams/4508/wiki/site-res/banners/modelling-banner-lq.png"
         />

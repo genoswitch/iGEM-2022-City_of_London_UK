@@ -214,10 +214,10 @@ class TeamPage extends React.Component {
 
     return (
       <div>
-        <HeaderTags title={`aLFA | Meet the Team`} />
+        <HeaderTags title="aLFA | Meet the Team" />
         <NavBar />
         <ParallaxHeader
-          title={'Meet the Team'}
+          title="Meet the Team"
           bgSrc={this.bannerImageSrc}
           textCol="white"
         />
